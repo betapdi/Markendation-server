@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 
 import com.markendation.server.auth.entities.User;
 import com.markendation.server.auth.repositories.UserRepository;
+import com.markendation.server.dto.BasketDto;
 import com.markendation.server.dto.IngredientDto;
 import com.markendation.server.exceptions.UserNotFoundException;
 import com.markendation.server.models.Ingredient;
@@ -26,8 +27,25 @@ public class BasketService {
         this.userRepository = userRepository;
     }
 
+    public BasketDto getBasket(String email) {
+        User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
+        BasketDto response = new BasketDto();
+        response.update(user.getBasket());
+
+        return response;
+    }
+
     public void addIngredient(String email, IngredientDto dto) {
         User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
+        for (Ingredient ingredient : user.getBasket().getIngredients()) {
+            if (ingredient.getId().equals(dto.getId())) {
+                float quantity = ingredient.getQuantity() + dto.getQuantity();
+                ingredient.setQuantity(quantity);
+                userRepository.save(user);
+                return;
+            }
+        }
+
         Ingredient ingredient = new Ingredient();
         ingredient.update(dto);
 

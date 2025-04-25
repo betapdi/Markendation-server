@@ -21,6 +21,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.markendation.server.models.Basket;
+import com.markendation.server.utils.Location;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -46,6 +47,8 @@ public class User implements UserDetails {
     private String password;
 
     private String fullname;
+
+    private Location location;
 
     @DocumentReference
     private RefreshToken refreshToken;
