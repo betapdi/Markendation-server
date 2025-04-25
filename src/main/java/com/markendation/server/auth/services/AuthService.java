@@ -13,6 +13,8 @@ import com.markendation.server.auth.repositories.UserRepository;
 import com.markendation.server.auth.utils.AuthResponse;
 import com.markendation.server.auth.utils.LoginRequest;
 import com.markendation.server.auth.utils.RegisterRequest;
+import com.markendation.server.models.Basket;
+import com.markendation.server.repositories.primary.BasketRepository;
 
 import lombok.RequiredArgsConstructor;
 
@@ -25,15 +27,19 @@ public class AuthService {
     private final JwtService jwtService;
     private final RefreshTokenService refreshTokenService;
     private final AuthenticationManager authenticationManager;
+    private final BasketRepository basketRepository;
 
     public AuthResponse register(RegisterRequest registerRequest) {
         var user = User.builder()
                 .email(registerRequest.getEmail())
                 .password(passwordEncoder.encode(registerRequest.getPassword()))
+                .fullname(registerRequest.getFullName())
                 .role(UserRole.USER)
                 .build();
         
-        User savedUser = userRepository.save(user);
+        Basket basket = new Basket(); Basket savedBasket = basketRepository.save(basket);
+        user.setBasket(savedBasket); User savedUser = userRepository.save(user);
+        savedBasket.setUserId(savedUser.getId()); basketRepository.save(savedBasket);
 
         var accessToken = jwtService.generateToken(savedUser);
         var refreshToken = refreshTokenService.createRefreshToken(savedUser.getEmail());

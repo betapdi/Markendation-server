@@ -12,11 +12,15 @@ import java.util.List;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.DocumentReference;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.markendation.server.models.Basket;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -41,10 +45,15 @@ public class User implements UserDetails {
     @Size(min = 5, message = "The password must have at least 5 characters")
     private String password;
 
+    private String fullname;
+
     @DocumentReference
     private RefreshToken refreshToken;
 
     private UserRole role;
+
+    @DBRef
+    private Basket basket;
 
     @Builder.Default 
     private boolean isEnabled = true;
