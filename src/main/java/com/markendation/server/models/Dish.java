@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.markendation.server.dto.DishDto;
@@ -35,12 +34,16 @@ public class Dish {
     @Builder.Default
     private List<Ingredient> ingredients = new ArrayList<>();
 
-    private Integer quantity;
+    private Integer servings;
+
+    private String imageUrl;
 
     public void update(DishDto dto) {
+        if (dto.getId() != null) id = dto.getId();
         vietnameseName = dto.getVietnameseName();
         name = dto.getName();
-        quantity = dto.getQuantity();
+        servings = dto.getServings();
+        imageUrl = dto.getImageUrl();
         
         ingredients.clear();
         for (IngredientDto ingredientDto : dto.getIngredients()) {

@@ -10,7 +10,7 @@ import com.markendation.server.utils.UserRoleToIntegerConverter;
 import java.util.Arrays;
 
 @Configuration
-public class MongodbConfig {
+public class MongodbConversionsConfig {
     @Bean
     public MongoCustomConversions customConversions() {
         return new MongoCustomConversions(Arrays.asList(

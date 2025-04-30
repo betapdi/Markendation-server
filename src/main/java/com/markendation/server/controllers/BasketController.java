@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.markendation.server.dto.BasketDto;
 import com.markendation.server.dto.IngredientDto;
 import com.markendation.server.services.BasketService;
+import com.markendation.server.utils.StoreCalculation;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -33,10 +35,15 @@ public class BasketController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @PostMapping("/add/ingredient")
-    public ResponseEntity<String> addIngredient(@AuthenticationPrincipal UserDetails userDetails, @RequestBody IngredientDto ingredientDto) throws IOException {
-        basketService.addIngredient(userDetails.getUsername(), ingredientDto);
-        return new ResponseEntity<>("Ingredient added!", HttpStatus.OK);
+    @PostMapping("/update")
+    public ResponseEntity<BasketDto> updateBasket(@AuthenticationPrincipal UserDetails userDetails, @RequestBody BasketDto basket) throws IOException {
+        BasketDto response = basketService.updateBasket(userDetails.getUsername(), basket);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
-       
+
+    @GetMapping("/calculate")
+    public ResponseEntity<List<StoreCalculation>> calculateResult(@AuthenticationPrincipal UserDetails userDetails) throws IOException {
+        List<StoreCalculation> response = basketService.recommendStore(userDetails.getUsername());
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
 }

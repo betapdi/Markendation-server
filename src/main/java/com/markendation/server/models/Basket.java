@@ -1,15 +1,11 @@
 package com.markendation.server.models;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.markendation.server.auth.entities.User;
 import com.markendation.server.dto.BasketDto;
 import com.markendation.server.dto.DishDto;
 import com.markendation.server.dto.IngredientDto;
@@ -41,6 +37,7 @@ public class Basket {
     List<Dish> dishes = new ArrayList<>();
 
     public void update(BasketDto basketDto) {
+        if (basketDto.getId() != null) id = basketDto.getId();
         ingredients.clear(); dishes.clear();
         for (DishDto dishDto : basketDto.getDishes()) {
             Dish dish = new Dish();

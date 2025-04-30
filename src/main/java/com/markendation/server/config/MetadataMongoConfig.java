@@ -10,20 +10,20 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @Configuration
 @EnableMongoRepositories(
-    basePackages = "com.markendation.server.repositories.secondary", 
-    mongoTemplateRef = "secondaryMongoTemplate"
+    basePackages = "com.markendation.server.repositories.metadata", 
+    mongoTemplateRef = "metadataMongoTemplate"
 )
-public class SecondaryMongoConfig {
-    @Value("${mongodb.secondary.uri}")
-    private String secondaryUri;
+public class MetadataMongoConfig {
+    @Value("${mongodb.metadata.uri}")
+    private String metadataUri;
 
-    @Bean(name = "secondaryMongoDbFactory")
-    public MongoDatabaseFactory secondaryMongoDbFactory() {
-        return new SimpleMongoClientDatabaseFactory(secondaryUri);
+    @Bean(name = "metadataMongoDbFactory")
+    public MongoDatabaseFactory metadataMongoDbFactory() {
+        return new SimpleMongoClientDatabaseFactory(metadataUri);
     }
 
-    @Bean(name = "secondaryMongoTemplate")
-    public MongoTemplate secondaryMongoTemplate() {
-        return new MongoTemplate(secondaryMongoDbFactory());
+    @Bean(name = "metadataMongoTemplate")
+    public MongoTemplate metadataMongoTemplate() {
+        return new MongoTemplate(metadataMongoDbFactory());
     }
 }

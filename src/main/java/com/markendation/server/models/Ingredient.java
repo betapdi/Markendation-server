@@ -31,10 +31,17 @@ public class Ingredient {
     
     private float quantity;
 
+    private String category;
+
+    private String imageUrl;
+
     public void update(IngredientDto dto) {
+        if (dto.getId() != null) id = dto.getId();
         vietnameseName = dto.getVietnameseName();
         name = dto.getName();
         unit = dto.getUnit();
         quantity = dto.getQuantity();
+        imageUrl = dto.getImageUrl();
+        category = dto.getCategory();
     }
 }

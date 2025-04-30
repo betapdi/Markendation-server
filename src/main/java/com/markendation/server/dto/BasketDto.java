@@ -26,6 +26,8 @@ public class BasketDto {
     private List<DishDto> dishes = new ArrayList<>();
 
     public void update(Basket basket) {
+        id = basket.getId();
+        userId = basket.getUserId();
         ingredients.clear(); dishes.clear();
         for (Dish dish : basket.getDishes()) {
             DishDto dto = new DishDto();

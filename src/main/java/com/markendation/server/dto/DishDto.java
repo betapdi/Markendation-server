@@ -24,7 +24,9 @@ public class DishDto {
 
     private List<IngredientDto> ingredients = new ArrayList<>();
 
-    private Integer quantity;
+    private Integer servings;
+
+    private String imageUrl;
 
     public void update(Dish dish) {
         ingredients.clear();
@@ -35,8 +37,9 @@ public class DishDto {
             ingredients.add(dto);
         }
 
-        quantity = dish.getQuantity();
+        servings = dish.getServings();
         name = dish.getName();
         vietnameseName = dish.getVietnameseName();
+        imageUrl = dish.getImageUrl();
     }
 }

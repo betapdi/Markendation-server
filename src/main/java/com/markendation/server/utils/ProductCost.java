@@ -1,5 +1,7 @@
 package com.markendation.server.utils;
 
+import com.markendation.server.models.Product;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,8 +11,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Location {
-    String address;
-    double longitude;
-    double latitude;
+public class ProductCost {
+    private Product product;
+    private Integer quantity;
+    private Integer cost;
 }

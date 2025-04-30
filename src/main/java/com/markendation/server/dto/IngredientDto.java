@@ -22,11 +22,17 @@ public class IngredientDto {
 
     private float quantity;
 
+    private String imageUrl;
+
+    private String category;
+
     public void update(Ingredient ingredient) {
         id = ingredient.getId();
         vietnameseName = ingredient.getVietnameseName();
         name = ingredient.getName();
         unit = ingredient.getUnit();
         quantity = ingredient.getQuantity();
+        imageUrl = ingredient.getImageUrl();
+        category = ingredient.getCategory();
     }
 }

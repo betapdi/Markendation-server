@@ -1,5 +1,7 @@
 package com.markendation.server.utils;
 
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,8 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Location {
-    String address;
-    double longitude;
-    double latitude;
+public class LocationMeta {
+    String type;
+    List<String> coordinates;
 }

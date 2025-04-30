@@ -5,6 +5,8 @@ import java.time.LocalDateTime;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.markendation.server.utils.LocationMeta;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,30 +16,30 @@ import lombok.Setter;
 
 @Builder
 @Data
-@Document(collection = "product_prices")
+@Document(collection = "store_branches")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class Product {
+public class Store {
     @Id
     private String id;
 
-    private String sku;
-
-    private String store;
-
-    private String category;
-
-    private String image;
-
-    private String name;
-
-    private String name_ev;
-
-    private Integer price;
+    private String chain;
 
     private String store_id;
 
-    private String unit;
+    private String address;
+
+    private String city;
+
+    private String district;
+
+    private LocationMeta location;
+
+    private String name;
+
+    private String ward;
+
+    private String phone;
 }

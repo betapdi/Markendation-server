@@ -33,13 +33,16 @@ public class AuthService {
         var user = User.builder()
                 .email(registerRequest.getEmail())
                 .password(passwordEncoder.encode(registerRequest.getPassword()))
-                .fullname(registerRequest.getFullName())
+                .fullname(registerRequest.getFullname())
                 .role(UserRole.USER)
                 .build();
         
         Basket basket = new Basket(); Basket savedBasket = basketRepository.save(basket);
+        System.out.println(savedBasket);
         user.setBasket(savedBasket); User savedUser = userRepository.save(user);
+        System.out.println(savedUser);
         savedBasket.setUserId(savedUser.getId()); basketRepository.save(savedBasket);
+        System.out.println(savedBasket); System.out.println(savedUser);
 
         var accessToken = jwtService.generateToken(savedUser);
         var refreshToken = refreshTokenService.createRefreshToken(savedUser.getEmail());

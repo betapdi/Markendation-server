@@ -1,9 +1,9 @@
 package com.markendation.server.models;
 
-import java.time.LocalDateTime;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,30 +14,21 @@ import lombok.Setter;
 
 @Builder
 @Data
-@Document(collection = "product_prices")
+@Document(collection = "category_shards")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class Product {
+public class MetaCategory {
     @Id
     private String id;
 
-    private String sku;
-
-    private String store;
-
+    @Field("Category")
     private String category;
 
-    private String image;
+    private String db_name;
 
-    private String name;
+    private String collection_name;
 
-    private String name_ev;
-
-    private Integer price;
-
-    private String store_id;
-
-    private String unit;
+    private String server_uri;
 }

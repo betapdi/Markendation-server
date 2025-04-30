@@ -1,0 +1,3901 @@
+[
+  {
+    "name": "Almond meal",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Almond_meal_by_hand.jpg/330px-Almond_meal_by_hand.jpg",
+    "vietnamese_name": "Bột hạnh nhân",
+    "category": "Cereals & Grains"
+  },
+  {
+    "name": "Almond paste",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Almond_paste_%28Amandelspijs%29.jpg/330px-Almond_paste_%28Amandelspijs%29.jpg",
+    "vietnamese_name": "Bột hạnh nhân",
+    "category": "Snacks"
+  },
+  {
+    "name": "Aspic",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Aspic-with-eggs.jpg/330px-Aspic-with-eggs.jpg",
+    "vietnamese_name": "AspicName",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Bakery mix",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Il_1588xN.4207800165_bhv2.webp/330px-Il_1588xN.4207800165_bhv2.webp.png",
+    "vietnamese_name": "Hỗn hợp bánh",
+    "category": "Cakes"
+  },
+  {
+    "name": "Batter (cooking)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Batter_for_pancakes.jpg/330px-Batter_for_pancakes.jpg",
+    "vietnamese_name": "Bánh mì (nấu ăn)",
+    "category": "Cakes"
+  },
+  {
+    "name": "Broth",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Broth_hg.jpg/330px-Broth_hg.jpg",
+    "vietnamese_name": "Nước dùng",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Cheong (food)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Yujacha_%28yuja_tea%29.jpg/330px-Yujacha_%28yuja_tea%29.jpg",
+    "vietnamese_name": "Cheong (thực phẩm)",
+    "category": "Fruit Jam"
+  },
+  {
+    "name": "Chicken feet",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Chicken_feet.jpg/330px-Chicken_feet.jpg",
+    "vietnamese_name": "Chân Gà",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Conpoy",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/BCfood17.JPG/330px-BCfood17.JPG",
+    "vietnamese_name": "E-shop",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Creamed coconut",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Condensed_coconut_milk.jpg/330px-Condensed_coconut_milk.jpg",
+    "vietnamese_name": "Kem dừa",
+    "category": "Ice Cream & Cheese"
+  },
+  {
+    "name": "Custard",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Custard.jpg/330px-Custard.jpg",
+    "vietnamese_name": "Tinhy",
+    "category": "Cakes"
+  },
+  {
+    "name": "Edible ink printing",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kuva_kakkuun7.jpg/330px-Kuva_kakkuun7.jpg",
+    "vietnamese_name": "In mực ăn được",
+    "category": "Cakes"
+  },
+  {
+    "name": "Fermented bean paste",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Doenjangwithbeans.jpg/330px-Doenjangwithbeans.jpg",
+    "vietnamese_name": "Đậu lên men",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Gold leaf",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Small_gold_nugget_5mm_dia_and_corresponding_foil_surface_of_half_sq_meter.jpg/330px-Small_gold_nugget_5mm_dia_and_corresponding_foil_surface_of_half_sq_meter.jpg",
+    "vietnamese_name": "Lá vàng",
+    "category": "Cakes"
+  },
+  {
+    "name": "Graham cracker crust",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Graham_cracker_crust.jpg/330px-Graham_cracker_crust.jpg",
+    "vietnamese_name": "Lớp vỏ bánh quy Graham",
+    "category": "Cakes"
+  },
+  {
+    "name": "Holy trinity (cooking)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cajun_trinity_HRoe_2012.jpg/330px-Cajun_trinity_HRoe_2012.jpg",
+    "vietnamese_name": "Ba Ngôi Thánh (nấu ăn)",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Mincemeat",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Mince_Pie_open.jpg/330px-Mince_Pie_open.jpg",
+    "vietnamese_name": "Thịt băm",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Oxo (food)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Oxo_cubes.jpg/330px-Oxo_cubes.jpg",
+    "vietnamese_name": "Oxo (thực phẩm)",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Rose hip",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rose_hips.jpg/330px-Rose_hips.jpg",
+    "vietnamese_name": "Hồng hông",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Snails as food",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Caracoles-del-restaurante-granero.jpg/330px-Caracoles-del-restaurante-granero.jpg",
+    "vietnamese_name": "Ốc sên làm thức ăn",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Sofrito",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sofrito.jpg/330px-Sofrito.jpg",
+    "vietnamese_name": "Món Sofrito",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Yeast extract",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Soup_au_Pistou.jpg/330px-Soup_au_Pistou.jpg",
+    "vietnamese_name": "Chiết xuất men",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Food additive",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Lecithin-Formulierungen.jpg/330px-Lecithin-Formulierungen.jpg",
+    "vietnamese_name": "Phụ gia thực phẩm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Acetylated distarch adipate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Acetylated_distarch_adipate_stereo_colored.svg/330px-Acetylated_distarch_adipate_stereo_colored.svg.png",
+    "vietnamese_name": "Acetyl hóa tinh bột adipate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Ammonium polyphosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ammoniumpolyphosphat.svg/330px-Ammoniumpolyphosphat.svg.png",
+    "vietnamese_name": "Amoni polyphosphate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Bambermycin",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Moenomycin_A.png/330px-Moenomycin_A.png",
+    "vietnamese_name": "Bambermycin",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Bornyl acetate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bornyl_acetate.svg/300px-Bornyl_acetate.svg.png",
+    "vietnamese_name": "Bornyl axetat",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Butyl oleate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Butyloleat.svg/330px-Butyloleat.svg.png",
+    "vietnamese_name": "Muối Butyl",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chicory",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Illustration_Cichorium_intybus0_clean.jpg/330px-Illustration_Cichorium_intybus0_clean.jpg",
+    "vietnamese_name": "Chi Chi Medina",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Cinnamyl acetate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cinnamylacetate.svg/330px-Cinnamylacetate.svg.png",
+    "vietnamese_name": "Axit sulphanilic",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Clouding agent",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cloudy_agent.jpg/330px-Cloudy_agent.jpg",
+    "vietnamese_name": "Clouding đại lý",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Commission Directive 91/71/EEC",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/330px-Flag_of_Europe.svg.png",
+    "vietnamese_name": "Chỉ thị Ủy ban 91/71/EEC",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Dicalcium phosphate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ca%28HPO4%29%28H2O%292_from_JCS_A_Curry%2C_N.A.%3B_Jones%2C_D.W._%281971.jpg/330px-Ca%28HPO4%29%28H2O%292_from_JCS_A_Curry%2C_N.A.%3B_Jones%2C_D.W._%281971.jpg",
+    "vietnamese_name": "Phốt phát Dicalcium",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Dipotassium phosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Di-potassium_monohydrogen_phosphate.svg/300px-Di-potassium_monohydrogen_phosphate.svg.png",
+    "vietnamese_name": "Dipotali Phosphate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Dough conditioner",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Brood.jpg/330px-Brood.jpg",
+    "vietnamese_name": "Dầu xả bột",
+    "category": "Cakes"
+  },
+  {
+    "name": "Food Additives Amendment of 1958",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/330px-Great_Seal_of_the_United_States_%28obverse%29.svg.png",
+    "vietnamese_name": "Phụ gia thực phẩm sửa đổi năm 1958",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Food coloring",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Rainbow_of_food_natural_food_colors.jpg/330px-Rainbow_of_food_natural_food_colors.jpg",
+    "vietnamese_name": "Màu thực phẩm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Generally recognized as safe",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Food_Safety_1.svg/300px-Food_Safety_1.svg.png",
+    "vietnamese_name": "Nói chung được công nhận là an toàn",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Iron(II) lactate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Fe%28lactate%292%28OH2%292.svg/300px-Fe%28lactate%292%28OH2%292.svg.png",
+    "vietnamese_name": "Sắt (II) lactat",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Modified starch",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Modified_food_starch.JPG/330px-Modified_food_starch.JPG",
+    "vietnamese_name": "Tinh bột biến tính",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Mono- and diglycerides of fatty acids",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Diglyceride_Structural_Formula_V.1.png/330px-Diglyceride_Structural_Formula_V.1.png",
+    "vietnamese_name": "Mono- và diglycerides của axit béo",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Monocalcium phosphate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Calcium_dihydrogen_phosphate.png/330px-Calcium_dihydrogen_phosphate.png",
+    "vietnamese_name": "Phốt phát Monocalcium",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Monomagnesium phosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Magnesium_phosphate_monobasic.png/330px-Magnesium_phosphate_monobasic.png",
+    "vietnamese_name": "Phốt phát Monomagiê",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Nutritional yeast",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hefeflocken_Naturata.jpg/330px-Hefeflocken_Naturata.jpg",
+    "vietnamese_name": "Men dinh dưỡng",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Paraffin wax",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Paraffin.jpg/330px-Paraffin.jpg",
+    "vietnamese_name": "Sáp parafin",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Pectin",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pectin.jpg",
+    "vietnamese_name": "Pectin",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Phytic acid",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Phytic_acid.svg/330px-Phytic_acid.svg.png",
+    "vietnamese_name": "Axit phytic",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sodium trimetaphosphate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sodium_trimetaphosphate.png/330px-Sodium_trimetaphosphate.png",
+    "vietnamese_name": "Natri trimetaphosphate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sodium triphosphate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sodium_tripolyphosphate.svg/330px-Sodium_tripolyphosphate.svg.png",
+    "vietnamese_name": "Natri triphosphate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Stabiliser (food)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Pectin.jpg",
+    "vietnamese_name": "Chất ổn định (thực phẩm)",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Stearyl palmityl tartrate",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Stearyl_palmityl_tartrate.png/330px-Stearyl_palmityl_tartrate.png",
+    "vietnamese_name": "Stearyl palmityl tartrate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sucrose acetate isobutyrate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sucrose_acetate_isobutyrate.svg/330px-Sucrose_acetate_isobutyrate.svg.png",
+    "vietnamese_name": "Isobutyrat sucrose axetat",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Tetrasodium pyrophosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Pyrofosfore%C4%8Dnan_sodn%C3%BD_dekahydr%C3%A1t.jpg/330px-Pyrofosfore%C4%8Dnan_sodn%C3%BD_dekahydr%C3%A1t.jpg",
+    "vietnamese_name": "Natri pyrophosphate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thaumatin",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thaumatin_I_1RQW.png/330px-Thaumatin_I_1RQW.png",
+    "vietnamese_name": "Thaumatin",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thickening agent",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Potato_starch_slurry.jpg/330px-Potato_starch_slurry.jpg",
+    "vietnamese_name": "Chất làm dày",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thujaplicin",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Beta-thujaplicin_tautomers.png/330px-Beta-thujaplicin_tautomers.png",
+    "vietnamese_name": "Thujaplicin",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Trisodium phosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Trisodium_phosphate.png/330px-Trisodium_phosphate.png",
+    "vietnamese_name": "Natri phosphat ba (Trisodium phosphate)",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Yeast",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/S_cerevisiae_under_DIC_microscopy.jpg/330px-S_cerevisiae_under_DIC_microscopy.jpg",
+    "vietnamese_name": "Nấm men",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Arrowhead Mills",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Arrowhead_Mills_logo.webp/271px-Arrowhead_Mills_logo.webp.png",
+    "vietnamese_name": "Arrowhead Mills",
+    "category": "Cereals & Grains"
+  },
+  {
+    "name": "Atkins Nutritionals",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Atkins_2017.png/330px-Atkins_2017.png",
+    "vietnamese_name": "Dinh dưỡng Atkins",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Bruce Foods",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bruce_Foods_logo.jpg",
+    "vietnamese_name": "Bruce Foods",
+    "category": "Seasonings"
+  },
+  {
+    "name": "The J.M. Smucker Company",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/7-20-22_Smucker_HQ_Orrville.jpg/330px-7-20-22_Smucker_HQ_Orrville.jpg",
+    "vietnamese_name": "Công ty J.M. Smucker",
+    "category": "Fruit Jam"
+  },
+  {
+    "name": "Jack & Jason's Pancakes & Waffles",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Jack%26Jason%27slogo.png",
+    "vietnamese_name": "Bánh kếp và bánh quế Jack & Jason",
+    "category": "Cakes"
+  },
+  {
+    "name": "Pearl Milling Company",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Pearl_Milling_Company_Syrup_%28cropped%29.jpg/330px-Pearl_Milling_Company_Syrup_%28cropped%29.jpg",
+    "vietnamese_name": "Công ty Pearl Milling",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Pillsbury (brand)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pillsbury_company_logo.svg/300px-Pillsbury_company_logo.svg.png",
+    "vietnamese_name": "Pillsbury (thương hiệu)",
+    "category": "Cakes"
+  },
+  {
+    "name": "Pinnacle Foods",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pinnacle_Foods_logo.svg/330px-Pinnacle_Foods_logo.svg.png",
+    "vietnamese_name": "Pinnacle Foods",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Blood as food",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pig%27s_blood_cakes.jpg/330px-Pig%27s_blood_cakes.jpg",
+    "vietnamese_name": "Máu dùng làm thực phẩm",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Maris Otter",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Two-row_barley.jpg/330px-Two-row_barley.jpg",
+    "vietnamese_name": "Lúa mạch Maris Otter",
+    "category": "Cereals & Grains"
+  },
+  {
+    "name": "Mash ingredients",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Milled_Malted_Barley.JPG/330px-Milled_Malted_Barley.JPG",
+    "vietnamese_name": "Thành phần nghiền",
+    "category": "Cereals & Grains"
+  },
+  {
+    "name": "List of condiments",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hard_Rock_Cafe_French_Fries_01.jpg/330px-Hard_Rock_Cafe_French_Fries_01.jpg",
+    "vietnamese_name": "Danh sách gia vị",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chermoula",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Chermoula_tagine.jpg/330px-Chermoula_tagine.jpg",
+    "vietnamese_name": "Chermoula",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chicago-style relish",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/GoldCoastChardog.jpg/330px-GoldCoastChardog.jpg",
+    "vietnamese_name": "Dưa muối kiểu Chicago",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chili sauce and paste",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Accras_et_sauce_chili.jpg/330px-Accras_et_sauce_chili.jpg",
+    "vietnamese_name": "Tương ớt và bột ớt",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Cream",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/01_Mmm..._Apple_Crisp_with_Whipped_Cream.jpg/330px-01_Mmm..._Apple_Crisp_with_Whipped_Cream.jpg",
+    "vietnamese_name": "Kem",
+    "category": "Ice Cream & Cheese"
+  },
+  {
+    "name": "Crouton",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Croutons_on_a_salad.jpg/330px-Croutons_on_a_salad.jpg",
+    "vietnamese_name": "Bánh mì nướng",
+    "category": "Snacks"
+  },
+  {
+    "name": "Crushed red pepper",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/2014_Dried_chilli_flakes.jpg/330px-2014_Dried_chilli_flakes.jpg",
+    "vietnamese_name": "Ớt đỏ nghiền",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Farofa",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Farofa_brazil.jpg/330px-Farofa_brazil.jpg",
+    "vietnamese_name": "FarofaName",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Hashachar Ha'ole",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Shokolad-hashachar.JPG/330px-Shokolad-hashachar.JPG",
+    "vietnamese_name": "Hoa cúc Ha'ole",
+    "category": "Candies"
+  },
+  {
+    "name": "Horseradish",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Armoracia_rusticana.jpg/330px-Armoracia_rusticana.jpg",
+    "vietnamese_name": "Củ cải ngựa",
+    "category": "Vegetables"
+  },
+  {
+    "name": "List of hot sauces",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/All_kinds_of_hot_sauce.jpg/330px-All_kinds_of_hot_sauce.jpg",
+    "vietnamese_name": "Danh sách các loại nước sốt nóng",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of Indonesian condiments",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Acar_and_chili_sauce.jpg/330px-Acar_and_chili_sauce.jpg",
+    "vietnamese_name": "Danh sách gia vị Indonesia",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of brand name condiments",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bottled_Seasoning%2C_Trinidad_and_Tobago.JPG/330px-Bottled_Seasoning%2C_Trinidad_and_Tobago.JPG",
+    "vietnamese_name": "Danh sách gia vị thương hiệu",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of chutneys",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plum_chutney_ingredients.jpg/330px-Plum_chutney_ingredients.jpg",
+    "vietnamese_name": "Danh sách chutney",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of fish sauces",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Phu_quoc_fabication_de_nuoc_mam.jpg/330px-Phu_quoc_fabication_de_nuoc_mam.jpg",
+    "vietnamese_name": "Danh sách nước mắm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of Indian condiments",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/3_Way_Chutney.JPG/330px-3_Way_Chutney.JPG",
+    "vietnamese_name": "Danh sách gia vị Ấn Độ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of mustard brands",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Senf-Variationen_edit2.jpg/330px-Senf-Variationen_edit2.jpg",
+    "vietnamese_name": "Danh sách các nhãn hiệu mù tạt",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of sauces",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Whisking_sauce-01.jpg/330px-Whisking_sauce-01.jpg",
+    "vietnamese_name": "Danh sách nước sốt",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of mayonnaises",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2016_0529_Kewpie_mayonnaise_NL.jpg/330px-2016_0529_Kewpie_mayonnaise_NL.jpg",
+    "vietnamese_name": "Danh sách mayonnaise",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Miracle Whip",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Miraclewhip_brand_logo.png/330px-Miraclewhip_brand_logo.png",
+    "vietnamese_name": "kỳ diệu Whip",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Olive oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Oliven_V1.jpg/330px-Oliven_V1.jpg",
+    "vietnamese_name": "Dầu oliu",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of pickled foods",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/%E3%82%B9%E3%83%AD%E3%83%B4%E3%82%A1%E3%82%AD%E3%82%A2%E3%81%AE%E6%A7%98%E3%80%85%E3%81%AA%E6%BC%AC%E7%89%A9.JPG/330px-%E3%82%B9%E3%83%AD%E3%83%B4%E3%82%A1%E3%82%AD%E3%82%A2%E3%81%AE%E6%A7%98%E3%80%85%E3%81%AA%E6%BC%AC%E7%89%A9.JPG",
+    "vietnamese_name": "Danh sách thực phẩm ngâm",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Pickled fruit",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Chanh_Mu%E1%BB%91i.jpg/330px-Chanh_Mu%E1%BB%91i.jpg",
+    "vietnamese_name": "Trái cây ngâm",
+    "category": "Fruit Jam"
+  },
+  {
+    "name": "Popcorn seasoning",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Popcorn_with_Nutritional_yeast.jpg/330px-Popcorn_with_Nutritional_yeast.jpg",
+    "vietnamese_name": "Gia vị bắp rang",
+    "category": "Snacks"
+  },
+  {
+    "name": "Relish",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nsima_Relishes.JPG/330px-Nsima_Relishes.JPG",
+    "vietnamese_name": "Thưởng thức",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Salt and pepper",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Salt_%26_Pepper.JPG/330px-Salt_%26_Pepper.JPG",
+    "vietnamese_name": "Muối và tiêu",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sour cream",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bowl_of_chili_with_sour_cream_and_cheese.jpg/330px-Bowl_of_chili_with_sour_cream_and_cheese.jpg",
+    "vietnamese_name": "Kem chua",
+    "category": "Ice Cream & Cheese"
+  },
+  {
+    "name": "Watermelon rind preserves",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Slatko-od-lubenica.jpg/330px-Slatko-od-lubenica.jpg",
+    "vietnamese_name": "Bảo quản vỏ dưa hấu",
+    "category": "Fruit Jam"
+  },
+  {
+    "name": "Whole sour cabbage",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wesselburenkraut_19.06.2012_18-35-26.jpg/330px-Wesselburenkraut_19.06.2012_18-35-26.jpg",
+    "vietnamese_name": "Bắp cải chua nguyên con",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Amaranth oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Amaranthus_cruentus_Foxtail_2.jpg/330px-Amaranthus_cruentus_Foxtail_2.jpg",
+    "vietnamese_name": "Dầu hạt dẻ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Apple seed oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sundown_and_cross_section_2.jpg/330px-Sundown_and_cross_section_2.jpg",
+    "vietnamese_name": "Dầu hạt táo",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Corn oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Corn_oil_%28mais%29.jpg/330px-Corn_oil_%28mais%29.jpg",
+    "vietnamese_name": "Dầu ngô",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Grape seed oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/GrapeSeedOil.png/330px-GrapeSeedOil.png",
+    "vietnamese_name": "Dầu hạt nho",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Rice bran oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rice_Bran_Oil.jpeg/330px-Rice_Bran_Oil.jpeg",
+    "vietnamese_name": "Dầu cám gạo",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Shorea robusta seed oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sal_%28Shorea_robusta%29-_flowering_canopy_W_Picture_117.jpg/330px-Sal_%28Shorea_robusta%29-_flowering_canopy_W_Picture_117.jpg",
+    "vietnamese_name": "Dầu hạt giống Shorea robusta",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sunflower oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sunflower_oil_and_sunflower.jpg/330px-Sunflower_oil_and_sunflower.jpg",
+    "vietnamese_name": "Dầu hướng dương",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Dough",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Dough.jpg/330px-Dough.jpg",
+    "vietnamese_name": "DoughGenericName",
+    "category": "Cakes"
+  },
+  {
+    "name": "Carl Griffith's sourdough starter",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Mailing_from_the_1847_Oregon_Trail_Sourdough_Preservation_Society.jpg/330px-Mailing_from_the_1847_Oregon_Trail_Sourdough_Preservation_Society.jpg",
+    "vietnamese_name": "Món khai vị bột chua của Carl Griffith",
+    "category": "Cakes"
+  },
+  {
+    "name": "Chinese flaky pastry",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Char_siew_sou.JPG/330px-Char_siew_sou.JPG",
+    "vietnamese_name": "Bánh bông lan Trung Quốc",
+    "category": "Cakes"
+  },
+  {
+    "name": "Hot water crust pastry",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Melton_Mowbray_Pork_Pie.png/330px-Melton_Mowbray_Pork_Pie.png",
+    "vietnamese_name": "Bánh ngọt vỏ nước nóng",
+    "category": "Cakes"
+  },
+  {
+    "name": "Laminated dough",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Pate_feuilletee_2.jpg/330px-Pate_feuilletee_2.jpg",
+    "vietnamese_name": "Bột nhão",
+    "category": "Cakes"
+  },
+  {
+    "name": "Puff pastry",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Pate_feuilletee_2.jpg/330px-Pate_feuilletee_2.jpg",
+    "vietnamese_name": "Puff bánh ngọt",
+    "category": "Cakes"
+  },
+  {
+    "name": "Shortcrust pastry",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Vegan_Meat_Pie_01_Pengo.jpg/330px-Vegan_Meat_Pie_01_Pengo.jpg",
+    "vietnamese_name": "Shortcrust bánh ngọt",
+    "category": "Cakes"
+  },
+  {
+    "name": "Sourdough",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Home_made_sour_dough_bread.jpg/330px-Home_made_sour_dough_bread.jpg",
+    "vietnamese_name": "Bột chua",
+    "category": "Cakes"
+  },
+  {
+    "name": "Asparagopsis taxiformis",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Asparagopsis_taxiformis.jpg/330px-Asparagopsis_taxiformis.jpg",
+    "vietnamese_name": "Măng tây taxiformis",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Callophyllis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/FMIB_52467_Callophyllis_variegata.jpeg/330px-FMIB_52467_Callophyllis_variegata.jpeg",
+    "vietnamese_name": "Vảy nến",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Nereocystis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Nereocystis_luetkeana1.jpg/330px-Nereocystis_luetkeana1.jpg",
+    "vietnamese_name": "Chi Nereocystis",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "List of culinary fruits",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/REMA_1000_Supermarket_interior_grocery_store_T%C3%B8nsberg%2C_Norway_2017-11-03_fruit_vegetables.jpg/330px-REMA_1000_Supermarket_interior_grocery_store_T%C3%B8nsberg%2C_Norway_2017-11-03_fruit_vegetables.jpg",
+    "vietnamese_name": "Danh sách trái cây ẩm thực",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "List of national fruits",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Prunus_cocomilia.jpg/330px-Prunus_cocomilia.jpg",
+    "vietnamese_name": "Danh sách các loại trái cây quốc gia",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Lists of foods",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/330px-Good_Food_Display_-_NCI_Visuals_Online.jpg",
+    "vietnamese_name": "Danh sách thực phẩm",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Bush tomato",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Solanum_lithophilum_flower_and_fruit.jpg/330px-Solanum_lithophilum_flower_and_fruit.jpg",
+    "vietnamese_name": "Cà chua Bush",
+    "category": "Fresh Vegetables"
+  },
+  {
+    "name": "Cornus mas",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CornusMas_Fruits_01.jpg/330px-CornusMas_Fruits_01.jpg",
+    "vietnamese_name": "Cornus mas",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Fruit tree forms",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Fruit_tree_forms_at_Gaasbeek.JPG/330px-Fruit_tree_forms_at_Gaasbeek.JPG",
+    "vietnamese_name": "Các dạng cây ăn quả",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Glycosmis pentaphylla",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Glycosmis_pentaphylla_plant.jpg/330px-Glycosmis_pentaphylla_plant.jpg",
+    "vietnamese_name": "Glycosmis pentaphylla.",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Grape",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Abhar-iran.JPG/330px-Abhar-iran.JPG",
+    "vietnamese_name": "Nho",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Physalis pubescens",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Gooseberry_flower.jpg/330px-Gooseberry_flower.jpg",
+    "vietnamese_name": "Physalis pubescens",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Rhus typhina",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%D0%A1%D1%83%D0%BC%D0%B0%D1%85_%D0%BE%D0%BB%D0%B5%D0%BD%D0%B5%D1%80%D0%BE%D0%B3%D0%B8%D0%B9_%28%D0%A1%D1%83%D0%BC%D0%B0%D1%85_%D0%BF%D1%83%D1%88%D0%B8%D1%81%D1%82%D1%8B%D0%B9%2C_%D0%A3%D0%BA%D1%81%D1%83%D1%81%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%29_-_Rhus_typhina_-_Staghorn_sumac_-_%D0%92%D0%BB%D0%B0%D0%BA%D0%BD%D0%B5%D1%81%D1%82_%D1%88%D0%BC%D0%B0%D0%BA_-_Essigbaum_%2823408707041%29.jpg/330px-thumbnail.jpg",
+    "vietnamese_name": "Rhus typhina",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Ribes americanum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ribes_americanum.jpg/330px-Ribes_americanum.jpg",
+    "vietnamese_name": "Xương sườn Americanum",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Rubus spectabilis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Salmonberry_with_leaves.jpg/330px-Salmonberry_with_leaves.jpg",
+    "vietnamese_name": "Cao su spectabilis",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Watermelon",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/330px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+    "vietnamese_name": "dưa hấu",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Wild edible plants of Israel and Palestine",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tub_of_freshly_harvested_arum.jpg/330px-Tub_of_freshly_harvested_arum.jpg",
+    "vietnamese_name": "Cây ăn được hoang dã của Israel và Palestine",
+    "category": "Fresh Vegetables"
+  },
+  {
+    "name": "Edible mushroom",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/060725_vendedora_de_hongos_guatemala.JPG/330px-060725_vendedora_de_hongos_guatemala.JPG",
+    "vietnamese_name": "Nấm ăn",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Mushroom hunting",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mushroom_picking_01.jpg/330px-Mushroom_picking_01.jpg",
+    "vietnamese_name": "Săn nấm",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Agaricus arvensis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Pieczarka_polowa_vongrzanka.JPG/330px-Pieczarka_polowa_vongrzanka.JPG",
+    "vietnamese_name": "Thuốc trừ sâu Agaricus arvensis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Baker's yeast",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/20100911_232323_Yeast_Live.jpg/330px-20100911_232323_Yeast_Live.jpg",
+    "vietnamese_name": "Men bánh",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Calocybe carnea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Calocybe_carnea.jpg/330px-Calocybe_carnea.jpg",
+    "vietnamese_name": "Gia vị Calocybe",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Calocybe indica",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Calocybe_indica_884511.jpg/330px-Calocybe_indica_884511.jpg",
+    "vietnamese_name": "Chỉ số Calocybe",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Calvatia booniana",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Calvatia_booniana.jpg/330px-Calvatia_booniana.jpg",
+    "vietnamese_name": "Chi Calvatia",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Calvatia cyathiformis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Calvatia_cyathiformis_3.JPG/330px-Calvatia_cyathiformis_3.JPG",
+    "vietnamese_name": "Calvatia cyathiformis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Candolleomyces candolleanus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Psathyrella_candolleana_060801wa.jpg/330px-Psathyrella_candolleana_060801wa.jpg",
+    "vietnamese_name": "Candolleomyces candolleanus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Candy cap",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lactarius_camphoratus_-_Lindsey.jpg/330px-Lactarius_camphoratus_-_Lindsey.jpg",
+    "vietnamese_name": "nắp kẹo",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Chroogomphus vinicolor",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Chroogomphus_vinicolor_116581.jpg/330px-Chroogomphus_vinicolor_116581.jpg",
+    "vietnamese_name": "Chroogomphus vinicolor",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Clitocybe nebularis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Nevelzwam_%28nebularis%29_tussen_afgevallen_beukenblad_%28d.j.b.%29_01.jpg/330px-Nevelzwam_%28nebularis%29_tussen_afgevallen_beukenblad_%28d.j.b.%29_01.jpg",
+    "vietnamese_name": "Tinh vân Clitocybe",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Cordyceps",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2010-08-06_Cordyceps_militaris_1.jpg/330px-2010-08-06_Cordyceps_militaris_1.jpg",
+    "vietnamese_name": "Đông trùng hạ thảo",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Corn smut",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ustilago_maydis_diploid_teleospores_160X.png/330px-Ustilago_maydis_diploid_teleospores_160X.png",
+    "vietnamese_name": "Ngô smut",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Craterellus tubaeformis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Craterellus_tubaeformis_LC0374.jpg/330px-Craterellus_tubaeformis_LC0374.jpg",
+    "vietnamese_name": "Vi khuẩn Craterellus tubaeformis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Cuphophyllus cheelii",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hygrocybe_cheelii.jpg/330px-Hygrocybe_cheelii.jpg",
+    "vietnamese_name": "Linh chi Cheelii",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Cuphophyllus pratensis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2010-11-20_Cuphophyllus_pratensis.jpg/330px-2010-11-20_Cuphophyllus_pratensis.jpg",
+    "vietnamese_name": "Cuphophyllus pratensis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Cyclocybe parasitica",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Young_Cyclocybe_parasitica.jpg/330px-Young_Cyclocybe_parasitica.jpg",
+    "vietnamese_name": "Cyclocybe ký sinh trùng",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Dacrymyces spathularia",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Dacryopinax_spathularia_97250554.jpg/330px-Dacryopinax_spathularia_97250554.jpg",
+    "vietnamese_name": "Dacrymyces spathularia",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Echigoshirayukidake (Basidiomycetes-X)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Basidiomycetesx-1.jpg/300px-Basidiomycetesx-1.jpg",
+    "vietnamese_name": "Echigoshirayukidake (Basidiomycetes-X)",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Gomphidius smithii",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Gomphidius_smithii_Singer_282507.jpg/330px-Gomphidius_smithii_Singer_282507.jpg",
+    "vietnamese_name": "Gomphidius smithii",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Harrya chromapes",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Harrya_chromapes_359731.jpg/330px-Harrya_chromapes_359731.jpg",
+    "vietnamese_name": "Màu sắc Harrya",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hericium clathroides",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Puszcza_Notecka23.JPG/330px-Puszcza_Notecka23.JPG",
+    "vietnamese_name": "Phụ gia clathroides",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hygrocybe coccinea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Hygrocybe_coccinea_%281%29.jpg/330px-Hygrocybe_coccinea_%281%29.jpg",
+    "vietnamese_name": "Hygrocybe cầu trùng",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hygrophorus agathosmus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Hygrophorus_agathosmus_70328.jpg/330px-Hygrophorus_agathosmus_70328.jpg",
+    "vietnamese_name": "Hygrophorus agathosmus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hygrophorus hypothejus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Hygrophorus_hypothejus_2.jpg/330px-Hygrophorus_hypothejus_2.jpg",
+    "vietnamese_name": "Hygrophorus hypothejus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hygrophorus latitabundus",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hygrophorus_latitabundus1.JPG/330px-Hygrophorus_latitabundus1.JPG",
+    "vietnamese_name": "Hygrophorus latitabundus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hygrophorus olivaceoalbus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/2010-08-11_Hygrophorus_olivaceoalbus_2.jpg/330px-2010-08-11_Hygrophorus_olivaceoalbus_2.jpg",
+    "vietnamese_name": "Hygrophorus olivaceoalbus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hygrophorus speciosus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Hygrophorus_speciosus%2C_Oneida_Co._1.jpg/330px-Hygrophorus_speciosus%2C_Oneida_Co._1.jpg",
+    "vietnamese_name": "Hygrophorus speciosus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hypomyces lateritius",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Hypomyces_lateritius_on_Lactarius_indigo.jpeg/330px-Hypomyces_lateritius_on_Lactarius_indigo.jpeg",
+    "vietnamese_name": "Hypomyces lateritius",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Infundibulicybe mediterranea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Infundibulicybe_mediterranea_512207.jpg/330px-Infundibulicybe_mediterranea_512207.jpg",
+    "vietnamese_name": "Infundibulicybe Địa Trung Hải",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Leccinum holopus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Leccinum_holopus_101772.jpg/330px-Leccinum_holopus_101772.jpg",
+    "vietnamese_name": "Bạch tuộc holopus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Lyophyllum decastes",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lyophyllum_decastes_071012.jpg/330px-Lyophyllum_decastes_071012.jpg",
+    "vietnamese_name": "Lyophyllum decastes",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Macrofungi of Guatemala",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Lactarius_indigo%2C_Guatemala.jpg/330px-Lactarius_indigo%2C_Guatemala.jpg",
+    "vietnamese_name": "Macrofungi của Guatemala",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Mushroom tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mushroom_tea.JPG/330px-Mushroom_tea.JPG",
+    "vietnamese_name": "Trà Nấm",
+    "category": "Beverages"
+  },
+  {
+    "name": "Phallus impudicus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Phallus_impudicus_LC0235.jpg/330px-Phallus_impudicus_LC0235.jpg",
+    "vietnamese_name": "Phallus impudicus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Porphyrellus porphyrosporus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Porphyrellus_porphyrosporus_Mexico.jpg/330px-Porphyrellus_porphyrosporus_Mexico.jpg",
+    "vietnamese_name": "Porphyrellus porphyrosporus.",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Puffball",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flaschenst%C3%A4ubling.jpg/330px-Flaschenst%C3%A4ubling.jpg",
+    "vietnamese_name": "Bóng Puffball",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Russula cyanoxantha",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Russula_cyanoxantha.JPG/330px-Russula_cyanoxantha.JPG",
+    "vietnamese_name": "Chi Cyanoxantha",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Saccharomyces cerevisiae",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Saccharomyces_cerevisiae_SEM.jpg/330px-Saccharomyces_cerevisiae_SEM.jpg",
+    "vietnamese_name": "Saccharomyces cerevisiae",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Sparassis spathulata",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sparassis_spathulata_%28Schwein.%29_Fr_545832.jpg/330px-Sparassis_spathulata_%28Schwein.%29_Fr_545832.jpg",
+    "vietnamese_name": "Khung gầm spathulata",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Suillus americanus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Suillus_americanus_Mt_Hood_Oregon.jpg/330px-Suillus_americanus_Mt_Hood_Oregon.jpg",
+    "vietnamese_name": "Suillus người mỹ",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Suillus cothurnatus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Suillus_cothurnatus_456062.jpg/330px-Suillus_cothurnatus_456062.jpg",
+    "vietnamese_name": "Suillus cothurnatus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Termitomyces",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Termitomyces_reticulatus_37340.jpg/330px-Termitomyces_reticulatus_37340.jpg",
+    "vietnamese_name": "Nấm mốc",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Termitomyces heimii",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Termitomyces_heimii.jpg/330px-Termitomyces_heimii.jpg",
+    "vietnamese_name": "Nhiễm trùng Heimii",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Termitomyces titanicus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Termitomyces_titanicus.jpg/330px-Termitomyces_titanicus.jpg",
+    "vietnamese_name": "Termitomyces titanicus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Termitomyces tylerianus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Termitomyces_tyleranus_6394.jpg/330px-Termitomyces_tyleranus_6394.jpg",
+    "vietnamese_name": "Termitomyces tylerianus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Thelephora ganbajun",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/2014-07-26_Thelephora_ganbajun_M._Zang_443675.jpg/330px-2014-07-26_Thelephora_ganbajun_M._Zang_443675.jpg",
+    "vietnamese_name": "Chi Chi Medina",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Tricholoma argyraceum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tricholoma_argyraceum_56.jpg/330px-Tricholoma_argyraceum_56.jpg",
+    "vietnamese_name": "Tricholoma argyraceum",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Tricholoma murrillianum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2018-11-10_Tricholoma_murrillianum_Singer_959693.jpg/330px-2018-11-10_Tricholoma_murrillianum_Singer_959693.jpg",
+    "vietnamese_name": "Tricholoma âm hộ",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Tricholoma terreum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tricholoma_terreum_20061105wa.jpg/330px-Tricholoma_terreum_20061105wa.jpg",
+    "vietnamese_name": "Tricholoma đất",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Verpa bohemica",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Verpa_bohemica1.jpg/330px-Verpa_bohemica1.jpg",
+    "vietnamese_name": "Tiếng Việt",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Xanthoconium affine",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Xanthoconium_affine_55121.jpg/330px-Xanthoconium_affine_55121.jpg",
+    "vietnamese_name": "Xanthoconium tinh khiết",
+    "category": "Vegetables"
+  },
+  {
+    "name": "List of edible cacti",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Prickly_pears.jpg/330px-Prickly_pears.jpg",
+    "vietnamese_name": "Danh sách xương rồng ăn được",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Achyranthes japonica",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Achyranthes_japonica.jpg/330px-Achyranthes_japonica.jpg",
+    "vietnamese_name": "Cây xạ hương japonica",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Adenophora triphylla",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Adenophora_triphylla_var._japonica_09.jpg/330px-Adenophora_triphylla_var._japonica_09.jpg",
+    "vietnamese_name": "Adenophora triphylla.",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Allium polyanthum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Allium-poly1.jpg/330px-Allium-poly1.jpg",
+    "vietnamese_name": "Axit polyanthum",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Amaranthus albus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Amaranthus_albus_%288186658004%29.jpg/330px-Amaranthus_albus_%288186658004%29.jpg",
+    "vietnamese_name": "Chi Amaranthus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Andrographis paniculata",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Andrographis_paniculata_%28Kalpa%29_in_Narshapur_forest%2C_AP_W2_IMG_0867.jpg/330px-Andrographis_paniculata_%28Kalpa%29_in_Narshapur_forest%2C_AP_W2_IMG_0867.jpg",
+    "vietnamese_name": "Andrographis paniculata",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Arabidopsis thaliana",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Arabidopsis_thaliana.jpg/330px-Arabidopsis_thaliana.jpg",
+    "vietnamese_name": "Cây Arabidopsis thaliana",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Artemisia absinthium",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemisia_absinthium_P1210748.jpg/330px-Artemisia_absinthium_P1210748.jpg",
+    "vietnamese_name": "Artemisia absinthium",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Begonia sutherlandii",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Begonia_sutherlandii_150803-1.jpg/330px-Begonia_sutherlandii_150803-1.jpg",
+    "vietnamese_name": "Begonia sutherlandii.",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Bistorta officinalis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bistorta_officinalis_01.JPG/330px-Bistorta_officinalis_01.JPG",
+    "vietnamese_name": "Bistorta officinalis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Chamaenerion angustifolium",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Maitohorsma_%28Epilobium_angustifolium%29.JPG/330px-Maitohorsma_%28Epilobium_angustifolium%29.JPG",
+    "vietnamese_name": "Gia vị angustifolium",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Chamaenerion latifolium",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Chamerion_latifolium_RHu_02.JPG/330px-Chamerion_latifolium_RHu_02.JPG",
+    "vietnamese_name": "Chamaenerion latifolium",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Chard",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chard_%28Beta_vulgaris_var_cicla%29.jpg/330px-Chard_%28Beta_vulgaris_var_cicla%29.jpg",
+    "vietnamese_name": "ChardName",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Cirsium arvense",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cirsium_arvense_with_Bees_Richard_Bartz.jpg/330px-Cirsium_arvense_with_Bees_Richard_Bartz.jpg",
+    "vietnamese_name": "Thuốc trừ sâu Cirsium",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Citrus garrawayi",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Comprehensive_catalogue_of_Queensland_plants%2C_both_indigenous_and_naturalised._To_which_are_added%2C_where_known%2C_the_aboriginal_and_other_vernacular_names%3B_with_numerous_illustrations%2C_and_copious_%2814779628021%29.jpg/330px-thumbnail.jpg",
+    "vietnamese_name": "Cam quýt garrawayi",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Corchorus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Corchorus_acutangulus_Blanco1.141.png/330px-Corchorus_acutangulus_Blanco1.141.png",
+    "vietnamese_name": "E-shop",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Echites panduratus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Guia_de_Loroco.JPG/330px-Guia_de_Loroco.JPG",
+    "vietnamese_name": "Echites vải lanh",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Erythronium dens-canis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Erythronium_dens-canis_AT2.JPG/330px-Erythronium_dens-canis_AT2.JPG",
+    "vietnamese_name": "Erythronium dens-canis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Glechoma hederacea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Glechoma_hederacea_-_Keila.jpg/330px-Glechoma_hederacea_-_Keila.jpg",
+    "vietnamese_name": "U sán lá gan nhỏ",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hemerocallis citrina",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Xanthorrhoeaceae_-_Hemerocallis_citrina.JPG/330px-Xanthorrhoeaceae_-_Hemerocallis_citrina.JPG",
+    "vietnamese_name": "Bão Hemerocallis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hemerocallis fulva",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HemerocallisFulva1UME.jpg/330px-HemerocallisFulva1UME.jpg",
+    "vietnamese_name": "Cây mận gai",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hemerocallis lilioasphodelus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hemerocallis_lilioasphodelus.jpg/330px-Hemerocallis_lilioasphodelus.jpg",
+    "vietnamese_name": "Hemerocallis hoa loa kèn",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hymenocallis pimana",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hymenopimana.jpg/330px-Hymenopimana.jpg",
+    "vietnamese_name": "Hymenocallis pimana",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hypochaeris chillensis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Hypochaeris_brasiliensis_plant.JPG/330px-Hypochaeris_brasiliensis_plant.JPG",
+    "vietnamese_name": "Hypochaeris chillensis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Juncus textilis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Juncus_textilis.jpg/330px-Juncus_textilis.jpg",
+    "vietnamese_name": "Dệt may Juncus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Oenothera biennis",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Oenothera_biennis%2C_Vic-la-Gardiole_01.jpg/330px-Oenothera_biennis%2C_Vic-la-Gardiole_01.jpg",
+    "vietnamese_name": "Oenothera biennis.",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Oxalis stricta",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/6h_common_yellow_oxalis.jpg/330px-6h_common_yellow_oxalis.jpg",
+    "vietnamese_name": "Chi Oxalis",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Petrosedum forsterianum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sedum_forsterianum%2C_RBGE_2010_%28cropped%29.jpg/330px-Sedum_forsterianum%2C_RBGE_2010_%28cropped%29.jpg",
+    "vietnamese_name": "Dầu mỏ forsterianum",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Sonchus oleraceus",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sonchus_February_2008-1.jpg/330px-Sonchus_February_2008-1.jpg",
+    "vietnamese_name": "Sonchus oleraceus",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Syagrus cearensis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Frutos_de_coco-bab%C3%A3o.jpg/330px-Frutos_de_coco-bab%C3%A3o.jpg",
+    "vietnamese_name": "Syagrus cearensis",
+    "category": "Fruits"
+  },
+  {
+    "name": "Taraxacum officinale",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg/330px-Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg",
+    "vietnamese_name": "Thuốc Taraxacum",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Thymus citriodorus",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Starr_070906-8846_Thymus_citriodorus.jpg/330px-Starr_070906-8846_Thymus_citriodorus.jpg",
+    "vietnamese_name": "Tuyến ức citriodorus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Trichosanthes cucumerina",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Trichosanthes_cucumerina_var._anguina_compose.jpg/330px-Trichosanthes_cucumerina_var._anguina_compose.jpg",
+    "vietnamese_name": "Dưa chuột Trichosanthes",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Trichosanthes pilosa",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Japanese_snake_gourd_%28Trichosanthes_ovigera%29_hanging_from_the_plant.jpg/330px-Japanese_snake_gourd_%28Trichosanthes_ovigera%29_hanging_from_the_plant.jpg",
+    "vietnamese_name": "Trichosanthes pilosa",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Viola mandshurica",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Viola_mandshurica_%28200704%29.jpg/330px-Viola_mandshurica_%28200704%29.jpg",
+    "vietnamese_name": "Đàn viola mandshurica",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Xerophyllum tenax",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Xerophyllum_tenax_-_Glacier_National_Park.jpg/330px-Xerophyllum_tenax_-_Glacier_National_Park.jpg",
+    "vietnamese_name": "Xerophyllum tenax",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Arrowroot",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Zamia_integrifolia_Furnas_2015.jpg/330px-Zamia_integrifolia_Furnas_2015.jpg",
+    "vietnamese_name": "Mũi tên gốc",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Corn starch",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Cornstarch_mixed_with_water.jpg/330px-Cornstarch_mixed_with_water.jpg",
+    "vietnamese_name": "Tinh bột ngô",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Disodium phosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Disodium_hydrogen_phosphate.png/330px-Disodium_hydrogen_phosphate.png",
+    "vietnamese_name": "Phốt phát disodium",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Disodium pyrophosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Disodium_pyrophosphate.png/330px-Disodium_pyrophosphate.png",
+    "vietnamese_name": "Phân bón Pyrophosphate",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Gelatin",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Gelatine.png/330px-Gelatine.png",
+    "vietnamese_name": "Trang chủ",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Locust bean gum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Semillas_de_algarrobo_%2815574259830%29.jpg/330px-Semillas_de_algarrobo_%2815574259830%29.jpg",
+    "vietnamese_name": "Kẹo cao su đậu Locust",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sodium phosphate",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Monosodium_phosphate.png/330px-Monosodium_phosphate.png",
+    "vietnamese_name": "Phốt phát natri",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Waxy corn",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/9698Cuisine_foods_in_Bulacan_55.jpg/330px-9698Cuisine_foods_in_Bulacan_55.jpg",
+    "vietnamese_name": "Sáp bắp",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Barley flour",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Hordeum-barley.jpg/330px-Hordeum-barley.jpg",
+    "vietnamese_name": "Bột lúa mạch",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Chopin alveograph",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/L_alveografo_di_Chopin.jpg/330px-L_alveografo_di_Chopin.jpg",
+    "vietnamese_name": "Máy chụp phế nang Chopin",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Cornmeal",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Polenta_uncooked.jpg/330px-Polenta_uncooked.jpg",
+    "vietnamese_name": "bột ngô",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Graham flour",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Graham_flour.jpg/330px-Graham_flour.jpg",
+    "vietnamese_name": "Bột mì Graham",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Rice flour",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Two_kinds_of_rice_flour.jpg/330px-Two_kinds_of_rice_flour.jpg",
+    "vietnamese_name": "Bột gạo",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Salt dough",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2016_wreath.jpg/330px-2016_wreath.jpg",
+    "vietnamese_name": "Bột nhão",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Five Grains",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Zao_Jun_-_The_Kitchen_God_-_-_Project_Gutenberg_eText_15250.jpg/330px-Zao_Jun_-_The_Kitchen_God_-_-_Project_Gutenberg_eText_15250.jpg",
+    "vietnamese_name": "Năm loại ngũ cốc",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Proofing (baking technique)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Loaf_pans.JPG/330px-Loaf_pans.JPG",
+    "vietnamese_name": "Proofing (kỹ thuật nướng bánh)",
+    "category": "Cereals & Grains"
+  },
+  {
+    "name": "Corn syrup",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Corn_syrup.jpg/330px-Corn_syrup.jpg",
+    "vietnamese_name": "Xi-rô ngô",
+    "category": "Beverages"
+  },
+  {
+    "name": "Cornick (food)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/09679jfFilipino_cuisine_foods_desserts_breads_Landmarks_Bulacanfvf_02.jpg/330px-09679jfFilipino_cuisine_foods_desserts_breads_Landmarks_Bulacanfvf_02.jpg",
+    "vietnamese_name": "Cornick (thực phẩm)",
+    "category": "Snacks"
+  },
+  {
+    "name": "Mastic (plant resin)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/%D7%9E%D7%A1%D7%98%D7%99%D7%A7%D7%90_-_2.jpg/330px-%D7%9E%D7%A1%D7%98%D7%99%D7%A7%D7%90_-_2.jpg",
+    "vietnamese_name": "Mastic (nhựa thực vật)",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Meat",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/FoodMeat.jpg/330px-FoodMeat.jpg",
+    "vietnamese_name": "Thịt",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Seafood",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Plateau_van_zeevruchten.jpg/330px-Plateau_van_zeevruchten.jpg",
+    "vietnamese_name": "Hải sản",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Case-ready meat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Meat_packages_in_a_Roman_supermarket.jpg/330px-Meat_packages_in_a_Roman_supermarket.jpg",
+    "vietnamese_name": "Thịt sẵn sàng",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Cultured meat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Cultivated_hamburger%2C_2013.jpg/330px-Cultivated_hamburger%2C_2013.jpg",
+    "vietnamese_name": "thịt nuôi cấy",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Curing (food preservation)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/ProsciuttoSeaSalt.JPG/330px-ProsciuttoSeaSalt.JPG",
+    "vietnamese_name": "Chữa (bảo quản thực phẩm)",
+    "category": "Cold Cuts: Sausages & Ham"
+  },
+  {
+    "name": "Environmental impacts of animal agriculture",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Los_Llanos%2C_Venezuela_%2812832335223%29.jpg/330px-Los_Llanos%2C_Venezuela_%2812832335223%29.jpg",
+    "vietnamese_name": "Tác động môi trường của chăn nuôi",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Forcemeat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Squab_forcemeat.jpg/330px-Squab_forcemeat.jpg",
+    "vietnamese_name": "Thịt cừu",
+    "category": "Cold Cuts: Sausages & Ham"
+  },
+  {
+    "name": "List of countries by meat consumption",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Daily_meat_consumption_per_person.svg/330px-Daily_meat_consumption_per_person.svg.png",
+    "vietnamese_name": "Danh sách các quốc gia theo tiêu thụ thịt",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Lunch meat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-168.jpg/330px-13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-168.jpg",
+    "vietnamese_name": "Bữa trưa thịt",
+    "category": "Cold Cuts: Sausages & Ham"
+  },
+  {
+    "name": "Marbled meat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/4_Kobe_Beef%2C_Kobe_Japan.jpg/330px-4_Kobe_Beef%2C_Kobe_Japan.jpg",
+    "vietnamese_name": "thịt cẩm thạch",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "List of countries by meat production",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Global_meat_production.svg/330px-Global_meat_production.svg.png",
+    "vietnamese_name": "Danh sách các quốc gia theo sản xuất thịt",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Meat science",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Compound_microscope_used_to_examine_meat%2C_France%2C_1851-1900_Wellcome_L0057251.jpg/330px-Compound_microscope_used_to_examine_meat%2C_France%2C_1851-1900_Wellcome_L0057251.jpg",
+    "vietnamese_name": "Khoa học thịt",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Mystery meat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mystery_meat_%282510386877%29.jpg/330px-Mystery_meat_%282510386877%29.jpg",
+    "vietnamese_name": "Bí ẩn thịt",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "New Harvest",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/New-harvest-logo-update.svg/330px-New-harvest-logo-update.svg.png",
+    "vietnamese_name": "Thu hoạch mới",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Poultry",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Poultry_of_the_world.jpg/330px-Poultry_of_the_world.jpg",
+    "vietnamese_name": "Gia cầm",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Processed meat",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/SelectionOfProcessedMeats.jpg/330px-SelectionOfProcessedMeats.jpg",
+    "vietnamese_name": "Thịt chế biến",
+    "category": "Cold Cuts: Sausages & Ham"
+  },
+  {
+    "name": "Red meat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Raw_beef_slices.jpg/330px-Raw_beef_slices.jpg",
+    "vietnamese_name": "Thịt đỏ",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Tail fat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Erector_fat_tail_sheep.jpg/330px-Erector_fat_tail_sheep.jpg",
+    "vietnamese_name": "Đuôi chất béo",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "White meat",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chicken_breasts_and_wing_quarters.jpg/330px-Chicken_breasts_and_wing_quarters.jpg",
+    "vietnamese_name": "Thịt trắng",
+    "category": "Fresh Meat"
+  },
+  {
+    "name": "Blueberry sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Blueberry_sauce.jpg/330px-Blueberry_sauce.jpg",
+    "vietnamese_name": "Nước sốt việt quất",
+    "category": "Beverages"
+  },
+  {
+    "name": "Chimichurri",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chimichurri_Sauce_Recipe_%2813294574784%29.jpg/330px-Chimichurri_Sauce_Recipe_%2813294574784%29.jpg",
+    "vietnamese_name": "Trang chủ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Clarified butter",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Butterschmalz-2.jpg/330px-Butterschmalz-2.jpg",
+    "vietnamese_name": "Bơ tinh khiết",
+    "category": "Dairy"
+  },
+  {
+    "name": "Coffee sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Kaffe_og_b%C3%B8f_med_kaffesauce_%285198911277%29.jpg/330px-Kaffe_og_b%C3%B8f_med_kaffesauce_%285198911277%29.jpg",
+    "vietnamese_name": "Nước sốt cà phê",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Cranberry sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Cranberry_Sauce_%283617909597%29.jpg/330px-Cranberry_Sauce_%283617909597%29.jpg",
+    "vietnamese_name": "Nước sốt nam việt quất",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Drawn butter",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Lobster_Me_-_28162069543.jpg/330px-Lobster_Me_-_28162069543.jpg",
+    "vietnamese_name": "Vẽ bơ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Fish sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Sauce_de_poisson.jpg/330px-Sauce_de_poisson.jpg",
+    "vietnamese_name": "Nước mắm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Fry sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Frysauce.JPG/330px-Frysauce.JPG",
+    "vietnamese_name": "Sốt chiên",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Halford Leicestershire Table Sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Halford-leicestershire-table-sauce.png/330px-Halford-leicestershire-table-sauce.png",
+    "vietnamese_name": "Nước sốt Halford Leicestershire",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Mushroom gravy",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/French_fries_and_mushroom_gravy.jpg/330px-French_fries_and_mushroom_gravy.jpg",
+    "vietnamese_name": "Nước sốt nấm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Mushroom sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sauce_champignons.jpg/330px-Sauce_champignons.jpg",
+    "vietnamese_name": "Nước sốt nấm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Onion gravy",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sausage_and_mash_with_onion_gravy.jpg/330px-Sausage_and_mash_with_onion_gravy.jpg",
+    "vietnamese_name": "Nước sốt hành tây",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Toum",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Toum.jpg/330px-Toum.jpg",
+    "vietnamese_name": "ToumComment",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of countries by seafood consumption",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Fish-and-seafood-consumption-per-capita-map.svg/330px-Fish-and-seafood-consumption-per-capita-map.svg.png",
+    "vietnamese_name": "Danh sách các quốc gia theo tiêu thụ thủy sản",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "List of types of seafood",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Seafood_chijin.jpg/330px-Seafood_chijin.jpg",
+    "vietnamese_name": "Danh mục các loại hải sản",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Alaska pollock as food",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Polaca-do-Alasca_vendida_em_S%C3%A3o_Paulo.jpg/330px-Polaca-do-Alasca_vendida_em_S%C3%A3o_Paulo.jpg",
+    "vietnamese_name": "Cá minh thái Alaska làm thực phẩm",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Canned fish",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chicharros_en_escabeche.jpg/330px-Chicharros_en_escabeche.jpg",
+    "vietnamese_name": "Cá hộp",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Depuration",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Safe_Shellfish_%284649%29_%284493307855%29.jpg/330px-Safe_Shellfish_%284649%29_%284493307855%29.jpg",
+    "vietnamese_name": "Depuration",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "List of fish and seafood soups",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Caldillo_de_congrio.jpg/330px-Caldillo_de_congrio.jpg",
+    "vietnamese_name": "Danh sách các món súp cá và hải sản",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Fish fry",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fried_Fish_and_French_Fries.jpg/330px-Fried_Fish_and_French_Fries.jpg",
+    "vietnamese_name": "Cá bột",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Herring as food",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Herring_shack.jpg/330px-Herring_shack.jpg",
+    "vietnamese_name": "Cá trích làm thức ăn",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Neurotoxic shellfish poisoning",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Karenia_brevis.jpg/330px-Karenia_brevis.jpg",
+    "vietnamese_name": "Ngộ độc động vật có vỏ độc thần kinh",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Paralytic shellfish poisoning",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Saxitoxin_neutral.svg/330px-Saxitoxin_neutral.svg.png",
+    "vietnamese_name": "Ngộ độc động vật có vỏ",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Scombroid food poisoning",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Histamine_3D_ball.png/330px-Histamine_3D_ball.png",
+    "vietnamese_name": "Ngộ độc thực phẩm Scombroid",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Seafood boil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mid_City_Yacht_Club_Crawfish.jpg/330px-Mid_City_Yacht_Club_Crawfish.jpg",
+    "vietnamese_name": "Hải sản luộc",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Shark meat",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CazoneteDSC_1332.jpg/330px-CazoneteDSC_1332.jpg",
+    "vietnamese_name": "Thịt cá mập",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Shellfish",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oysters_p1040741.jpg/330px-Oysters_p1040741.jpg",
+    "vietnamese_name": "Tôm cua",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Shrimp and prawn as food",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Awadhi_prawns.jpg/330px-Awadhi_prawns.jpg",
+    "vietnamese_name": "Tôm và tôm làm thực phẩm",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Squid as food",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Babbo-_Squid_Ink_pasta_with_green_chilis%2C_rock_shrimp_and_guanciale.jpg/330px-Babbo-_Squid_Ink_pasta_with_green_chilis%2C_rock_shrimp_and_guanciale.jpg",
+    "vietnamese_name": "Mực làm thức ăn",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Soy candle",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Single_plain_soy_candle.jpg/330px-Single_plain_soy_candle.jpg",
+    "vietnamese_name": "Nến đậu nành",
+    "category": "Snacks"
+  },
+  {
+    "name": "Genetically modified soybean",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Genetic_engineering_logo.png/330px-Genetic_engineering_logo.png",
+    "vietnamese_name": "Đậu tương biến đổi gen",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Soy protein",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Soybean_Pod_%2848754451708%29.jpg/330px-Soybean_Pod_%2848754451708%29.jpg",
+    "vietnamese_name": "Protein đậu nành",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Soybean meal",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Soybean_Meal_%2810059014026%29.jpg/330px-Soybean_Meal_%2810059014026%29.jpg",
+    "vietnamese_name": "Bột đậu nành",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Floridean starch",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Amylopektin_Sessel.svg/330px-Amylopektin_Sessel.svg.png",
+    "vietnamese_name": "Tinh bột Floridean",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "High-fructose corn syrup",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/D-Fructose_vs._D-Glucose_Structural_Formulae_V.1.svg/330px-D-Fructose_vs._D-Glucose_Structural_Formulae_V.1.svg.png",
+    "vietnamese_name": "Xi-rô ngô fructose cao",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Iodine–starch test",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/IodineStarch_en.svg/330px-IodineStarch_en.svg.png",
+    "vietnamese_name": "Kiểm tra tinh bột iốt",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Starch analysis",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rice_starch_-_microscopy.jpg/330px-Rice_starch_-_microscopy.jpg",
+    "vietnamese_name": "Phân tích tinh bột",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Starch gelatinization",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/%D5%86%D6%80%D5%A2%D5%A1%D5%AB%D5%AB%D5%BF%D5%B8%D6%82%D5%A5_%D5%A5%D6%83%D5%A5%D5%AC%D5%AB%D5%BD.jpg/330px-%D5%86%D6%80%D5%A2%D5%A1%D5%AB%D5%AB%D5%BF%D5%BE%D5%A5_%D5%A5%D6%83%D5%A5%D5%AC%D5%AB%D5%BD.jpg",
+    "vietnamese_name": "gelatin hóa tinh bột",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Starch mogul",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Nounours_a_manger_-_Flickr_-_tangi_bertin.jpg/330px-Nounours_a_manger_-_Flickr_-_tangi_bertin.jpg",
+    "vietnamese_name": "Tinh bột mogul",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Starch synthase",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/GlycogenSyn_Wiki.png/330px-GlycogenSyn_Wiki.png",
+    "vietnamese_name": "Tinh bột synthase",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Homoeriodictyol",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Homoeriodictyol.png/330px-Homoeriodictyol.png",
+    "vietnamese_name": "Đồng hóa",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Aromat",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Aromat2.jpg/330px-Aromat2.jpg",
+    "vietnamese_name": "Thơm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Brown sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Fried_breakfast_with_brown_sauce.jpg/330px-Fried_breakfast_with_brown_sauce.jpg",
+    "vietnamese_name": "Nước sốt nâu",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Dried shrimp",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Dried_river_shrimp.JPG/330px-Dried_river_shrimp.JPG",
+    "vietnamese_name": "Tôm khô",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Fermented fish",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bornayjars.jpg/330px-Bornayjars.jpg",
+    "vietnamese_name": "Lên men cá",
+    "category": "Seafood & Fish Balls"
+  },
+  {
+    "name": "Gentleman's Relish",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Relish.jpg/330px-Relish.jpg",
+    "vietnamese_name": "Thưởng thức của quý ông",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Marmite (New Zealand)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Marmite_Returns_to_New_Zealand.jpg/330px-Marmite_Returns_to_New_Zealand.jpg",
+    "vietnamese_name": "Đá Marmite (New Zealand)",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Miso",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Miso_001.jpg/330px-Miso_001.jpg",
+    "vietnamese_name": "Miso",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Soup soy sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Gukganjang_%28soup_soy_sauce%29.jpg/330px-Gukganjang_%28soup_soy_sauce%29.jpg",
+    "vietnamese_name": "Súp nước tương",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Worcestershire sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Worcester_Sauce_001.jpg/330px-Worcester_Sauce_001.jpg",
+    "vietnamese_name": "Nước sốt Worcestershire",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Acidity regulator",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Citronens%C3%A4ure.JPG/330px-Citronens%C3%A4ure.JPG",
+    "vietnamese_name": "Điều chỉnh độ axit",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Bakewell Cream",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/BakewellCream.jpg/330px-BakewellCream.jpg",
+    "vietnamese_name": "Kem Bakewell",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Bhutanese red rice",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bhutanese_red_rice_with_chicken_and_spinach.jpg/330px-Bhutanese_red_rice_with_chicken_and_spinach.jpg",
+    "vietnamese_name": "Gạo đỏ Bhutan",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Camargue red rice",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Camargueredricefewer.png",
+    "vietnamese_name": "Gạo đỏ Camargue",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Compound butter",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/New_York_Strip_with_Beurre_Maitre_d%27Hotel%2C_potatoes_and_creamed_spinach.jpg/330px-New_York_Strip_with_Beurre_Maitre_d%27Hotel%2C_potatoes_and_creamed_spinach.jpg",
+    "vietnamese_name": "Hợp chất bơ",
+    "category": "Dairy"
+  },
+  {
+    "name": "Creamed honey",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%D0%9A%D1%80%D0%B5%D0%BC-%D0%BC%D0%B5%D0%B4_Honey-city.jpg/330px-%D0%9A%D1%80%D0%B5%D0%BC-%D0%BC%D0%B5%D0%B4_Honey-city.jpg",
+    "vietnamese_name": "Kem mật ong",
+    "category": "Snacks"
+  },
+  {
+    "name": "Germinated brown rice",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Hatsuga_genmai.jpg/330px-Hatsuga_genmai.jpg",
+    "vietnamese_name": "Gạo lứt",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Highland barley",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tibet-5830_-_Barley_throwing_%282667655970%29.jpg/330px-Tibet-5830_-_Barley_throwing_%282667655970%29.jpg",
+    "vietnamese_name": "Lúa mạch cao nguyên",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Melon ball",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Fruit_salad_flanked_by_Sabre_flatware.jpg/330px-Fruit_salad_flanked_by_Sabre_flatware.jpg",
+    "vietnamese_name": "Quả bóng dưa",
+    "category": "Fresh Fruits"
+  },
+  {
+    "name": "Mung bean sheets",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/FanPei.jpg/330px-FanPei.jpg",
+    "vietnamese_name": "Tấm đậu Mung",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Red Cargo rice",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%D0%A0%D0%B0%D0%B7%D0%BD%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BA%D1%80%D1%83%D0%BF%D1%8B_%D0%B2_%D1%80%D0%BE%D0%B7%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5_%28%D0%B2_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%29_01.JPG/330px-%D0%A0%D0%B0%D0%B7%D0%BD%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BA%D1%80%D1%83%D0%BF%D1%8B_%D0%B2_%D1%80%D0%BE%D0%B7%D0%BD%D0%B8%D1%87%D0%BD%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5_%28%D0%B2_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%29_01.JPG",
+    "vietnamese_name": "Gạo lức đỏ",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Tomato seed oil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tomato_01.jpg/330px-Tomato_01.jpg",
+    "vietnamese_name": "Dầu hạt cà chua",
+    "category": "Beverages"
+  },
+  {
+    "name": "Wheat berry",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Wheatberries.jpg/330px-Wheatberries.jpg",
+    "vietnamese_name": "berry lúa mì",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Backhousia myrtifolia",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cinnamon_myrtle_flower_and_leaf.jpg/330px-Cinnamon_myrtle_flower_and_leaf.jpg",
+    "vietnamese_name": "Backhousia myrtifolia",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Balsam of Peru",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Balsamum_peruvianum1.JPG/330px-Balsamum_peruvianum1.JPG",
+    "vietnamese_name": "Balsam của Peru",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Bird's eye chili",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Thai_peppers.jpg/330px-Thai_peppers.jpg",
+    "vietnamese_name": "Ớt mắt chim",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Camphor",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Alcanfor-2D.svg/330px-Alcanfor-2D.svg.png",
+    "vietnamese_name": "Long não",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Camphora officinarum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cinnamomum_camphora20050314.jpg/330px-Cinnamomum_camphora20050314.jpg",
+    "vietnamese_name": "Thuốc Camphora officinarum",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Catechu",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Catechu.jpg/330px-Catechu.jpg",
+    "vietnamese_name": "CatechuName",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Cinnamon",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Cinnamomum_verum_spices.jpg/330px-Cinnamomum_verum_spices.jpg",
+    "vietnamese_name": "Quế",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Coriander",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg/330px-Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg",
+    "vietnamese_name": "Trang chủ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Drimys winteri",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Drimys_winteri.jpg/330px-Drimys_winteri.jpg",
+    "vietnamese_name": "Drimys winteri",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Euphorbia serpyllifolia",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Euphorbia_serpyllifolia1.jpg/330px-Euphorbia_serpyllifolia1.jpg",
+    "vietnamese_name": "Chi Euphorbia",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Fenugreek production in India",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Aesthetic_bunch_of_fenugreek_greens.jpg/330px-Aesthetic_bunch_of_fenugreek_greens.jpg",
+    "vietnamese_name": "Sản xuất Fenugreek ở Ấn Độ",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Grains of paradise",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/%C3%91amako_gi_%28Aframomum_melegueta%29.jpg/330px-%C3%91amako_gi_%28Aframomum_melegueta%29.jpg",
+    "vietnamese_name": "Hạt của thiên đường",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Grains of Selim",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Xylopiaaethiopica.jpg/330px-Xylopiaaethiopica.jpg",
+    "vietnamese_name": "Ngũ cốc Selim",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Juniper berry",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Juniperus_communis_fruits_-_Keila.jpg/330px-Juniperus_communis_fruits_-_Keila.jpg",
+    "vietnamese_name": "Quả mọng",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Mulling spices",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mulling_spices.jpg/330px-Mulling_spices.jpg",
+    "vietnamese_name": "Gia vị Mulling",
+    "category": "Seasonings"
+  },
+  {
+    "name": "New Mexico chile",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hatch_green_chile.jpg/330px-Hatch_green_chile.jpg",
+    "vietnamese_name": "Chilê New Mexico",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Phyllanthus emblica",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Phyllanthus_officinalis.jpg/330px-Phyllanthus_officinalis.jpg",
+    "vietnamese_name": "Phyllanthus emblica",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Porophyllum ruderale",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Quirquina_mature1.jpg/330px-Quirquina_mature1.jpg",
+    "vietnamese_name": "Porophyllum ruderale",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Seasoning",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Achiote_paste_ingredients.jpg/330px-Achiote_paste_ingredients.jpg",
+    "vietnamese_name": "Gia vị",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Spiced ale",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/The_herball%2C_or_Generall_historie_of_plantes_-_Costmarie.jpg/330px-The_herball%2C_or_Generall_historie_of_plantes_-_Costmarie.jpg",
+    "vietnamese_name": "Bia gia vị",
+    "category": "Beverages"
+  },
+  {
+    "name": "Use of saffron",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Spice_shop%2C_Mashad%2C_Iran.jpg/330px-Spice_shop%2C_Mashad%2C_Iran.jpg",
+    "vietnamese_name": "Sử dụng nghệ tây",
+    "category": "Seasonings"
+  },
+  {
+    "name": "White mustard",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sinapis_alba_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-265.jpg/330px-Sinapis_alba_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-265.jpg",
+    "vietnamese_name": "Mù tạt trắng",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Xylopia aethiopica",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Xylopia_aethiopica_leaf.jpg/330px-Xylopia_aethiopica_leaf.jpg",
+    "vietnamese_name": "Cận thị aethiopica",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Zanthoxylum acanthopodium",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Zanthoxylum_acanthopodium_var._timbor_-_Kunming_Botanical_Garden_-_DSC03185.JPG/330px-Zanthoxylum_acanthopodium_var._timbor_-_Kunming_Botanical_Garden_-_DSC03185.JPG",
+    "vietnamese_name": "Tinh dầu acanthopodium",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Zanthoxylum armatum",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Zanthoxylum_planispinum_-_Villa_Taranto_%28Verbania%29_-_DSC03807.JPG/330px-Zanthoxylum_planispinum_-_Villa_Taranto_%28Verbania%29_-_DSC03807.JPG",
+    "vietnamese_name": "Zanthoxylum kim loại",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Zanthoxylum piperitum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Zanthoxylum_piperitum.jpg/330px-Zanthoxylum_piperitum.jpg",
+    "vietnamese_name": "Zanthoxylum piperitum",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Anise of Flavigny",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flavigny_sur_Ozerain_Maison_Troubat.JPG/330px-Flavigny_sur_Ozerain_Maison_Troubat.JPG",
+    "vietnamese_name": "Anise của Flavigny",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Aniseed ball",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Aniseed_balls_2006-01-03_%28cropped%29.JPG/330px-Aniseed_balls_2006-01-03_%28cropped%29.JPG",
+    "vietnamese_name": "Aniseed bóng",
+    "category": "Candies"
+  },
+  {
+    "name": "Black Jack (confectionery)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Black_Jack_%28confectionery%29.jpg/330px-Black_Jack_%28confectionery%29.jpg",
+    "vietnamese_name": "Black Jack (bánh kẹo)",
+    "category": "Candies"
+  },
+  {
+    "name": "Vichy Pastilles",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pastilles_de_Vichy_-_Moinet.jpg/330px-Pastilles_de_Vichy_-_Moinet.jpg",
+    "vietnamese_name": "Bánh ngọt Vichy",
+    "category": "Candies"
+  },
+  {
+    "name": "Bloody Mary (cocktail)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg/330px-Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg",
+    "vietnamese_name": "Bloody Mary (đuôi gà)",
+    "category": "Alcoholic Beverages"
+  },
+  {
+    "name": "Butylphthalide",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Butylphthalide.svg/330px-Butylphthalide.svg.png",
+    "vietnamese_name": "Butylphthalide",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Celery mosaic virus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ontario_Sessional_Papers%2C_1917%2C_No.58-59_%281917%29_%2814762162344%29.jpg/330px-Ontario_Sessional_Papers%2C_1917%2C_No.58-59_%281917%29_%2814762162344%29.jpg",
+    "vietnamese_name": "Virus khảm cần tây",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Celery vase",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Celery_vase_MET_DP208117.jpg/330px-Celery_vase_MET_DP208117.jpg",
+    "vietnamese_name": "Bình hoa cần tây",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Chicago-style hot dog",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chicago-style_hot_dog_2.jpg/330px-Chicago-style_hot_dog_2.jpg",
+    "vietnamese_name": "Chicago kiểu hot dog",
+    "category": "Snacks"
+  },
+  {
+    "name": "Leaf celery",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Chinese_celery.jpg/330px-Chinese_celery.jpg",
+    "vietnamese_name": "Lá cần tây",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Old Bay Seasoning",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Old_Bay_Seasoning.jpg/330px-Old_Bay_Seasoning.jpg",
+    "vietnamese_name": "Gia vị Old Bay",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Cinnamon bird",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Cinnamologus.jpg/330px-Cinnamologus.jpg",
+    "vietnamese_name": "Quế chim",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Cinnamon challenge",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ground_cinnamon.jpg/330px-Ground_cinnamon.jpg",
+    "vietnamese_name": "Thử thách quế",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Cinnamon roll",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cinnamon_roll_in_Stockholm.jpg/330px-Cinnamon_roll_in_Stockholm.jpg",
+    "vietnamese_name": "Quế cuộn",
+    "category": "Cakes"
+  },
+  {
+    "name": "Cinnamon Roll Day",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kanelbullar_homemade.jpg/330px-Kanelbullar_homemade.jpg",
+    "vietnamese_name": "Ngày cuộn quế",
+    "category": "Cakes"
+  },
+  {
+    "name": "Curry tree",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Curry_Trees.jpg/330px-Curry_Trees.jpg",
+    "vietnamese_name": "Cây cà ri",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Guntur chilli",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Andhra_Chillies.jpg/330px-Andhra_Chillies.jpg",
+    "vietnamese_name": "Ớt Guntur",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Harmal chilli",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Closeup_view_of_special_cover_released_on_17_December_2021_for_Harmal_Chilli_02.jpg/330px-Closeup_view_of_special_cover_released_on_17_December_2021_for_Harmal_Chilli_02.jpg",
+    "vietnamese_name": "Ớt cay",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Indian Institute of Spices Research",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Indianspicesherbs.jpg/330px-Indianspicesherbs.jpg",
+    "vietnamese_name": "Viện nghiên cứu gia vị Ấn Độ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "List of Indian spices",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Common_Indian_spices.jpg/330px-Common_Indian_spices.jpg",
+    "vietnamese_name": "Danh sách các loại gia vị Ấn Độ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Panch phoron",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Panch-phoron.jpg/330px-Panch-phoron.jpg",
+    "vietnamese_name": "Panch phoron",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Spices Board of India",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/KardamomHillsKardamom.jpg/330px-KardamomHillsKardamom.jpg",
+    "vietnamese_name": "Spices Ban của Ấn Độ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chrism",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/SacrumChrisma.jpg/330px-SacrumChrisma.jpg",
+    "vietnamese_name": "Việt",
+    "category": "Beverages"
+  },
+  {
+    "name": "Oil of Saints",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Oil_of_Saint_Philomena.jpg/330px-Oil_of_Saint_Philomena.jpg",
+    "vietnamese_name": "Dầu của Saints",
+    "category": "Beverages"
+  },
+  {
+    "name": "Stacte",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Stacte%2C_Myrrh_natural_exudation%2C_Opobalsamum%2C_Light_Myrrh_pieces%2C_Light_myrrh_treated_with_Styrax_benzoin%2C_06%2C_2019.jpg/330px-Stacte%2C_Myrrh_natural_exudation%2C_Opobalsamum%2C_Light_Myrrh_pieces%2C_Light_myrrh_treated_with_Styrax_benzoin%2C_06%2C_2019.jpg",
+    "vietnamese_name": "StacteName",
+    "category": "Beverages"
+  },
+  {
+    "name": "South Asian pickle",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chilli_pickle_in_a_plate_2.jpg/330px-Chilli_pickle_in_a_plate_2.jpg",
+    "vietnamese_name": "Dưa chua Nam Á",
+    "category": "Snacks"
+  },
+  {
+    "name": "Choricero peppers",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pimientos_choriceros.jpg/330px-Pimientos_choriceros.jpg",
+    "vietnamese_name": "Ớt Choricero",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Schinus molle",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schinus_Molle.jpg/330px-Schinus_Molle.jpg",
+    "vietnamese_name": "Tran Long Nam",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Schinus terebinthifolia",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Starr_041018-0009_Schinus_terebinthifolius.jpg/330px-Starr_041018-0009_Schinus_terebinthifolius.jpg",
+    "vietnamese_name": "Schinus terebinthifolia.",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Zanthoxylum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Starr_060325-6755_Zanthoxylum_kauaense.jpg/330px-Starr_060325-6755_Zanthoxylum_kauaense.jpg",
+    "vietnamese_name": "E-shop",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Zanthoxylum bungeanum",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Zanthoxylum_bungeanum_in_Palm_House_Schoenbrunn_%282%29.jpg/330px-Zanthoxylum_bungeanum_in_Palm_House_Schoenbrunn_%282%29.jpg",
+    "vietnamese_name": "Zanthoxylum bungeanum",
+    "category": "Seasonings"
+  },
+  {
+    "name": "History of saffron",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Saffron_gatherersSantorini-3.jpg/330px-Saffron_gatherersSantorini-3.jpg",
+    "vietnamese_name": "Lịch sử của nghệ tây",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Achillea millefolium",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/330px-Achillea_millefolium_%28bright%29.jpg",
+    "vietnamese_name": "Chi Achillea",
+    "category": "Seasonings"
+  },
+  {
+    "name": "African blue basil",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Westcoastlady.JPG/330px-Westcoastlady.JPG",
+    "vietnamese_name": "húng quế xanh châu Phi",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Anthriscus sylvestris",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Anthriscus_sylvestris_TK_2021-05-16_2.jpg/330px-Anthriscus_sylvestris_TK_2021-05-16_2.jpg",
+    "vietnamese_name": "Anthriscus sylvestris",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Astragalus mongholicus",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Astragalus_membranaceus.jpg/330px-Astragalus_membranaceus.jpg",
+    "vietnamese_name": "Astragalus mongholicus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chervil",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Illustration_Anthriscus_cerefolium0.jpg/330px-Illustration_Anthriscus_cerefolium0.jpg",
+    "vietnamese_name": "E-shop",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chives",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Allium_schoenoprasum_-_Bombus_lapidarius_-_Tootsi.jpg/330px-Allium_schoenoprasum_-_Bombus_lapidarius_-_Tootsi.jpg",
+    "vietnamese_name": "ChivesComment",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Cicely",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Apiaceae_-_Myrrhis_odorata.JPG/330px-Apiaceae_-_Myrrhis_odorata.JPG",
+    "vietnamese_name": "CicelyComment",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Effects of legalized cannabis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/WMFSP-3.jpg/330px-WMFSP-3.jpg",
+    "vietnamese_name": "Ảnh hưởng của cần sa hợp pháp hóa",
+    "category": "Beverages"
+  },
+  {
+    "name": "Eleutherococcus senticosus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Eleutherococcus_senticosus.jpg/330px-Eleutherococcus_senticosus.jpg",
+    "vietnamese_name": "Chi Eleutherococcus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Galium anisophyllon",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Rubiaceae_-_Galium_cfr._anisophyllon.jpg/330px-Rubiaceae_-_Galium_cfr._anisophyllon.jpg",
+    "vietnamese_name": "Gali anisophyllon",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Gratiola officinalis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Gratiola_officinalis3.jpg/330px-Gratiola_officinalis3.jpg",
+    "vietnamese_name": "Hoa cúc dại",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Helichrysum petiolare",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Helichrysum_petiolare00.jpg/330px-Helichrysum_petiolare00.jpg",
+    "vietnamese_name": "Helichrysum petiolare.",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hypochaeris radicata",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hypochaeris_radicata_at_Game_Farm_Park_in_Auburn%2C_Washington.jpg/330px-Hypochaeris_radicata_at_Game_Farm_Park_in_Auburn%2C_Washington.jpg",
+    "vietnamese_name": "Hypochaeris radicata",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Hyssopus officinalis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Illustration_Hyssopus_officinalis0.jpg/330px-Illustration_Hyssopus_officinalis0.jpg",
+    "vietnamese_name": "Hoa cúc dại",
+    "category": "Seasonings"
+  },
+  {
+    "name": "John the Conqueror",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ipomoea_purga_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-077.jpg/330px-Ipomoea_purga_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-077.jpg",
+    "vietnamese_name": "John người chinh phục",
+    "category": "Beverages"
+  },
+  {
+    "name": "Mentha gattefossei",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Mentha_gattefossei_%28aka%29.jpg/330px-Mentha_gattefossei_%28aka%29.jpg",
+    "vietnamese_name": "Mentha gattefossei",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Mentha suaveolens",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Apple_Mint.jpg/330px-Apple_Mint.jpg",
+    "vietnamese_name": "Mentha suaveolens",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Microseris walteri",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mwalteri1.jpg/330px-Mwalteri1.jpg",
+    "vietnamese_name": "Microseris cánh quạt",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Nasturtium microphyllum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Slanke_waterkers_bloeiwijze_%28Rorippa_microphylla_inflorescens%29.jpg/330px-Slanke_waterkers_bloeiwijze_%28Rorippa_microphylla_inflorescens%29.jpg",
+    "vietnamese_name": "Nasturtium microphyllum",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Ocimum kilimandscharicum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ocimum_kilimandscharicum%2C_Camphor_basil_at_Kakkengad_%281%29.jpg/330px-Ocimum_kilimandscharicum%2C_Camphor_basil_at_Kakkengad_%281%29.jpg",
+    "vietnamese_name": "Hoa cúc La Mã",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Onion",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/330px-Mixed_onions.jpg",
+    "vietnamese_name": "Hành tây",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Rhododendron subsect. Ledum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ledum_glandulosum_7486.JPG/330px-Ledum_glandulosum_7486.JPG",
+    "vietnamese_name": "Cây đỗ quyên. Ledum",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Rosemary",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Rosemary_in_bloom.JPG/330px-Rosemary_in_bloom.JPG",
+    "vietnamese_name": "Hương thảo",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Salvia officinalis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Salvia_officinalis0.jpg/330px-Salvia_officinalis0.jpg",
+    "vietnamese_name": "Salvia officinalis",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Shives",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hemp_shives.jpg/330px-Hemp_shives.jpg",
+    "vietnamese_name": "Trang chủ",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Snow Mountain garlic",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kashmiri_Garlic.jpg/330px-Kashmiri_Garlic.jpg",
+    "vietnamese_name": "Tuyết núi tỏi",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Tanacetum parthenium",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Feverfew.jpg/330px-Feverfew.jpg",
+    "vietnamese_name": "Tanacetum parthenium",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymbra spicata",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Thymbra_spicata_1.jpg/330px-Thymbra_spicata_1.jpg",
+    "vietnamese_name": "Thymbra spicata",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus caespititius",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/A%C3%A7ores_2010-07-22_%285149288732%29.jpg/330px-A%C3%A7ores_2010-07-22_%285149288732%29.jpg",
+    "vietnamese_name": "Tuyến ức caespititius",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus capitatus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Thymus_capitatus_in_Crete.jpg/330px-Thymus_capitatus_in_Crete.jpg",
+    "vietnamese_name": "Tuyến ức capitatus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus carnosus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Thymus_carnosus.jpg/330px-Thymus_carnosus.jpg",
+    "vietnamese_name": "tuyến ức carnosus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus herba-barona",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Thymus_herba-barona.jpg/330px-Thymus_herba-barona.jpg",
+    "vietnamese_name": "Thymus herba-barona",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus integer",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Thymus_integer_kz13.jpg/330px-Thymus_integer_kz13.jpg",
+    "vietnamese_name": "Số nguyên tuyến ức",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus mastichina",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Thymus_mastichina.jpg/330px-Thymus_mastichina.jpg",
+    "vietnamese_name": "tuyến ức mastichina",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus moroderi",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Thymus_moroderi03-800.jpg/330px-Thymus_moroderi03-800.jpg",
+    "vietnamese_name": "Thymus moroderi",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus praecox",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Thymus_praecox.JPG/330px-Thymus_praecox.JPG",
+    "vietnamese_name": "Cơ ức praecox",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Verbena officinalis",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Verbena_officinalis_sabliere-morriere-plailly_60_30062008_1.jpg/330px-Verbena_officinalis_sabliere-morriere-plailly_60_30062008_1.jpg",
+    "vietnamese_name": "Vi khuẩn Verbena officinalis",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Watercress",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Watercress_%282%29.JPG/330px-Watercress_%282%29.JPG",
+    "vietnamese_name": "Xà lách",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Zanthoxylum ailanthoides",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/%E9%A3%9F%E8%8C%B1%E8%90%B8.jpg/330px-%E9%A3%9F%E8%8C%B1%E8%90%B8.jpg",
+    "vietnamese_name": "Chi Zanthoxylum",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Herbal tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Hibiscus_Delight_tisane.jpg/330px-Hibiscus_Delight_tisane.jpg",
+    "vietnamese_name": "Trà thảo mộc",
+    "category": "Beverages"
+  },
+  {
+    "name": "Arrowroot tea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chikcha.jpg/330px-Chikcha.jpg",
+    "vietnamese_name": "Trà rễ mũi tên",
+    "category": "Beverages"
+  },
+  {
+    "name": "Barley tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Boricha_%28barley_tea%29.jpg/330px-Boricha_%28barley_tea%29.jpg",
+    "vietnamese_name": "Trà lúa mạch",
+    "category": "Beverages"
+  },
+  {
+    "name": "Brown rice tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hyeonmicha.jpg/330px-Hyeonmicha.jpg",
+    "vietnamese_name": "Trà gạo lứt",
+    "category": "Beverages"
+  },
+  {
+    "name": "Buckwheat tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Memil-cha_%28buckwheat_tea%29.jpg/330px-Memil-cha_%28buckwheat_tea%29.jpg",
+    "vietnamese_name": "trà kiều mạch",
+    "category": "Beverages"
+  },
+  {
+    "name": "Cannabis tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/T%C3%A9_de_marihuana.jpg/330px-T%C3%A9_de_marihuana.jpg",
+    "vietnamese_name": "Trà gai dầu",
+    "category": "Beverages"
+  },
+  {
+    "name": "Chamomile",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Kamomillasaunio_%28Matricaria_recutita%29.JPG/330px-Kamomillasaunio_%28Matricaria_recutita%29.JPG",
+    "vietnamese_name": "Hoa cúc",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Cinnamon tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Glass_of_cinnamon_tea.jpg/330px-Glass_of_cinnamon_tea.jpg",
+    "vietnamese_name": "Trà quế",
+    "category": "Beverages"
+  },
+  {
+    "name": "Coffee cherry tea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Cascara%2C_Coffee_cherry_tea-6467.jpg/330px-Cascara%2C_Coffee_cherry_tea-6467.jpg",
+    "vietnamese_name": "Cà phê trà anh đào",
+    "category": "Beverages"
+  },
+  {
+    "name": "Coffee-leaf tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Coffee_leaves.jpg/330px-Coffee_leaves.jpg",
+    "vietnamese_name": "Trà lá cà phê",
+    "category": "Beverages"
+  },
+  {
+    "name": "Corn tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Oksusu-cha.jpg/330px-Oksusu-cha.jpg",
+    "vietnamese_name": "Trà bắp",
+    "category": "Beverages"
+  },
+  {
+    "name": "Cyclopia intermedia",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cyclopia_intermedia_distribution.svg/330px-Cyclopia_intermedia_distribution.svg.png",
+    "vietnamese_name": "Cyclopia trung gian",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Dandelion coffee",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Dandelion_root.jpg/330px-Dandelion_root.jpg",
+    "vietnamese_name": "Cà phê bồ công anh",
+    "category": "Beverages"
+  },
+  {
+    "name": "Dried lime tea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Noomibasra.jpg/330px-Noomibasra.jpg",
+    "vietnamese_name": "Trà chanh khô",
+    "category": "Beverages"
+  },
+  {
+    "name": "Herbal tea shop",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Herbal_Tea_Shops.jpg/330px-Herbal_Tea_Shops.jpg",
+    "vietnamese_name": "Cửa hàng trà thảo dược",
+    "category": "Beverages"
+  },
+  {
+    "name": "Insect tea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Insect_tea.jpg/330px-Insect_tea.jpg",
+    "vietnamese_name": "Trà côn trùng",
+    "category": "Beverages"
+  },
+  {
+    "name": "Mint herbal tea",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peppermint_tea_2.jpg/330px-Peppermint_tea_2.jpg",
+    "vietnamese_name": "Trà thảo mộc bạc hà",
+    "category": "Beverages"
+  },
+  {
+    "name": "Persimmon leaf tea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Gamnip-cha_2.jpg/330px-Gamnip-cha_2.jpg",
+    "vietnamese_name": "Trà lá hồng",
+    "category": "Beverages"
+  },
+  {
+    "name": "Tubho tea",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/%E9%97%8A%E7%89%87%E7%83%8F%E8%95%A8.jpg/330px-%E9%97%8A%E7%89%87%E7%83%8F%E8%95%A8.jpg",
+    "vietnamese_name": "Trà Tubho",
+    "category": "Beverages"
+  },
+  {
+    "name": "White coffee",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Coffee_cup.JPG/330px-Coffee_cup.JPG",
+    "vietnamese_name": "Cà phê trắng",
+    "category": "Beverages"
+  },
+  {
+    "name": "Althaea officinalis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Althaea_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-008.jpg/330px-Althaea_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-008.jpg",
+    "vietnamese_name": "Althaea officinalis.",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Aphanes",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Aphanes_arvensis_kz1.jpg/330px-Aphanes_arvensis_kz1.jpg",
+    "vietnamese_name": "Trang chủ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Honey",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Runny_hunny.jpg/330px-Runny_hunny.jpg",
+    "vietnamese_name": "Mật ong",
+    "category": "Snacks"
+  },
+  {
+    "name": "Oat",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/AvenaSativa3.jpg/330px-AvenaSativa3.jpg",
+    "vietnamese_name": "Yến mạch",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Symphytum officinale",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Symphytum_officinale_01.jpg/330px-Symphytum_officinale_01.jpg",
+    "vietnamese_name": "Symphytum officinale",
+    "category": "Herbal Tea"
+  },
+  {
+    "name": "Traditional rice of Sri Lanka",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Traditional_rice_in_sri_lanka_know_as_Akshata%2Ccharu%2Camishaa.png",
+    "vietnamese_name": "Gạo truyền thống của Sri Lanka",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Verbascum thapsus",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Starr_040723-0030_Verbascum_thapsus.jpg/330px-Starr_040723-0030_Verbascum_thapsus.jpg",
+    "vietnamese_name": "Verbascum thapsus",
+    "category": "Herbal Tea"
+  },
+  {
+    "name": "Allium oporinanthum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Allium_oporinanthum.jpg/330px-Allium_oporinanthum.jpg",
+    "vietnamese_name": "Allium oporinanthum",
+    "category": "Vegetables"
+  },
+  {
+    "name": "List of garlic festivals",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Garlicicecream.jpg/330px-Garlicicecream.jpg",
+    "vietnamese_name": "Danh sách các lễ hội tỏi",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Garlic production in China",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2005garlic.PNG/330px-2005garlic.PNG",
+    "vietnamese_name": "Sản xuất tỏi ở Trung Quốc",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Red Cabbages and Garlic",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Vincent_van_Gogh_-_Red_cabbages_and_garlic_-_Google_Art_Project.jpg/330px-Vincent_van_Gogh_-_Red_cabbages_and_garlic_-_Google_Art_Project.jpg",
+    "vietnamese_name": "Bắp cải đỏ và tỏi",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Red Sulmona Garlic",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Aglio_rosso_di_Sulmona.jpg/330px-Aglio_rosso_di_Sulmona.jpg",
+    "vietnamese_name": "Tỏi Sulmona Đỏ",
+    "category": "Vegetables"
+  },
+  {
+    "name": "The Stinking Rose",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Stinking_Rose_SF_front.JPG/330px-The_Stinking_Rose_SF_front.JPG",
+    "vietnamese_name": "Các Stinking Rose",
+    "category": "Vegetables"
+  },
+  {
+    "name": "Amersham Museum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Amersham_Museum.JPG/330px-Amersham_Museum.JPG",
+    "vietnamese_name": "Bảo tàng Amersham",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Chelsea Physic Garden",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/II_Chelsea_Physic_Garden%2C_London%2C_UK.jpg/330px-II_Chelsea_Physic_Garden%2C_London%2C_UK.jpg",
+    "vietnamese_name": "Vườn vật lý Chelsea",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Chenies Manor House",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/House_next_to_church%2C_Chenies%2C_Bucks_-_geograph.org.uk_-_333323.jpg/330px-House_next_to_church%2C_Chenies%2C_Bucks_-_geograph.org.uk_-_333323.jpg",
+    "vietnamese_name": "Trang viên Chenies",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Cowbridge Physic Garden",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Cowbridge_Physic_Garden_in_spring.jpg/330px-Cowbridge_Physic_Garden_in_spring.jpg",
+    "vietnamese_name": "Vườn vật lý Cowbridge",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Knebworth House",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Knebworth_House%2C_Hertfordshire_-_geograph.org.uk_-_2776289.jpg/330px-Knebworth_House%2C_Hertfordshire_-_geograph.org.uk_-_2776289.jpg",
+    "vietnamese_name": "Nhà Knebworth",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Sata physic gardens",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Former_Sata_Medicinal_Garden_2009_001.jpg/330px-Former_Sata_Medicinal_Garden_2009_001.jpg",
+    "vietnamese_name": "Vườn vật lý Sata",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Goldwasser",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Goldwasser2.jpg/330px-Goldwasser2.jpg",
+    "vietnamese_name": "GoldwasserLanguage",
+    "category": "Alcoholic Beverages"
+  },
+  {
+    "name": "Mechitharine",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mechitharine4.jpg/330px-Mechitharine4.jpg",
+    "vietnamese_name": "E-shop",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Thymus (plant)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Thymus_camphoratus_kz07.jpg/330px-Thymus_camphoratus_kz07.jpg",
+    "vietnamese_name": "Tuyến ức (thực vật)",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus baeticus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thymus_baeticus.jpg/330px-Thymus_baeticus.jpg",
+    "vietnamese_name": "Thymus baeticus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus camphoratus",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Thymus_camphoratus_kz06.jpg/330px-Thymus_camphoratus_kz06.jpg",
+    "vietnamese_name": "Thymus camphoratus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus pannonicus",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Thymus_pannonicus_003.jpg/330px-Thymus_pannonicus_003.jpg",
+    "vietnamese_name": "Thymus pannonicus",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thymus pulegioides",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Breitbl%C3%A4ttrige_Thymian_%28Thymus_pulegioides%29-1.jpg/330px-Breitbl%C3%A4ttrige_Thymian_%28Thymus_pulegioides%29-1.jpg",
+    "vietnamese_name": "Thymus pulegioides",
+    "category": "Seasonings"
+  },
+  {
+    "name": "ABC (food brand)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ABC_food_%282016%29.svg/330px-ABC_food_%282016%29.svg.png",
+    "vietnamese_name": "ABC (thương hiệu thực phẩm)",
+    "category": "Beverages"
+  },
+  {
+    "name": "Branston (brand)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Branston_Pickle_jar_1.jpg/330px-Branston_Pickle_jar_1.jpg",
+    "vietnamese_name": "Branston (thương hiệu)",
+    "category": "Snacks"
+  },
+  {
+    "name": "Crystal Hot Sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mid-City_Preserves_sign.JPG/330px-Mid-City_Preserves_sign.JPG",
+    "vietnamese_name": "Nước sốt nóng pha lê",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Goober (brand)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Smuckers_Strawberry_Goober.jpg/330px-Smuckers_Strawberry_Goober.jpg",
+    "vietnamese_name": "Goober (thương hiệu)",
+    "category": "Snacks"
+  },
+  {
+    "name": "Lea & Perrins",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Leaandperrins_logo.png",
+    "vietnamese_name": "Le & Perrins",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Louisiana Hot Sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/LHSOriginal12.png/330px-LHSOriginal12.png",
+    "vietnamese_name": "Nước sốt nóng Louisiana",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Major Grey's Chutney",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Clear_Glass_Bottle_Full_of_Major_Grey%E2%80%99s_Sun_Brand_Chutney_From_the_1904_World%E2%80%99s_Fair.jpg/330px-Clear_Glass_Bottle_Full_of_Major_Grey%E2%80%99s_Sun_Brand_Chutney_From_the_1904_World%E2%80%99s_Fair.jpg",
+    "vietnamese_name": "Chutney Thiếu tá Grey",
+    "category": "Snacks"
+  },
+  {
+    "name": "Shan Foods",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Shan-Logo-PNG.png/330px-Shan-Logo-PNG.png",
+    "vietnamese_name": "Thực phẩm Shan",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Spice Islands (brand)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/HK_Mid-levels_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E8%88%AC%E5%92%B8%E9%81%93_1_Bonham_Road_%E5%98%89%E5%A8%81%E8%8A%B1%E5%9C%92_Cartwright_Gardens_wellcome_shop_goods_bottled_bay_leaves_April_2020_SS2_12.jpg/330px-HK_Mid-levels_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E8%88%AC%E5%92%B8%E9%81%93_1_Bonham_Road_%E5%98%89%E5%A8%81%E8%8A%B1%E5%9C%92_Cartwright_Gardens_wellcome_shop_goods_bottled_bay_leaves_April_2020_SS2_12.jpg",
+    "vietnamese_name": "Quần đảo Spice (thương hiệu)",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sweet Baby Ray's",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sweet_Baby_Ray%27s_Barbecue_Sauce_%2826467543290%29_%281%29.jpg/330px-Sweet_Baby_Ray%27s_Barbecue_Sauce_%2826467543290%29_%281%29.jpg",
+    "vietnamese_name": "Ray bé ngọt ngào",
+    "category": "Seasonings"
+  },
+  {
+    "name": "UFC (food brand)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/UFC_Brand_Logo.svg/330px-UFC_Brand_Logo.svg.png",
+    "vietnamese_name": "UFC (thương hiệu thực phẩm)",
+    "category": "Beverages"
+  },
+  {
+    "name": "Butter churning in Nepal",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/A_setup_for_Churning_Butter.jpg/330px-A_setup_for_Churning_Butter.jpg",
+    "vietnamese_name": "Bơ khuấy ở Nepal",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Butter mountain",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fotothek_df_roe-neg_0006774_031_Kurt_Krause_beim_Stabeln_von_50_Kilo_Butterf%C3%A4sse.jpg/330px-Fotothek_df_roe-neg_0006774_031_Kurt_Krause_beim_Stabeln_von_50_Kilo_Butterf%C3%A4sse.jpg",
+    "vietnamese_name": "Núi Bơ",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Butter sculptures at the Iowa State Fair",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Postcard_of_John_K._Daniels%E2%80%99s_butter_sculpture_of_a_boy%2C_cow%2C_and_calf%2C_Iowa_State_Fair%2C_1904.jpg/330px-Postcard_of_John_K._Daniels%E2%80%99s_butter_sculpture_of_a_boy%2C_cow%2C_and_calf%2C_Iowa_State_Fair%2C_1904.jpg",
+    "vietnamese_name": "Tác phẩm điêu khắc bơ tại Hội chợ bang Iowa",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Buttered toast phenomenon",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/LA_LEY_DE_MURPHY.jpg/330px-LA_LEY_DE_MURPHY.jpg",
+    "vietnamese_name": "Hiện tượng bánh mì nướng bơ",
+    "category": "Snacks"
+  },
+  {
+    "name": "Chicago Butter and Egg Board",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Industries_of_War_-_Butter_-_View_of_the_fox_River_Butter_cos%2C_plant_at_Chicago%2C_Illinois_-_NARA_-_31486219_%28cropped%29.jpg/330px-Industries_of_War_-_Butter_-_View_of_the_fox_River_Butter_cos%2C_plant_at_Chicago%2C_Illinois_-_NARA_-_31486219_%28cropped%29.jpg",
+    "vietnamese_name": "Chicago Bơ và Trứng Ban",
+    "category": "Snacks"
+  },
+  {
+    "name": "Churning (butter)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Femme_inconnue_avec_une_baratte_pr%C3%A8s_de_Long_Branch%2C_Ont.jpg/330px-Femme_inconnue_avec_une_baratte_pr%C3%A8s_de_Long_Branch%2C_Ont.jpg",
+    "vietnamese_name": "Churning (bơ)",
+    "category": "Milk"
+  },
+  {
+    "name": "Creamery",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Tillamook_Cheese_Factory.jpg/330px-Tillamook_Cheese_Factory.jpg",
+    "vietnamese_name": "Trang chủ",
+    "category": "Milk"
+  },
+  {
+    "name": "French butter dish",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/FrenchButterDishOpened.jpg/330px-FrenchButterDishOpened.jpg",
+    "vietnamese_name": "Món bơ Pháp",
+    "category": "Milk"
+  },
+  {
+    "name": "Garlic butter",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Kronfleisch_%28skirt_steak%29%2C_a_traditional_Bavarian_dish_often_served_with_onion_rings%2C_rye_bread%2C_composed_butter_%28with_herbs_and_garlic%29_and_horseradish.jpg/330px-Kronfleisch_%28skirt_steak%29%2C_a_traditional_Bavarian_dish_often_served_with_onion_rings%2C_rye_bread%2C_composed_butter_%28with_herbs_and_garlic%29_and_horseradish.jpg",
+    "vietnamese_name": "Bơ tỏi",
+    "category": "Milk"
+  },
+  {
+    "name": "List of spreads",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Standard_reference_material_peanut_butter.jpg/330px-Standard_reference_material_peanut_butter.jpg",
+    "vietnamese_name": "Danh sách spread",
+    "category": "Snacks"
+  },
+  {
+    "name": "Norwegian butter crisis",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Norwegian_butter.jpg/330px-Norwegian_butter.jpg",
+    "vietnamese_name": "Khủng hoảng bơ Na Uy",
+    "category": "Milk"
+  },
+  {
+    "name": "Scotch hands",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Butter_Pats_%288515237313%29.jpg/330px-Butter_Pats_%288515237313%29.jpg",
+    "vietnamese_name": "Tay Scotch",
+    "category": "Milk"
+  },
+  {
+    "name": "Sweet chili sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coconut_shrimp_with_a_sweet_chili_sauce.jpg/330px-Coconut_shrimp_with_a_sweet_chili_sauce.jpg",
+    "vietnamese_name": "Tương ớt ngọt",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chammanthi podi",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chutney_Powder.JPG/330px-Chutney_Powder.JPG",
+    "vietnamese_name": "Chammanthi podi",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Coconut chutney",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Coconut_Chutney_-_Home_Made.JPG/330px-Coconut_Chutney_-_Home_Made.JPG",
+    "vietnamese_name": "Dừa Chutney",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Garlic chutney",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/South_Indian_garlic_chutney.png/330px-South_Indian_garlic_chutney.png",
+    "vietnamese_name": "Tỏi chutney",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Green mango chutney",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Unripe_Mango_Chutney_-_Kolkata_2011-02-23_1714.JPG/330px-Unripe_Mango_Chutney_-_Kolkata_2011-02-23_1714.JPG",
+    "vietnamese_name": "Chutney xoài xanh",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Peanut chutney",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Plain_Dosa_with_Peanut_Chutney.jpg/330px-Plain_Dosa_with_Peanut_Chutney.jpg",
+    "vietnamese_name": "Chutney đậu phộng",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Red ant chutney",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Chhapra_Chutney_made_from_Red_Ant_a_food_of_Baster_region_at_Aadi_Mahotsav_MG_8684.jpg/330px-Chhapra_Chutney_made_from_Red_Ant_a_food_of_Baster_region_at_Aadi_Mahotsav_MG_8684.jpg",
+    "vietnamese_name": "Chutney kiến đỏ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sooth (chutney)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Aloo_Tikki_served_with_chutneys.jpg/330px-Aloo_Tikki_served_with_chutneys.jpg",
+    "vietnamese_name": "Bồ hóng (chutney)",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Curry powder",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Curry_powder_in_the_spice-bazaar_in_Istanbul.jpg/330px-Curry_powder_in_the_spice-bazaar_in_Istanbul.jpg",
+    "vietnamese_name": "Bột cà ri",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Curry ketchup",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Curry_ketchup.jpg/330px-Curry_ketchup.jpg",
+    "vietnamese_name": "Cà ri cà chua",
+    "category": "Sauces"
+  },
+  {
+    "name": "Mutton curry",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Bengali_Mutton_Curry.JPG/330px-Bengali_Mutton_Curry.JPG",
+    "vietnamese_name": "Cà ri cừu",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Curry paste",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Patak%27s_sauces_for_sale_in_Asda.jpg/330px-Patak%27s_sauces_for_sale_in_Asda.jpg",
+    "vietnamese_name": "Cà ri dán",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Shrimp curry",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Shrimp_curry_on_plate.jpg/330px-Shrimp_curry_on_plate.jpg",
+    "vietnamese_name": "Cà ri tôm",
+    "category": "Instant Foods"
+  },
+  {
+    "name": "Almond tofu",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Almond_jelly.jpg/330px-Almond_jelly.jpg",
+    "vietnamese_name": "Đậu hũ hạnh nhân",
+    "category": "Snacks"
+  },
+  {
+    "name": "Coffee jelly",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coffee_jelly.jpg/330px-Coffee_jelly.jpg",
+    "vietnamese_name": "Thạch cà phê",
+    "category": "Snacks"
+  },
+  {
+    "name": "List of grass jelly plants",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/A_Bowl_of_Grass_Jelly_from_Dong_Yuen_Chinese_Restaurtant.jpg/330px-A_Bowl_of_Grass_Jelly_from_Dong_Yuen_Chinese_Restaurtant.jpg",
+    "vietnamese_name": "Danh sách các loại cây thạch cỏ",
+    "category": "Snacks"
+  },
+  {
+    "name": "Peanut butter and jelly sandwich",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Peanut-Butter-Jelly-Sandwich.jpg/330px-Peanut-Butter-Jelly-Sandwich.jpg",
+    "vietnamese_name": "Bơ đậu phộng và bánh sandwich thạch",
+    "category": "Snacks"
+  },
+  {
+    "name": "Brooks Catsup Bottle water tower",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Collinsville_watertower.jpg/330px-Collinsville_watertower.jpg",
+    "vietnamese_name": "Brooks Catsup Chai tháp nước",
+    "category": "Beverages"
+  },
+  {
+    "name": "The Compleat Housewife",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eliza_Smith_The_Compleat_Housewife.jpg/330px-Eliza_Smith_The_Compleat_Housewife.jpg",
+    "vietnamese_name": "Các Compleat bà nội trợ",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Ketchup as a vegetable",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Stammtisch_Ruhrgebiet_Januar_2007_Oberhausen_Pommes.JPG/330px-Stammtisch_Ruhrgebiet_Januar_2007_Oberhausen_Pommes.JPG",
+    "vietnamese_name": "Ketchup như một loại rau",
+    "category": "Beverages"
+  },
+  {
+    "name": "Ketchup chips",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ketchup_chips.jpg/330px-Ketchup_chips.jpg",
+    "vietnamese_name": "Khoai tây chiên",
+    "category": "Snacks"
+  },
+  {
+    "name": "James Mease",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Dr._James_Mease.png/300px-Dr._James_Mease.png",
+    "vietnamese_name": "James Mease",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Mushroom ketchup",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mushroom_ketchup_%28homemade%29_-_%28cropped%29.jpg/330px-Mushroom_ketchup_%28homemade%29_-_%28cropped%29.jpg",
+    "vietnamese_name": "Sốt cà chua nấm",
+    "category": "Beverages"
+  },
+  {
+    "name": "You mean a woman can open it?",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Alcoa_Aluminum_advert_1953.png/330px-Alcoa_Aluminum_advert_1953.png",
+    "vietnamese_name": "Ý anh là phụ nữ có thể mở nó?",
+    "category": "Snacks"
+  },
+  {
+    "name": "National Mustard Museum",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/MustardMuseum.jpg/330px-MustardMuseum.jpg",
+    "vietnamese_name": "Bảo tàng mù tạt quốc gia",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Chamoy (sauce)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Manzana_Cubierta_de_Chamoy.jpg/330px-Manzana_Cubierta_de_Chamoy.jpg",
+    "vietnamese_name": "Chamoy (nước sốt)",
+    "category": "Sauces"
+  },
+  {
+    "name": "Chow-chow (food)",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Chow_Chow.JPG/330px-Chow_Chow.JPG",
+    "vietnamese_name": "Chow-chow (thực phẩm)",
+    "category": "Snacks"
+  },
+  {
+    "name": "Christmas pickle",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Glass_Christmas_Pickle_%28357166102%29.jpg/330px-Glass_Christmas_Pickle_%28357166102%29.jpg",
+    "vietnamese_name": "Giáng sinh dưa chua",
+    "category": "Snacks"
+  },
+  {
+    "name": "Dilly beans",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Dilly_beans.jpg/330px-Dilly_beans.jpg",
+    "vietnamese_name": "Đậu Dilly",
+    "category": "Snacks"
+  },
+  {
+    "name": "Pickled herring",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Aringa-marinato.jpg/330px-Aringa-marinato.jpg",
+    "vietnamese_name": "Cá trích ngâm",
+    "category": "Snacks"
+  },
+  {
+    "name": "Preserved lemon",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lemon_Pickle.jpg/330px-Lemon_Pickle.jpg",
+    "vietnamese_name": "Bảo quản chanh",
+    "category": "Snacks"
+  },
+  {
+    "name": "Mixed pickle",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mixed_Pickles_%289370-72%29.jpg/330px-Mixed_Pickles_%289370-72%29.jpg",
+    "vietnamese_name": "Dưa chua hỗn hợp",
+    "category": "Snacks"
+  },
+  {
+    "name": "Pickled onion",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rew13d10-805_Pickled_Onions.JPG/330px-Rew13d10-805_Pickled_Onions.JPG",
+    "vietnamese_name": "Hành tây muối",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Pickled carrot",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Daikon-carrot_pickles_%284743661333%29.jpg/330px-Daikon-carrot_pickles_%284743661333%29.jpg",
+    "vietnamese_name": "Cà rốt muối",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Pickled cucumber",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pickle.jpg/330px-Pickle.jpg",
+    "vietnamese_name": "Dưa chuột muối",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Torshi",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mixed_Pickles_%289370-72%29.jpg/330px-Mixed_Pickles_%289370-72%29.jpg",
+    "vietnamese_name": "TorshiName",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Italian dressing",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Italian_dressing.jpg",
+    "vietnamese_name": "Ý mặc quần áo",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Ranch dressing",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ranch_dressing.jpg/330px-Ranch_dressing.jpg",
+    "vietnamese_name": "Trang trại mặc quần áo",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Thousand Island dressing",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Thousand-Island-Dressing.jpg/330px-Thousand-Island-Dressing.jpg",
+    "vietnamese_name": "Thousand Island mặc quần áo",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Traditional balsamic vinegar",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Barrels_vinegar.jpg/330px-Barrels_vinegar.jpg",
+    "vietnamese_name": "Giấm balsamic truyền thống",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Bread and salt",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Russian_bread_and_salt.jpg/330px-Russian_bread_and_salt.jpg",
+    "vietnamese_name": "Bánh mì và muối",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "A grain of salt",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Naturalishistoria.jpg",
+    "vietnamese_name": "Một hạt muối",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Health effects of salt",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Single_grain_of_table_salt_%28electron_micrograph%29.jpg/330px-Single_grain_of_table_salt_%28electron_micrograph%29.jpg",
+    "vietnamese_name": "Ảnh hưởng sức khỏe của muối",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Lawry's Seasoned Salt",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lawry%27s_Seasoned_Salt.jpg/330px-Lawry%27s_Seasoned_Salt.jpg",
+    "vietnamese_name": "Muối gia vị của Lawry",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Salt and light",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Weigel_lamp_on_a_stand_and_the_growing_seed.jpg",
+    "vietnamese_name": "Muối và ánh sáng",
+    "category": "Grains & Staples"
+  },
+  {
+    "name": "Seasoned salt",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Seasoned_Salt%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg/330px-Seasoned_Salt%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg",
+    "vietnamese_name": "Muối ăn",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Spread (food)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Buttered_crumpet.jpg/330px-Buttered_crumpet.jpg",
+    "vietnamese_name": "Spread (thực phẩm)",
+    "category": "Snacks"
+  },
+  {
+    "name": "Apple butter",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Beurr%C3%A9e_d%27ni%C3%A8r_beurre_black_butter_on_bread.jpg/330px-Beurr%C3%A9e_d%27ni%C3%A8r_beurre_black_butter_on_bread.jpg",
+    "vietnamese_name": "Bơ táo",
+    "category": "Snacks"
+  },
+  {
+    "name": "Benedictine (spread)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Benedictine_spread.jpg/330px-Benedictine_spread.jpg",
+    "vietnamese_name": "Benedictine (lan rộng)",
+    "category": "Snacks"
+  },
+  {
+    "name": "Chocolate spread",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Schockelasbotterschmir.jpg/330px-Schockelasbotterschmir.jpg",
+    "vietnamese_name": "Sô cô la lây lan",
+    "category": "Snacks"
+  },
+  {
+    "name": "Chopped liver",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/ChoppedLiver.jpg/330px-ChoppedLiver.jpg",
+    "vietnamese_name": "Xắt nhỏ gan",
+    "category": "Snacks"
+  },
+  {
+    "name": "Clotted cream",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Clotted_cream_%28cropped%29.JPG/330px-Clotted_cream_%28cropped%29.JPG",
+    "vietnamese_name": "Bánh kem",
+    "category": "Snacks"
+  },
+  {
+    "name": "Clover (spread)",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Clover_spread.jpg/330px-Clover_spread.jpg",
+    "vietnamese_name": "Cỏ ba lá (lan rộng)",
+    "category": "Snacks"
+  },
+  {
+    "name": "Marshmallow creme",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Marshmallow_fluff2.jpg/330px-Marshmallow_fluff2.jpg",
+    "vietnamese_name": "Kem Marshmallow",
+    "category": "Snacks"
+  },
+  {
+    "name": "Plum butter",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Powidla.jpg/330px-Powidla.jpg",
+    "vietnamese_name": "Mận bơ",
+    "category": "Snacks"
+  },
+  {
+    "name": "Solomon Gundy",
+    "unit": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Jamaican_solomon_gundy.jpg/330px-Jamaican_solomon_gundy.jpg",
+    "vietnamese_name": "Hoanglinh Nguyen",
+    "category": "Snacks"
+  },
+  {
+    "name": "Chashni",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Chaashnig_Hot_Sauce.jpg/330px-Chaashnig_Hot_Sauce.jpg",
+    "vietnamese_name": "ChashniName",
+    "category": "Beverages"
+  },
+  {
+    "name": "Chocolate syrup",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Chocolate_syrup_topping_on_ice_cream.JPG/330px-Chocolate_syrup_topping_on_ice_cream.JPG",
+    "vietnamese_name": "Sôcôla xi-rô",
+    "category": "Beverages"
+  },
+  {
+    "name": "Date honey",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Rub-libyan-syrup.JPG/330px-Rub-libyan-syrup.JPG",
+    "vietnamese_name": "Ngày mật ong",
+    "category": "Beverages"
+  },
+  {
+    "name": "Fox's U-bet chocolate syrup",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ubet.jpg/330px-Ubet.jpg",
+    "vietnamese_name": "Xi-rô sô cô la U-bet của Fox",
+    "category": "Beverages"
+  },
+  {
+    "name": "Brown rice syrup",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rice_syrup.JPG/330px-Rice_syrup.JPG",
+    "vietnamese_name": "Xi rô gạo lứt",
+    "category": "Beverages"
+  },
+  {
+    "name": "Fermented bean curd",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Fermentedchilibeancurd.jpg/330px-Fermentedchilibeancurd.jpg",
+    "vietnamese_name": "Đậu phụ lên men",
+    "category": "Prepared Vegetables"
+  },
+  {
+    "name": "Four thieves vinegar",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Toulouse_-_Mus%C3%A9e_Paul-Dupuy_-_20110909_%281%29.jpg/330px-Toulouse_-_Mus%C3%A9e_Paul-Dupuy_-_20110909_%281%29.jpg",
+    "vietnamese_name": "Bốn tên trộm giấm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "International Vinegar Museum",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/International_vinegar_museum_Roslyn_SD_2008.jpg/330px-International_vinegar_museum_Roslyn_SD_2008.jpg",
+    "vietnamese_name": "Bảo tàng Giấm Quốc tế",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Mother of vinegar",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mother_of_vinegar.png/330px-Mother_of_vinegar.png",
+    "vietnamese_name": "Mẹ của giấm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Sherry vinegar",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sherryvinegar.jpg/330px-Sherryvinegar.jpg",
+    "vietnamese_name": "Sherry giấm",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Speas Vinegar Company",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Speas_Vinegar_building.jpg/330px-Speas_Vinegar_building.jpg",
+    "vietnamese_name": "Công ty Giấm Speas",
+    "category": "Seasonings"
+  },
+  {
+    "name": "Switchel",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The-Switchel_close-up%282%29.jpg/330px-The-Switchel_close-up%282%29.jpg",
+    "vietnamese_name": "Trang chủ",
+    "category": "Beverages"
+  },
+  {
+    "name": "Honey garlic sauce",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Chicken_wings_with_honey-garlic_sauce.jpg/330px-Chicken_wings_with_honey-garlic_sauce.jpg",
+    "vietnamese_name": "Mật ong sốt tỏi",
+    "category": "Sauces"
+  },
+  {
+    "name": "Jeow bong",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jeow_Bong_-_Laotian_chili_dip.jpg/330px-Jeow_Bong_-_Laotian_chili_dip.jpg",
+    "vietnamese_name": "Jeow bong",
+    "category": "Sauces"
+  },
+  {
+    "name": "Sauce andalouse",
+    "unit": "ml",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Belgian_frites_with_andalouse_sauce.jpg/330px-Belgian_frites_with_andalouse_sauce.jpg",
+    "vietnamese_name": "Nước sốt andalouse",
+    "category": "Sauces"
+  }
+]
