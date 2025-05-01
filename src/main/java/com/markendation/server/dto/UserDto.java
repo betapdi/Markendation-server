@@ -22,6 +22,7 @@ public class UserDto {
     private String email;
     private BasketDto basket;
     private Location location;
+    private List<BasketDto> savedBaskets;
 
     public void update(User user) {
         id = user.getId();
@@ -31,5 +32,12 @@ public class UserDto {
 
         basket = new BasketDto();
         basket.update(user.getBasket());
+
+        savedBaskets = new ArrayList<>();
+        for (Basket basket : user.getSavedBaskets()) {
+            BasketDto dto = new BasketDto();
+            dto.update(basket);
+            savedBaskets.add(dto);
+        }
     }
 }

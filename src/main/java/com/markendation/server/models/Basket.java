@@ -30,14 +30,16 @@ public class Basket {
 
     private String userId;
 
+    private String basketName;
+
     @Builder.Default
     List<Ingredient> ingredients = new ArrayList<>();
     
     @Builder.Default
     List<Dish> dishes = new ArrayList<>();
-
     public void update(BasketDto basketDto) {
         if (basketDto.getId() != null) id = basketDto.getId();
+        basketName = basketDto.getBasketName();
         ingredients.clear(); dishes.clear();
         for (DishDto dishDto : basketDto.getDishes()) {
             Dish dish = new Dish();

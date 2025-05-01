@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -57,6 +58,8 @@ public class User implements UserDetails {
 
     @DBRef
     private Basket basket;
+
+    private List<Basket> savedBaskets = new ArrayList<>();
 
     @Builder.Default 
     private boolean isEnabled = true;

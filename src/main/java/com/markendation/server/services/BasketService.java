@@ -120,4 +120,25 @@ public class BasketService {
         List<StoreCalculation> response = calculatingService.calculateIngredients(user.getLocation(), ingredients);
         return response;
     }
+
+    public String saveBasket(String email, BasketDto dto) {
+        User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
+        Basket basket = new Basket();
+        basket.update(dto);
+
+        System.out.println(basket);
+
+        user.getSavedBaskets().add(basket);
+        userRepository.save(user);
+
+        return "Basket saved!";
+    }
+
+    public String removeSavedBasket(String email, int index) {
+        User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
+        user.getSavedBaskets().remove(index);
+
+        userRepository.save(user);
+        return "Basket removed!";
+    }
 }

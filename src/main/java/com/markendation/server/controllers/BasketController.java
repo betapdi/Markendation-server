@@ -16,6 +16,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -46,4 +47,19 @@ public class BasketController {
         List<StoreCalculation> response = basketService.recommendStore(userDetails.getUsername());
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
+
+    @PostMapping("/save")
+    public ResponseEntity<String> saveBasket(@AuthenticationPrincipal UserDetails userDetails, @RequestBody BasketDto basket) {
+        String response = basketService.saveBasket(userDetails.getUsername(), basket);
+        
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    @PostMapping("/remove/{index}")
+    public ResponseEntity<String> removeSavedBasket(@AuthenticationPrincipal UserDetails userDetails, @PathVariable("index") int index) {
+        String response = basketService.removeSavedBasket(userDetails.getUsername(), index);
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+    
+    
 }
