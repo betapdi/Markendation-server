@@ -10,6 +10,9 @@ import com.markendation.server.services.AIService;
 
 import jakarta.ws.rs.core.Response;
 
+import java.io.IOException;
+import java.util.Map;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,14 +29,15 @@ public class AIController {
     }
 
     @PostMapping("/image")
-    public ResponseEntity<DishDto> processImage(@RequestParam("image") MultipartFile file) {
+    public ResponseEntity<DishDto> processImage(@RequestParam("image") MultipartFile file) throws IOException {
         DishDto response = aiService.extractFromImage(file);
         
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @PostMapping("/text")
-    public ResponseEntity<DishDto> processText(@RequestBody String description) {
+    public ResponseEntity<DishDto> processText(@RequestBody Map<String, String> mapping) {
+        String description = mapping.get("description");
         DishDto response = aiService.extractFromText(description);
 
         return new ResponseEntity<>(response, HttpStatus.OK);

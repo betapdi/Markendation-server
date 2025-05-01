@@ -141,4 +141,18 @@ public class BasketService {
         userRepository.save(user);
         return "Basket removed!";
     }
+
+    public List<BasketDto> getSavedBaskets(String email) {
+        User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
+        
+        List<BasketDto> response = new ArrayList<>();
+        for (Basket basket : user.getSavedBaskets()) {
+            BasketDto dto = new BasketDto();
+            dto.update(basket);
+
+            response.add(dto);
+        }
+
+        return response;
+    }
 }

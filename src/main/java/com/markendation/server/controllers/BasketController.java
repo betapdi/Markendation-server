@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 
 @RestController
@@ -47,6 +49,13 @@ public class BasketController {
         List<StoreCalculation> response = basketService.recommendStore(userDetails.getUsername());
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
+
+    @GetMapping("/savedBaskets")
+    public ResponseEntity<List<BasketDto>> getMethodName(@AuthenticationPrincipal UserDetails userDetails) {
+        List<BasketDto> response = basketService.getSavedBaskets(userDetails.getUsername());
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+    
 
     @PostMapping("/save")
     public ResponseEntity<String> saveBasket(@AuthenticationPrincipal UserDetails userDetails, @RequestBody BasketDto basket) {

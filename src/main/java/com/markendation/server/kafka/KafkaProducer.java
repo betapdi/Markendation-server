@@ -3,19 +3,28 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+import com.markendation.server.utils.ImageModelEvent;
+import com.markendation.server.utils.TextModelEvent;
+
 @Service
 public class KafkaProducer {
 
     @Value("${kafka.producer.topic}")
     String topic;
 
-    private final KafkaTemplate<String, String> kafkaTemplate;
+    private final KafkaTemplate<String, TextModelEvent> textTemplate;
+    private final KafkaTemplate<String, ImageModelEvent> imageTemplate;
 
-    public KafkaProducer(KafkaTemplate<String, String> kafkaTemplate) {
-        this.kafkaTemplate = kafkaTemplate;
+    public KafkaProducer(KafkaTemplate<String, TextModelEvent> textTemplate, KafkaTemplate<String, ImageModelEvent> imageTemplate) {
+        this.textTemplate = textTemplate;
+        this.imageTemplate = imageTemplate;
     }
 
-    public void send(String message) {
-        kafkaTemplate.send(topic, message);
+    public void send(TextModelEvent event) {
+        textTemplate.send(topic, event);
+    }
+
+    public void send(ImageModelEvent event) {
+        imageTemplate.send(topic, event);
     }
 }

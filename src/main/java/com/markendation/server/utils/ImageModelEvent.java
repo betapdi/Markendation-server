@@ -10,5 +10,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ImageModelEvent {
+    String eventType = "image";
     String imageUrl;
 }

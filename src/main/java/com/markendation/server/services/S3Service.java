@@ -22,8 +22,9 @@ public class S3Service {
         this.s3Client = s3Client;
     }
 
-    public void uploadImage(MultipartFile file) throws IOException {
-        String key = "uploads/" + file.getOriginalFilename();  // S3 object key
+    public String uploadImage(MultipartFile file) throws IOException {
+        String currTime = String.valueOf(System.currentTimeMillis());
+        String key = "uploads/" + currTime + file.getOriginalFilename();  // S3 object key
         Path tempFile = Files.createTempFile("upload-", file.getOriginalFilename());
         file.transferTo(tempFile.toFile());
 
@@ -37,5 +38,6 @@ public class S3Service {
         );
 
         Files.deleteIfExists(tempFile); 
+        return key;
     }
 }
