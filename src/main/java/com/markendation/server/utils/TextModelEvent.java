@@ -10,6 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class TextModelEvent {
+    String correlationId;
     String eventType = "text";
     String description;
 }

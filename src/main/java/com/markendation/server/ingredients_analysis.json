@@ -1,0 +1,2681 @@
+[
+  {
+    "Arborio rice": [
+      {
+        "ingredient_name": "Arborio rice",
+        "vietnamese_name": "Gạo Arborio",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arborio_Rice.jpg/1200px-Arborio_Rice.jpg"
+      }
+    ]
+  },
+  {
+    "Nori seaweed sheets": [
+      {
+        "ingredient_name": "Nori seaweed sheets",
+        "vietnamese_name": "Lá rong biển nori",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Nori_seaweed.jpg/1200px-Nori_seaweed.jpg"
+      }
+    ]
+  },
+  {
+    "Onion": [
+      {
+        "ingredient_name": "Onion",
+        "vietnamese_name": "Hành tây",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Onions_and_cross_section.jpg/1200px-Onions_and_cross_section.jpg"
+      }
+    ]
+  },
+  {
+    "Parmesan cheese": [
+      {
+        "ingredient_name": "Parmesan cheese",
+        "vietnamese_name": "Phô mai Parmesan",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Parmesan_cheese_chunks.jpg/1200px-Parmesan_cheese_chunks.jpg"
+      }
+    ]
+  },
+  {
+    "Rice vinegar": [
+      {
+        "ingredient_name": "Rice vinegar",
+        "vietnamese_name": "Giấm gạo",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.foodiesfeed.com/wp-content/uploads/2019/06/rice-vinegar.jpg"
+      }
+    ]
+  },
+  {
+    "Sushi rice": [
+      {
+        "ingredient_name": "Sushi rice",
+        "vietnamese_name": "Gạo sushi",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://www.edamam.com/food-img/c70/c7029051719e66c68e1b56b0c567b9a0.jpg"
+      }
+    ]
+  },
+  {
+    "Vegetable broth": [
+      {
+        "ingredient_name": "Vegetable broth",
+        "vietnamese_name": "Nước dùng rau củ",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Vegetable_broth.jpg/1280px-Vegetable_broth.jpg"
+      }
+    ]
+  },
+  {
+    "all-purpose flour": [
+      {
+        "ingredient_name": "all-purpose flour",
+        "vietnamese_name": "bột mì đa dụng",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flour_in_bowl.jpg/1200px-Flour_in_bowl.jpg"
+      }
+    ]
+  },
+  {
+    "almond flour": [
+      {
+        "ingredient_name": "almond flour",
+        "vietnamese_name": "bột hạnh nhân",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Almond_flour.jpg/1200px-Almond_flour.jpg"
+      }
+    ]
+  },
+  {
+    "andouille sausage": [
+      {
+        "ingredient_name": "andouille sausage",
+        "vietnamese_name": "Xúc xích andouille",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Andouille_sausage.jpg/1280px-Andouille_sausage.jpg"
+      }
+    ]
+  },
+  {
+    "apples": [
+      {
+        "ingredient_name": "apples",
+        "vietnamese_name": "táo",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/1200px-Red_Apple.jpg"
+      }
+    ]
+  },
+  {
+    "avocado": [
+      {
+        "ingredient_name": "avocado",
+        "vietnamese_name": "quả bơ",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Avocado_and_cross_section.jpg/1200px-Avocado_and_cross_section.jpg"
+      }
+    ]
+  },
+  {
+    "baby back ribs": [
+      {
+        "ingredient_name": "baby back ribs",
+        "vietnamese_name": "sườn non",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.thespruceeats.com/thmb/XwG7hY5R7p2P9uR-hL14wW_3T8k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1149899329-5c17f95a46e0fb000170990d.jpg"
+      }
+    ]
+  },
+  {
+    "bacon": [
+      {
+        "ingredient_name": "bacon",
+        "vietnamese_name": "thịt xông khói",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://www.example.com/bacon.jpg"
+      }
+    ]
+  },
+  {
+    "baking powder": [
+      {
+        "ingredient_name": "baking powder",
+        "vietnamese_name": "bột nở",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Baking_powder_close-up.jpg/1200px-Baking_powder_close-up.jpg"
+      }
+    ]
+  },
+  {
+    "baking soda": [
+      {
+        "ingredient_name": "baking soda",
+        "vietnamese_name": "bột nở",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Baking_soda_sodium_bicarbonate.jpg/1200px-Baking_soda_sodium_bicarbonate.jpg"
+      }
+    ]
+  },
+  {
+    "bamboo shoots": [
+      {
+        "ingredient_name": "bamboo shoots",
+        "vietnamese_name": "măng tre",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bamboo_shoots.jpg/1280px-Bamboo_shoots.jpg"
+      }
+    ]
+  },
+  {
+    "barbecue sauce": [
+      {
+        "ingredient_name": "barbecue sauce",
+        "vietnamese_name": "sốt thịt nướng",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.allrecipes.com/thmb/J7wW36lM_mE5uJ33jPqf-4mB-yM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4940594-homemade-barbecue-sauce-Buckwheat-Queen-4x3-1-2000-466105e653c242e7b4d4a25d8dd428a6.jpg"
+      }
+    ]
+  },
+  {
+    "bean sprouts": [
+      {
+        "ingredient_name": "bean sprouts",
+        "vietnamese_name": "Giá đỗ",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bean_sprouts.jpg/1200px-Bean_sprouts.jpg"
+      }
+    ]
+  },
+  {
+    "beef": [
+      {
+        "ingredient_name": "beef",
+        "vietnamese_name": "thịt bò",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Beef_steak.jpg/1280px-Beef_steak.jpg"
+      }
+    ]
+  },
+  {
+    "beef bones": [
+      {
+        "ingredient_name": "beef bones",
+        "vietnamese_name": "xương bò",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.example.com/beef_bones.jpg"
+      }
+    ]
+  },
+  {
+    "beef broth": [
+      {
+        "ingredient_name": "beef broth",
+        "vietnamese_name": "nước dùng bò",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Beef_broth.jpg/1200px-Beef_broth.jpg"
+      }
+    ]
+  },
+  {
+    "beef tenderloin": [
+      {
+        "ingredient_name": "beef tenderloin",
+        "vietnamese_name": "thăn nội bò",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Beef_tenderloin.jpg/1280px-Beef_tenderloin.jpg"
+      }
+    ]
+  },
+  {
+    "beets": [
+      {
+        "ingredient_name": "beets",
+        "vietnamese_name": "củ cải đường",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Beetroot.jpg/1200px-Beetroot.jpg"
+      }
+    ]
+  },
+  {
+    "bell pepper": [
+      {
+        "ingredient_name": "bell pepper",
+        "vietnamese_name": "ớt chuông",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Bell_peppers_in_market.jpg/1280px-Bell_peppers_in_market.jpg"
+      }
+    ]
+  },
+  {
+    "black pepper": [
+      {
+        "ingredient_name": "black pepper",
+        "vietnamese_name": "tiêu đen",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Black_Peppercorns.jpg/1200px-Black_Peppercorns.jpg"
+      }
+    ]
+  },
+  {
+    "bonito flakes": [
+      {
+        "ingredient_name": "bonito flakes",
+        "vietnamese_name": "vảy cá ngừ bào",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Katsuobushi_pile.jpg/1280px-Katsuobushi_pile.jpg"
+      }
+    ]
+  },
+  {
+    "bread": [
+      {
+        "ingredient_name": "bread",
+        "vietnamese_name": "bánh mì",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bread-01.jpg/1200px-Bread-01.jpg"
+      }
+    ]
+  },
+  {
+    "bread crumbs": [
+      {
+        "ingredient_name": "bread crumbs",
+        "vietnamese_name": "bột chiên xù",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Breadcrumbs.jpg/1200px-Breadcrumbs.jpg"
+      }
+    ]
+  },
+  {
+    "burger buns": [
+      {
+        "ingredient_name": "burger buns",
+        "vietnamese_name": "bánh mì burger",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Burger_bun.jpg/1200px-Burger_bun.jpg"
+      }
+    ]
+  },
+  {
+    "butter": [
+      {
+        "ingredient_name": "butter",
+        "vietnamese_name": "bơ",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Butter_on_a_plate.jpg/1200px-Butter_on_a_plate.jpg"
+      }
+    ]
+  },
+  {
+    "buttermilk": [
+      {
+        "ingredient_name": "buttermilk",
+        "vietnamese_name": "bơ sữa",
+        "unit": "ml",
+        "category": "Milk",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Buttermilk.jpg/1200px-Buttermilk.jpg"
+      }
+    ]
+  },
+  {
+    "cabbage": [
+      {
+        "ingredient_name": "cabbage",
+        "vietnamese_name": "bắp cải",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.foodiesfeed.com/wp-content/uploads/2023/05/cabbage-head-top-view.jpg"
+      }
+    ]
+  },
+  {
+    "calamari": [
+      {
+        "ingredient_name": "calamari",
+        "vietnamese_name": "mực ống",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Calamari.jpg/1280px-Calamari.jpg"
+      }
+    ]
+  },
+  {
+    "canadian bacon": [
+      {
+        "ingredient_name": "canadian bacon",
+        "vietnamese_name": "thịt xông khói kiểu Canada",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Canadian_bacon.jpg/1200px-Canadian_bacon.jpg"
+      }
+    ]
+  },
+  {
+    "capers": [
+      {
+        "ingredient_name": "capers",
+        "vietnamese_name": "nụ bạch hoa",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Capers.jpg/1200px-Capers.jpg"
+      }
+    ]
+  },
+  {
+    "cardamom": [
+      {
+        "ingredient_name": "cardamom",
+        "vietnamese_name": "bạch đậu khấu",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cardamom_pods.jpg/1200px-Cardamom_pods.jpg"
+      }
+    ]
+  },
+  {
+    "carrots": [
+      {
+        "ingredient_name": "carrots",
+        "vietnamese_name": "cà rốt",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Carrots_at_market.jpg/1200px-Carrots_at_market.jpg"
+      }
+    ]
+  },
+  {
+    "celery": [
+      {
+        "ingredient_name": "celery",
+        "vietnamese_name": "cần tây",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Celery_on_a_white_background.jpg/1280px-Celery_on_a_white_background.jpg"
+      }
+    ]
+  },
+  {
+    "cheddar cheese": [
+      {
+        "ingredient_name": "cheddar cheese",
+        "vietnamese_name": "Phô mai Cheddar",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cheddar-cheese-slices.jpg/800px-Cheddar-cheese-slices.jpg"
+      }
+    ]
+  },
+  {
+    "cheese": [
+      {
+        "ingredient_name": "cheese",
+        "vietnamese_name": "Phô mai",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Various_cheeses.jpg/1280px-Various_cheeses.jpg"
+      }
+    ]
+  },
+  {
+    "cheese curds": [
+      {
+        "ingredient_name": "cheese curds",
+        "vietnamese_name": "Phô mai cục",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cheese_curds.jpg/1200px-Cheese_curds.jpg"
+      }
+    ]
+  },
+  {
+    "chicken": [
+      {
+        "ingredient_name": "chicken",
+        "vietnamese_name": "thịt gà",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.shutterstock.com/image-photo/raw-chicken-legs-isolated-on-260nw-1902136250.jpg"
+      },
+      {
+        "ingredient_name": "chicken",
+        "vietnamese_name": "ức gà",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.simplyrecipes.com/thmb/9hC8jR3W-i8B_c-N1qX6j5G47j0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chicken-Breast-LEAD-10-6359a9564a9a46f1ac5708db0950d4f4.jpg"
+      },
+      {
+        "ingredient_name": "chicken",
+        "vietnamese_name": "đùi gà",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.allrecipes.com/thmb/99r0-gGf9n3Yf1fP_x48yQn4M30=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/243746-baked-chicken-thighs-mfs-636-131b277899e9465898574d472ffc2074.jpg"
+      }
+    ]
+  },
+  {
+    "chicken broth": [
+      {
+        "ingredient_name": "chicken broth",
+        "vietnamese_name": "nước dùng gà",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chicken_broth.jpg/1200px-Chicken_broth.jpg"
+      }
+    ]
+  },
+  {
+    "chicken wings": [
+      {
+        "ingredient_name": "chicken wings",
+        "vietnamese_name": "cánh gà",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Chicken_wings.jpg/1280px-Chicken_wings.jpg"
+      }
+    ]
+  },
+  {
+    "chickpeas": [
+      {
+        "ingredient_name": "chickpeas",
+        "vietnamese_name": "đậu gà",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Chickpeas.jpg/1200px-Chickpeas.jpg"
+      }
+    ]
+  },
+  {
+    "chiles": [
+      {
+        "ingredient_name": "chiles",
+        "vietnamese_name": "Ớt",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.example.com/images/chiles.jpg"
+      },
+      {
+        "ingredient_name": "chiles",
+        "vietnamese_name": "Ớt hiểm",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.example.com/images/chiles_birdseye.jpg"
+      },
+      {
+        "ingredient_name": "chiles",
+        "vietnamese_name": "Ớt chuông",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.example.com/images/chiles_bell.jpg"
+      }
+    ]
+  },
+  {
+    "chili oil": [
+      {
+        "ingredient_name": "chili oil",
+        "vietnamese_name": "dầu ớt",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Chili_oil.jpg/1200px-Chili_oil.jpg"
+      },
+      {
+        "ingredient_name": "chili flakes",
+        "vietnamese_name": "vảy ớt",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.spiceography.com/wp-content/uploads/2020/07/Chili-Flakes.jpg"
+      },
+      {
+        "ingredient_name": "sesame oil",
+        "vietnamese_name": "dầu mè",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.thespruceeats.com/thmb/8s8GvMv05k2dK7s1V0d6K0U6fA0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sesame-oil-5b45574946e0fb0001b08214.jpg"
+      },
+      {
+        "ingredient_name": "garlic",
+        "vietnamese_name": "tỏi",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.gardeningknowhow.com/wp-content/uploads/2013/02/garlic.jpg"
+      },
+      {
+        "ingredient_name": "ginger",
+        "vietnamese_name": "gừng",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.almanac.com/sites/default/files/styles/opengraph/public/image_nodes/ginger.jpg?itok=G8l21U_9"
+      },
+      {
+        "ingredient_name": "star anise",
+        "vietnamese_name": "hoa hồi",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.spiceography.com/wp-content/uploads/2016/06/Star-Anise-1.jpg"
+      },
+      {
+        "ingredient_name": "cinnamon stick",
+        "vietnamese_name": "quế",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.simplyrecipes.com/thmb/i-1zJ-j3B_b_L7iM0yR6I395c84=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cinnamon-Stick-SER-10-4297f4c5e72c4844a77d9386d483c2a6.jpg"
+      }
+    ]
+  },
+  {
+    "chorizo": [
+      {
+        "ingredient_name": "chorizo",
+        "vietnamese_name": "xúc xích chorizo",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chorizo_sausage.jpg/1200px-Chorizo_sausage.jpg"
+      }
+    ]
+  },
+  {
+    "cilantro": [
+      {
+        "ingredient_name": "cilantro",
+        "vietnamese_name": "rau mùi tàu",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cilantro_leaf.jpg/1200px-Cilantro_leaf.jpg"
+      }
+    ]
+  },
+  {
+    "cinnamon": [
+      {
+        "ingredient_name": "cinnamon",
+        "vietnamese_name": "quế",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cinnamon_sticks.jpg/1280px-Cinnamon_sticks.jpg"
+      }
+    ]
+  },
+  {
+    "clam juice": [
+      {
+        "ingredient_name": "clam juice",
+        "vietnamese_name": "nước ép nghêu",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Clam_juice.jpg/1200px-Clam_juice.jpg"
+      }
+    ]
+  },
+  {
+    "clams": [
+      {
+        "ingredient_name": "clams",
+        "vietnamese_name": "nghêu",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Clams_on_ice.jpg/1200px-Clams_on_ice.jpg"
+      }
+    ]
+  },
+  {
+    "cloves": [
+      {
+        "ingredient_name": "cloves",
+        "vietnamese_name": "đinh hương",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cloves_-_whole.jpg/1200px-Cloves_-_whole.jpg"
+      }
+    ]
+  },
+  {
+    "cocoa powder": [
+      {
+        "ingredient_name": "cocoa powder",
+        "vietnamese_name": "bột ca cao",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.simplyrecipes.com/thmb/r1vGjM8c0t1B754d7Y1j9KjJ4qE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cocoa-Powder-LEAD-04-11649b9557694c659e3e753718f73b39.jpg"
+      }
+    ]
+  },
+  {
+    "coconut milk": [
+      {
+        "ingredient_name": "coconut milk",
+        "vietnamese_name": "nước cốt dừa",
+        "unit": "ml",
+        "category": "Beverages",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Coconut_milk.jpg/1200px-Coconut_milk.jpg"
+      }
+    ]
+  },
+  {
+    "cooked rice": [
+      {
+        "ingredient_name": "cooked rice",
+        "vietnamese_name": "cơm",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Cooked_rice.jpg/1200px-Cooked_rice.jpg"
+      }
+    ]
+  },
+  {
+    "cornstarch": [
+      {
+        "ingredient_name": "cornstarch",
+        "vietnamese_name": "bột bắp",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Cornstarch.jpg/1200px-Cornstarch.jpg"
+      }
+    ]
+  },
+  {
+    "crab meat": [
+      {
+        "ingredient_name": "crab meat",
+        "vietnamese_name": "thịt ghẹ",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Crab_meat.jpg/1280px-Crab_meat.jpg"
+      }
+    ]
+  },
+  {
+    "crackers": [
+      {
+        "ingredient_name": "crackers",
+        "vietnamese_name": "bánh quy",
+        "unit": "g",
+        "category": "Snacks",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Crackers.jpg/1200px-Crackers.jpg"
+      }
+    ]
+  },
+  {
+    "cream": [
+      {
+        "ingredient_name": "cream",
+        "vietnamese_name": "kem",
+        "unit": "ml",
+        "category": "Milk",
+        "image": "https://www.simplyrecipes.com/thmb/zE-tYfFqjO6N5vM-uR7_eE7oV2k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes_EasyWhippedCream_LEAD-0077-45886c1b9f2043d0b239b83f5268995c.jpg"
+      },
+      {
+        "ingredient_name": "cream",
+        "vietnamese_name": "kem",
+        "unit": "ml",
+        "category": "Ice Cream & Cheese",
+        "image": "https://www.simplyrecipes.com/thmb/zE-tYfFqjO6N5vM-uR7_eE7oV2k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes_EasyWhippedCream_LEAD-0077-45886c1b9f2043d0b239b83f5268995c.jpg"
+      }
+    ]
+  },
+  {
+    "cream cheese": [
+      {
+        "ingredient_name": "cream cheese",
+        "vietnamese_name": "pho mát kem",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cream_cheese.jpg/1200px-Cream_cheese.jpg"
+      }
+    ]
+  },
+  {
+    "croutons": [
+      {
+        "ingredient_name": "croutons",
+        "vietnamese_name": "bánh mì sấy giòn",
+        "unit": "g",
+        "category": "Snacks",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Croutons.jpg/1200px-Croutons.jpg"
+      }
+    ]
+  },
+  {
+    "cucumber": [
+      {
+        "ingredient_name": "cucumber",
+        "vietnamese_name": "dưa chuột",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Cucumber_slices.jpg/1200px-Cucumber_slices.jpg"
+      }
+    ]
+  },
+  {
+    "curry powder": [
+      {
+        "ingredient_name": "curry powder",
+        "vietnamese_name": "bột cà ri",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Curry_powder.jpg/1200px-Curry_powder.jpg"
+      }
+    ]
+  },
+  {
+    "dark chocolate": [
+      {
+        "ingredient_name": "dark chocolate",
+        "vietnamese_name": "sô cô la đen",
+        "unit": "g",
+        "category": "Candies",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Dark_chocolate_pieces.jpg/1200px-Dark_chocolate_pieces.jpg"
+      }
+    ]
+  },
+  {
+    "dashi": [
+      {
+        "ingredient_name": "dashi",
+        "vietnamese_name": "nước dùng dashi",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dashi.jpg/1280px-Dashi.jpg"
+      }
+    ]
+  },
+  {
+    "dried chickpeas": [
+      {
+        "ingredient_name": "dried chickpeas",
+        "vietnamese_name": "đậu gà khô",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Dried_chickpeas.jpg/1200px-Dried_chickpeas.jpg"
+      }
+    ]
+  },
+  {
+    "dried seaweed flakes": [
+      {
+        "ingredient_name": "dried seaweed flakes",
+        "vietnamese_name": "rong biển khô",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Dried_seaweed_flakes.jpg/1200px-Dried_seaweed_flakes.jpg"
+      }
+    ]
+  },
+  {
+    "dried shiitake mushrooms": [
+      {
+        "ingredient_name": "dried shiitake mushrooms",
+        "vietnamese_name": "nấm hương khô",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Dried_shiitake_mushrooms.jpg/1200px-Dried_shiitake_mushrooms.jpg"
+      }
+    ]
+  },
+  {
+    "dry rub": [
+      {
+        "ingredient_name": "brown sugar",
+        "vietnamese_name": "đường nâu",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Brown_sugar.jpg/1200px-Brown_sugar.jpg"
+      },
+      {
+        "ingredient_name": "smoked paprika",
+        "vietnamese_name": "ớt bột xông khói",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Smoked_paprika.jpg/1200px-Smoked_paprika.jpg"
+      },
+      {
+        "ingredient_name": "garlic powder",
+        "vietnamese_name": "bột tỏi",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Garlic_powder.jpg/1200px-Garlic_powder.jpg"
+      },
+      {
+        "ingredient_name": "onion powder",
+        "vietnamese_name": "bột hành",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Onion_powder.jpg/1200px-Onion_powder.jpg"
+      },
+      {
+        "ingredient_name": "black pepper",
+        "vietnamese_name": "tiêu đen",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Black_pepper_pods.jpg/1200px-Black_pepper_pods.jpg"
+      },
+      {
+        "ingredient_name": "sea salt",
+        "vietnamese_name": "muối biển",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sea_salt_crystal.jpg/1200px-Sea_salt_crystal.jpg"
+      },
+      {
+        "ingredient_name": "cayenne pepper",
+        "vietnamese_name": "ớt cayenne",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cayenne_pepper.jpg/1200px-Cayenne_pepper.jpg"
+      }
+    ]
+  },
+  {
+    "duck": [
+      {
+        "ingredient_name": "duck",
+        "vietnamese_name": "vịt",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Duck_breast.jpg/1200px-Duck_breast.jpg"
+      }
+    ]
+  },
+  {
+    "duck or goose liver": [
+      {
+        "ingredient_name": "duck or goose liver",
+        "vietnamese_name": "gan vịt hoặc gan ngỗng",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Duck_liver_-_foie_gras.jpg/1280px-Duck_liver_-_foie_gras.jpg"
+      }
+    ]
+  },
+  {
+    "edamame pods": [
+      {
+        "ingredient_name": "edamame pods",
+        "vietnamese_name": "đậu nành lông",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Edamame_pods.jpg/1280px-Edamame_pods.jpg"
+      }
+    ]
+  },
+  {
+    "egg": [
+      {
+        "ingredient_name": "egg",
+        "vietnamese_name": "trứng",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Egg-chicken.jpg/1200px-Egg-chicken.jpg"
+      }
+    ]
+  },
+  {
+    "egg whites": [
+      {
+        "ingredient_name": "egg whites",
+        "vietnamese_name": "lòng trắng trứng",
+        "unit": "ml",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Egg_white.jpg/1200px-Egg_white.jpg"
+      }
+    ]
+  },
+  {
+    "egg yolk": [
+      {
+        "ingredient_name": "egg yolk",
+        "vietnamese_name": "lòng đỏ trứng",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Egg_yolk.jpg/800px-Egg_yolk.jpg"
+      }
+    ]
+  },
+  {
+    "egg yolks": [
+      {
+        "ingredient_name": "egg yolks",
+        "vietnamese_name": "lòng đỏ trứng",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Egg_yolk_in_bowl.jpg/1200px-Egg_yolk_in_bowl.jpg"
+      }
+    ]
+  },
+  {
+    "eggs": [
+      {
+        "ingredient_name": "eggs",
+        "vietnamese_name": "trứng",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Chicken_eggs.jpg/1200px-Chicken_eggs.jpg"
+      }
+    ]
+  },
+  {
+    "english muffins": [
+      {
+        "ingredient_name": "english muffins",
+        "vietnamese_name": "bánh mì nướng kiểu Anh",
+        "unit": "g",
+        "category": "Cereals & Grains",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/English_muffins.jpg/1200px-English_muffins.jpg"
+      }
+    ]
+  },
+  {
+    "escargots": [
+      {
+        "ingredient_name": "escargots",
+        "vietnamese_name": "ốc sên",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Escargots_de_Bourgogne.jpg/1280px-Escargots_de_Bourgogne.jpg"
+      }
+    ]
+  },
+  {
+    "feta cheese": [
+      {
+        "ingredient_name": "feta cheese",
+        "vietnamese_name": "Phô mai feta",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Feta_cheese.jpg/1200px-Feta_cheese.jpg"
+      }
+    ]
+  },
+  {
+    "filet mignon": [
+      {
+        "ingredient_name": "filet mignon",
+        "vietnamese_name": "thăn bò",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Filet_Mignon.jpg/1200px-Filet_Mignon.jpg"
+      }
+    ]
+  },
+  {
+    "firm tofu": [
+      {
+        "ingredient_name": "firm tofu",
+        "vietnamese_name": "đậu hũ",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tofu_in_a_block.jpg/1200px-Tofu_in_a_block.jpg"
+      }
+    ]
+  },
+  {
+    "fish": [
+      {
+        "ingredient_name": "fish",
+        "vietnamese_name": "cá",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tilapia_fish_in_market.jpg/1280px-Tilapia_fish_in_market.jpg"
+      }
+    ]
+  },
+  {
+    "fish fillets": [
+      {
+        "ingredient_name": "fish fillets",
+        "vietnamese_name": "phi-lê cá",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Fish_fillets.jpg/1280px-Fish_fillets.jpg"
+      }
+    ]
+  },
+  {
+    "fish sauce": [
+      {
+        "ingredient_name": "fish sauce",
+        "vietnamese_name": "nước mắm",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Fish_sauce.jpg/1200px-Fish_sauce.jpg"
+      }
+    ]
+  },
+  {
+    "flour": [
+      {
+        "ingredient_name": "flour",
+        "vietnamese_name": "bột mì",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://www.example.com/flour.jpg"
+      },
+      {
+        "ingredient_name": "flour",
+        "vietnamese_name": "bột năng",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://www.example.com/tapioca_flour.jpg"
+      },
+      {
+        "ingredient_name": "flour",
+        "vietnamese_name": "bột gạo",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://www.example.com/rice_flour.jpg"
+      }
+    ]
+  },
+  {
+    "fresh basil leaves": [
+      {
+        "ingredient_name": "fresh basil leaves",
+        "vietnamese_name": "lá húng quế",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Basil_leaves.jpg/1280px-Basil_leaves.jpg"
+      }
+    ]
+  },
+  {
+    "fresh fish": [
+      {
+        "ingredient_name": "fresh fish",
+        "vietnamese_name": "cá tươi",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Fish_on_ice.jpg/1280px-Fish_on_ice.jpg"
+      }
+    ]
+  },
+  {
+    "fresh herbs (mint, cilantro)": [
+      {
+        "ingredient_name": "fresh herbs (mint, cilantro)",
+        "vietnamese_name": "rau thơm (bạc hà, ngò)",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thespruceeats.com%2Fwhat-are-vietnamese-herbs-3970052&psig=AOvVaw21g76Rj3w450XgB7U1w4sJ&ust=1700815654792000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNiH-c2z4IIDFQAAAAAdAAAAABAE"
+      }
+    ]
+  },
+  {
+    "fresh mozzarella": [
+      {
+        "ingredient_name": "fresh mozzarella",
+        "vietnamese_name": "Mozzarella tươi",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justataste.com%2F2010%2F04%2Fhomemade-fresh-mozzarella%2F&psig=AOvVaw0_b0Ym6Qn4Y4K7k7L6Wz6H&ust=1709228791273000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOiE2-3-5IUDFQAAAAAdAAAAABAE"
+      }
+    ]
+  },
+  {
+    "fries": [
+      {
+        "ingredient_name": "fries",
+        "vietnamese_name": "khoai tây chiên",
+        "unit": "g",
+        "category": "Snacks",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/French_fries.jpeg/1280px-French_fries.jpeg"
+      }
+    ]
+  },
+  {
+    "fruit": [
+      {
+        "ingredient_name": "apples",
+        "vietnamese_name": "táo",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F15%2FApples_multiple_sizes.jpg%2F1200px-Apples_multiple_sizes.jpg&tbnid=0FqR8tV7W19_UM&vet=12ahUKEwjy36-C3vL4AhWVkYkEHc91AhAQMygBegUIARC1AQ..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FApple&docid=K9fF1eQY-iWdJM&w=1200&h=800&q=apple&ved=2ahUKEwjy36-C3vL4AhWVkYkEHc91AhAQMygBegUIARC1AQ"
+      },
+      {
+        "ingredient_name": "bananas",
+        "vietnamese_name": "chuối",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F89%2FBanana_Peel.jpg%2F1200px-Banana_Peel.jpg&tbnid=Jt8b6E0J641RMM&vet=12ahUKEwjk34uR3vL4AhW-k4sKHe5dCgEQMygBegUIARC9AQ..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBanana&docid=zJ5s6y39sU-oEM&w=1200&h=800&q=banana&ved=2ahUKEwjk34uR3vL4AhW-k4sKHe5dCgEQMygBegUIARC9AQ"
+      },
+      {
+        "ingredient_name": "strawberries",
+        "vietnamese_name": "dâu tây",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F4f%2FStrawberries.jpg%2F1200px-Strawberries.jpg&tbnid=Qh42K03eN3gUqM&vet=12ahUKEwiV0f3N3vL4AhXzF7kGHTWVAq0QMygBegUIARC_AQ..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStrawberry&docid=9sX3G20xYgJkWM&w=1200&h=800&q=strawberry&ved=2ahUKEwiV0f3N3vL4AhXzF7kGHTWVAq0QMygBegUIARC_AQ"
+      },
+      {
+        "ingredient_name": "oranges",
+        "vietnamese_name": "cam",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F42%2FOrange-Whole-%26-Split.jpg%2F1200px-Orange-Whole-%26-Split.jpg&tbnid=M6t02Wz9-3-o1M&vet=12ahUKEwjQz-vT3vL4AhU4k4sKHQj8AOUQMygBegUIARCFAg..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOrange&docid=JgOqG912W3E3MM&w=1200&h=800&q=orange&ved=2ahUKEwjQz-vT3vL4AhU4k4sKHQj8AOUQMygBegUIARCFAg"
+      }
+    ]
+  },
+  {
+    "garlic": [
+      {
+        "ingredient_name": "garlic",
+        "vietnamese_name": "tỏi",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Garlic_cloves.jpg/1200px-Garlic_cloves.jpg"
+      }
+    ]
+  },
+  {
+    "gelatin": [
+      {
+        "ingredient_name": "gelatin",
+        "vietnamese_name": "gelatin",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FGreat-Lakes-Unflavored-Gelatin-Packets%2Fdp%2FB000EWA458&psig=AOvVaw0rLqKqJ0i98Jp90G3tS3qH&ust=1701537191024000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNi1y6a00oIDFQAAAAAdAAAAABAJ"
+      }
+    ]
+  },
+  {
+    "ginger": [
+      {
+        "ingredient_name": "ginger",
+        "vietnamese_name": "gừng",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Zingiber_officinale_02.jpg/800px-Zingiber_officinale_02.jpg"
+      }
+    ]
+  },
+  {
+    "ginger-garlic paste": [
+      {
+        "ingredient_name": "ginger-garlic paste",
+        "vietnamese_name": "tỏi gừng xay",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.thespruceeats.com/thmb/721T3P2k6n17Y7VnE76S-X7G6qY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ginger-garlic-paste-GettyImages-541825332-56a83f4d5f9b58b7d0f1ba70.jpg"
+      }
+    ]
+  },
+  {
+    "gochujang": [
+      {
+        "ingredient_name": "gochujang",
+        "vietnamese_name": "tương ớt gochujang",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Gochujang_in_a_pot.jpg/1200px-Gochujang_in_a_pot.jpg"
+      }
+    ]
+  },
+  {
+    "granulated sugar": [
+      {
+        "ingredient_name": "granulated sugar",
+        "vietnamese_name": "đường kính",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Granulated_sugar.jpg/1200px-Granulated_sugar.jpg"
+      }
+    ]
+  },
+  {
+    "grapes": [
+      {
+        "ingredient_name": "grapes",
+        "vietnamese_name": "nho",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_and_wine.jpg/1280px-Table_grapes_and_wine.jpg"
+      }
+    ]
+  },
+  {
+    "gravy": [
+      {
+        "ingredient_name": "gravy",
+        "vietnamese_name": "nước thịt",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Gravy_in_a_boat.jpg/1280px-Gravy_in_a_boat.jpg"
+      }
+    ]
+  },
+  {
+    "green onion": [
+      {
+        "ingredient_name": "green onion",
+        "vietnamese_name": "hành lá",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Green_Onions.jpg/1200px-Green_Onions.jpg"
+      }
+    ]
+  },
+  {
+    "green onions": [
+      {
+        "ingredient_name": "green onions",
+        "vietnamese_name": "hành lá",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.调味品.com/images/green_onions.jpg"
+      }
+    ]
+  },
+  {
+    "grits": [
+      {
+        "ingredient_name": "grits",
+        "vietnamese_name": "bột ngô",
+        "unit": "g",
+        "category": "Cereals & Grains",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Grits.jpg/1200px-Grits.jpg"
+      }
+    ]
+  },
+  {
+    "ground beef": [
+      {
+        "ingredient_name": "ground beef",
+        "vietnamese_name": "thịt bò xay",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ground_beef.jpg/1200px-Ground_beef.jpg"
+      }
+    ]
+  },
+  {
+    "ground meat": [
+      {
+        "ingredient_name": "ground meat",
+        "vietnamese_name": "thịt xay",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.simplyrecipes.com%2Fthmb%2FnR03V-590F-W6YmI6nQpI6uM60k%3D%2F750x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FSimply-Recipes-Ground-Beef-LEAD-01-02fa734a194c4205899579707e7873e0.jpg&tbnid=kL-R8T57o2g6KM&vet=12ahUKEwi4_qO_i8aDAxUu-zgGHbWjAH4QMygAegQIARBD..i&imgrefurl=https%3A%2F%2Fwww.simplyrecipes.com%2Frecipes%2Fhow_to_cook_ground_beef&docid=X_c9J-tQJtqO5M&w=750&h=500&q=ground%20meat&ved=2ahUKEwi4_qO_i8aDAxUu-zgGHbWjAH4QMygAegQIARBD"
+      }
+    ]
+  },
+  {
+    "ground pork": [
+      {
+        "ingredient_name": "ground pork",
+        "vietnamese_name": "thịt heo xay",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.themediterraneandish.com%2Fwp-content%2Fuploads%2F2021%2F03%2FGround-Pork-Recipe-SM-3.jpg&tbnid=l2799y_f7xYFZM&vet=12ahUKEwj8_7iS0p6CAxW-EFkFHURtBvIQMygAegQIARBF..i&imgrefurl=https%3A%2F%2Fwww.themediterraneandish.com%2Fground-pork-recipe%2F&docid=17UaMvY5U4JjXM&w=1920&h=1280&q=ground%20pork&ved=2ahUKEwj8_7iS0p6CAxW-EFkFHURtBvIQMygAegQIARBF"
+      }
+    ]
+  },
+  {
+    "guanciale": [
+      {
+        "ingredient_name": "guanciale",
+        "vietnamese_name": "guanciale",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Guanciale_cut.jpg/1280px-Guanciale_cut.jpg"
+      }
+    ]
+  },
+  {
+    "gyoza wrappers": [
+      {
+        "ingredient_name": "gyoza wrappers",
+        "vietnamese_name": "vỏ bánh gyoza",
+        "unit": "g",
+        "category": "Instant Foods",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Gyoza_dumplings.jpg/1280px-Gyoza_dumplings.jpg"
+      }
+    ]
+  },
+  {
+    "ham": [
+      {
+        "ingredient_name": "ham",
+        "vietnamese_name": "thịt nguội",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ham_slice.jpg/1280px-Ham_slice.jpg"
+      }
+    ]
+  },
+  {
+    "hamburger buns": [
+      {
+        "ingredient_name": "hamburger buns",
+        "vietnamese_name": "bánh mì kẹp thịt",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Hamburger_buns.jpg/1280px-Hamburger_buns.jpg"
+      }
+    ]
+  },
+  {
+    "heavy cream": [
+      {
+        "ingredient_name": "heavy cream",
+        "vietnamese_name": "kem béo",
+        "unit": "ml",
+        "category": "Milk",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Heavy_cream.jpg/1200px-Heavy_cream.jpg"
+      }
+    ]
+  },
+  {
+    "hollandaise sauce": [
+      {
+        "ingredient_name": "hollandaise sauce",
+        "vietnamese_name": "sốt hollandaise",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hollandaise_sauce.jpg/1280px-Hollandaise_sauce.jpg"
+      },
+      {
+        "ingredient_name": "egg yolks",
+        "vietnamese_name": "lòng đỏ trứng",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Egg_yolks.jpg/1280px-Egg_yolks.jpg"
+      },
+      {
+        "ingredient_name": "butter",
+        "vietnamese_name": "bơ",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Butter_cut_slices.jpg/1280px-Butter_cut_slices.jpg"
+      },
+      {
+        "ingredient_name": "lemon juice",
+        "vietnamese_name": "nước cốt chanh",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lemon_and_slices_on_white.jpg/1280px-Lemon_and_slices_on_white.jpg"
+      },
+      {
+        "ingredient_name": "cayenne pepper",
+        "vietnamese_name": "ớt cayenne",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Cayenne_pepper.jpg/1280px-Cayenne_pepper.jpg"
+      },
+      {
+        "ingredient_name": "salt",
+        "vietnamese_name": "muối",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Salt_crystals.jpg/1280px-Salt_crystals.jpg"
+      }
+    ]
+  },
+  {
+    "hot dog buns": [
+      {
+        "ingredient_name": "hot dog buns",
+        "vietnamese_name": "bánh mì kẹp xúc xích",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hotdog_buns.jpg/1200px-Hotdog_buns.jpg"
+      }
+    ]
+  },
+  {
+    "hot dogs": [
+      {
+        "ingredient_name": "hot dogs",
+        "vietnamese_name": "xúc xích",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hot_dog_with_mustard.jpg/1200px-Hot_dog_with_mustard.jpg"
+      }
+    ]
+  },
+  {
+    "jalapeno": [
+      {
+        "ingredient_name": "jalapeno",
+        "vietnamese_name": "Ớt jalapeno",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Jalapeno_peppers.jpg/1200px-Jalapeno_peppers.jpg"
+      }
+    ]
+  },
+  {
+    "jalapenos": [
+      {
+        "ingredient_name": "jalapenos",
+        "vietnamese_name": "Ớt jalapeno",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Jalapeno_peppers.jpg/1200px-Jalapeno_peppers.jpg"
+      }
+    ]
+  },
+  {
+    "japanese mayonnaise": [
+      {
+        "ingredient_name": "japanese mayonnaise",
+        "vietnamese_name": "sốt mayonnaise kiểu Nhật",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mayonnaise_japanese.jpg/1280px-Mayonnaise_japanese.jpg"
+      }
+    ]
+  },
+  {
+    "ketchup": [
+      {
+        "ingredient_name": "ketchup",
+        "vietnamese_name": "tương cà",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ketchup_bottle.jpg/1200px-Ketchup_bottle.jpg"
+      }
+    ]
+  },
+  {
+    "ladyfingers": [
+      {
+        "ingredient_name": "ladyfingers",
+        "vietnamese_name": "bánh ladyfinger",
+        "unit": "g",
+        "category": "Cakes",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ladyfingers.jpg/1200px-Ladyfingers.jpg"
+      }
+    ]
+  },
+  {
+    "lasagna noodles": [
+      {
+        "ingredient_name": "lasagna noodles",
+        "vietnamese_name": "bánh lasagna",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Lasagne_noodles.jpg/1200px-Lasagne_noodles.jpg"
+      }
+    ]
+  },
+  {
+    "lemon": [
+      {
+        "ingredient_name": "lemon",
+        "vietnamese_name": "chanh",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lemon-Whole-cropped.jpg/1200px-Lemon-Whole-cropped.jpg"
+      }
+    ]
+  },
+  {
+    "lemon juice": [
+      {
+        "ingredient_name": "lemon juice",
+        "vietnamese_name": "nước cốt chanh",
+        "unit": "ml",
+        "category": "Beverages",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Lemon-juice-in-a-glass.jpg/800px-Lemon-juice-in-a-glass.jpg"
+      }
+    ]
+  },
+  {
+    "lettuce": [
+      {
+        "ingredient_name": "lettuce",
+        "vietnamese_name": "xà lách",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.shutterstock.com/image-photo/fresh-green-lettuce-salad-isolated-260nw-1965106025.jpg"
+      }
+    ]
+  },
+  {
+    "lime": [
+      {
+        "ingredient_name": "lime",
+        "vietnamese_name": "chanh",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Lime_and_slices.jpg/1200px-Lime_and_slices.jpg"
+      }
+    ]
+  },
+  {
+    "lime juice": [
+      {
+        "ingredient_name": "lime juice",
+        "vietnamese_name": "nước cốt chanh",
+        "unit": "ml",
+        "category": "Beverages",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lime_juice.jpg/1200px-Lime_juice.jpg"
+      }
+    ]
+  },
+  {
+    "lobster": [
+      {
+        "ingredient_name": "lobster",
+        "vietnamese_name": "tôm hùm",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/American_lobster.jpg/1280px-American_lobster.jpg"
+      }
+    ]
+  },
+  {
+    "lobster meat": [
+      {
+        "ingredient_name": "lobster meat",
+        "vietnamese_name": "thịt tôm hùm",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://www.example.com/lobster_meat.jpg"
+      }
+    ]
+  },
+  {
+    "lobster shells": [
+      {
+        "ingredient_name": "lobster shells",
+        "vietnamese_name": "vỏ tôm hùm",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lobster_shells.jpg/1280px-Lobster_shells.jpg"
+      }
+    ]
+  },
+  {
+    "macaroni": [
+      {
+        "ingredient_name": "macaroni",
+        "vietnamese_name": "mì ống",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://www.allrecipes.com/thmb/nE6V7S-e6k0rT0Y5tFqY5o06xW4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/macaroni-and-cheese-recipe-6055084-01-4990925a2f9b41f9a1f7f4b59901c0b7.jpg"
+      }
+    ]
+  },
+  {
+    "maltose": [
+      {
+        "ingredient_name": "maltose",
+        "vietnamese_name": "Mạch nha",
+        "unit": "g",
+        "category": "Candies",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Maltose.jpg/1200px-Maltose.jpg"
+      }
+    ]
+  },
+  {
+    "mascarpone cheese": [
+      {
+        "ingredient_name": "mascarpone cheese",
+        "vietnamese_name": "mascarpone pho mát",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Mascarpone_cheese.jpg/1280px-Mascarpone_cheese.jpg"
+      }
+    ]
+  },
+  {
+    "mayonnaise": [
+      {
+        "ingredient_name": "mayonnaise",
+        "vietnamese_name": "sốt mayonnaise",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.foodandwine.com/thmb/O8s7-855E25cM3i-5x3FhO_7z4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Best-Mayonnaise-FT-RECIPE0523-6d739e12b7194296b06f2a230832c766.jpg"
+      }
+    ]
+  },
+  {
+    "milk": [
+      {
+        "ingredient_name": "milk",
+        "vietnamese_name": "sữa",
+        "unit": "ml",
+        "category": "Milk",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Milk_glass.jpg/1200px-Milk_glass.jpg"
+      },
+      {
+        "ingredient_name": "milk",
+        "vietnamese_name": "sữa tươi",
+        "unit": "ml",
+        "category": "Milk",
+        "image": "https://th.bing.com/th/id/OIP.x3oD_4o1QWl5_c5JbX4i-QHaHa?pid=ImgDet&w=200&h=200&rs=1"
+      },
+      {
+        "ingredient_name": "milk",
+        "vietnamese_name": "sữa đặc",
+        "unit": "ml",
+        "category": "Milk",
+        "image": "https://www.bachhoaxanh.com/images/productimages/2019/07/02/s%E1%BB%AFa-dac-co-duong-vinamilk-380g-20190702160834.jpg"
+      }
+    ]
+  },
+  {
+    "miso paste": [
+      {
+        "ingredient_name": "miso paste",
+        "vietnamese_name": "tương miso",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Miso_paste_variety.jpg/1200px-Miso_paste_variety.jpg"
+      }
+    ]
+  },
+  {
+    "mozzarella cheese": [
+      {
+        "ingredient_name": "mozzarella cheese",
+        "vietnamese_name": "phô mai mozzarella",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mozzarella_slices.jpg/1280px-Mozzarella_slices.jpg"
+      }
+    ]
+  },
+  {
+    "mussels": [
+      {
+        "ingredient_name": "mussels",
+        "vietnamese_name": "vẹm",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mytilus_edulis_001.jpg/1280px-Mytilus_edulis_001.jpg"
+      }
+    ]
+  },
+  {
+    "mustard": [
+      {
+        "ingredient_name": "mustard",
+        "vietnamese_name": "mù tạt",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mustard_seeds.jpg/1200px-Mustard_seeds.jpg"
+      }
+    ]
+  },
+  {
+    "octopus": [
+      {
+        "ingredient_name": "octopus",
+        "vietnamese_name": "bạch tuộc",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Octopus_vulgaris_%28C%C3%B4te_d%27Ivoire%29.jpg/1280px-Octopus_vulgaris_%28C%C3%B4te_d%27Ivoire%29.jpg"
+      }
+    ]
+  },
+  {
+    "oil": [
+      {
+        "ingredient_name": "oil",
+        "vietnamese_name": "dầu ăn",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.tgdd.vn%2FFiles%2F2021%2F11%2F25%2F1399712%2Fca-lo-bang-trong-dau-an-va-cac-loai-dau-an-tot-cho-suc-khoe-nhat-1_1280x720.jpg&tbnid=i15lH_H8gGq0wM&vet=12ahUKEwj6tI62x_r_AhX9yTgGHV5NC1MQMygBegQIARAf..i&imgrefurl=https%3A%2F%2Fwww.dienmayxanh.com%2Fvao-bep%2Fca-lo-bang-trong-cac-loai-dau-an-tot-cho-suc-khoe-1399712&docid=1j7zR0Yq6o8JtM&w=1280&h=720&q=dau%20an&ved=2ahUKEwj6tI62x_r_AhX9yTgGHV5NC1MQMygBegQIARAf"
+      },
+      {
+        "ingredient_name": "olive oil",
+        "vietnamese_name": "dầu ô liu",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.tgdd.vn%2FFiles%2F2022%2F04%2F05%2F1424284%2Fdau-oliu-1.jpg&tbnid=66-B4Q-2y-6FhM&vet=12ahUKEwih1Yqex_r_AhV_3TgGHWz8B4EQMygBegQIARAl..i&imgrefurl=https%3A%2F%2Fwww.dienmayxanh.com%2Fvao-bep%2Fdau-oliu-la-gi-phan-loai-va-cong-dung-cua-dau-oliu-1424284&docid=02iU9S-8wD_U6M&w=800&h=800&q=d%E1%BA%A7u%20%C3%B4%20liu&ved=2ahUKEwih1Yqex_r_AhV_3TgGHWz8B4EQMygBegQIARAl"
+      },
+      {
+        "ingredient_name": "sesame oil",
+        "vietnamese_name": "dầu mè",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.tgdd.vn%2FFiles%2F2021%2F11%2F26%2F1399991%2Fdau-me-la-gi-cong-dung-va-cach-su-dung-dau-me-trong-am-thuc-1_1280x720.jpg&tbnid=gO-Jv8-38d5QeM&vet=12ahUKEwjsu5a1x_r_AhX_4TgGHQoHC1EQMygBegQIARAh..i&imgrefurl=https%3A%2F%2Fwww.dienmayxanh.com%2Fvao-bep%2Fdau-me-la-gi-phan-loai-va-cong-dung-cua-dau-me-trong-am-thuc-1399991&docid=366dK7UqfI8tFM&w=1280&h=720&q=d%E1%BA%A7u%20m%C3%A8&ved=2ahUKEwjsu5a1x_r_AhX_4TgGHQoHC1EQMygBegQIARAh"
+      }
+    ]
+  },
+  {
+    "olive oil": [
+      {
+        "ingredient_name": "olive oil",
+        "vietnamese_name": "dầu ô liu",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Olive_oil_pouring.jpg/1280px-Olive_oil_pouring.jpg"
+      }
+    ]
+  },
+  {
+    "onion": [
+      {
+        "ingredient_name": "onion",
+        "vietnamese_name": "hành tây",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Onion_top_view.jpg/1200px-Onion_top_view.jpg"
+      }
+    ]
+  },
+  {
+    "onions": [
+      {
+        "ingredient_name": "onions",
+        "vietnamese_name": "hành tây",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Onion_on_white.jpg/1200px-Onion_on_white.jpg"
+      }
+    ]
+  },
+  {
+    "oysters": [
+      {
+        "ingredient_name": "oysters",
+        "vietnamese_name": "hàu",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Oysters_on_the_half_shell.jpg/1280px-Oysters_on_the_half_shell.jpg"
+      }
+    ]
+  },
+  {
+    "parmesan cheese": [
+      {
+        "ingredient_name": "parmesan cheese",
+        "vietnamese_name": "Phô mai Parmesan",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Parmesan_cheese_cut.jpg/800px-Parmesan_cheese_cut.jpg"
+      }
+    ]
+  },
+  {
+    "peanut sauce": [
+      {
+        "ingredient_name": "peanut sauce",
+        "vietnamese_name": "tương đậu phộng",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Peanut_sauce.jpg/1200px-Peanut_sauce.jpg"
+      },
+      {
+        "ingredient_name": "peanut butter",
+        "vietnamese_name": "bơ đậu phộng",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Peanut_butter.jpg/1200px-Peanut_butter.jpg"
+      },
+      {
+        "ingredient_name": "water",
+        "vietnamese_name": "nước",
+        "unit": "ml",
+        "category": "Beverages",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Drinking_water.jpg/1200px-Drinking_water.jpg"
+      },
+      {
+        "ingredient_name": "soy sauce",
+        "vietnamese_name": "nước tương",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Soy_sauce.jpg/1200px-Soy_sauce.jpg"
+      },
+      {
+        "ingredient_name": "sugar",
+        "vietnamese_name": "đường",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Sugar_on_a_table.jpg/1200px-Sugar_on_a_table.jpg"
+      },
+      {
+        "ingredient_name": "vinegar",
+        "vietnamese_name": "giấm",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Balsamic_vinegar.jpg/1200px-Balsamic_vinegar.jpg"
+      },
+      {
+        "ingredient_name": "garlic",
+        "vietnamese_name": "tỏi",
+        "unit": "g",
+        "category": "Prepared Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Garlic_cloves.jpg/1200px-Garlic_cloves.jpg"
+      },
+      {
+        "ingredient_name": "chili peppers",
+        "vietnamese_name": "ớt",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Chili_peppers.jpg/1200px-Chili_peppers.jpg"
+      },
+      {
+        "ingredient_name": "lime juice",
+        "vietnamese_name": "nước cốt chanh",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lime_juice.jpg/1200px-Lime_juice.jpg"
+      }
+    ]
+  },
+  {
+    "peanuts": [
+      {
+        "ingredient_name": "peanuts",
+        "vietnamese_name": "lạc",
+        "unit": "g",
+        "category": "Snacks",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Peanuts_in_shell.jpg/1200px-Peanuts_in_shell.jpg"
+      }
+    ]
+  },
+  {
+    "pecorino romano": [
+      {
+        "ingredient_name": "pecorino romano",
+        "vietnamese_name": "Phô mai Pecorino Romano",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pecorino_Romano_DOP_cheese.jpg/800px-Pecorino_Romano_DOP_cheese.jpg"
+      }
+    ]
+  },
+  {
+    "pepper": [
+      {
+        "ingredient_name": "pepper",
+        "vietnamese_name": "tiêu",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Peppercorns_black_white_green.jpg/1280px-Peppercorns_black_white_green.jpg"
+      }
+    ]
+  },
+  {
+    "phyllo dough": [
+      {
+        "ingredient_name": "phyllo dough",
+        "vietnamese_name": "bánh phyllo",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Phyllo_dough_sheets.jpg/1200px-Phyllo_dough_sheets.jpg"
+      }
+    ]
+  },
+  {
+    "pizza dough": [
+      {
+        "ingredient_name": "pizza dough",
+        "vietnamese_name": "bột bánh pizza",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://www.kingarthurbaking.com/sites/default/files/recipe_images/1-16/classic_pizza_dough.jpg"
+      }
+    ]
+  },
+  {
+    "pork": [
+      {
+        "ingredient_name": "pork",
+        "vietnamese_name": "thịt heo",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pork_raw_loin.jpg/1200px-Pork_raw_loin.jpg"
+      },
+      {
+        "ingredient_name": "pork belly",
+        "vietnamese_name": "ba rọi",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Pork_belly_sliced.jpg/1200px-Pork_belly_sliced.jpg"
+      },
+      {
+        "ingredient_name": "ground pork",
+        "vietnamese_name": "thịt heo xay",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Ground_pork.jpg/1200px-Ground_pork.jpg"
+      },
+      {
+        "ingredient_name": "pork sausage",
+        "vietnamese_name": "xúc xích heo",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Saucisses.jpg/1200px-Saucisses.jpg"
+      },
+      {
+        "ingredient_name": "ham",
+        "vietnamese_name": "giăm bông",
+        "unit": "g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sliced_ham.jpg/1200px-Sliced_ham.jpg"
+      }
+    ]
+  },
+  {
+    "pork belly": [
+      {
+        "ingredient_name": "pork belly",
+        "vietnamese_name": "ba rọi",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pork_belly.jpg/1200px-Pork_belly.jpg"
+      }
+    ]
+  },
+  {
+    "pork chops": [
+      {
+        "ingredient_name": "pork chops",
+        "vietnamese_name": "sườn heo",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Pork_chops_raw.jpg/1280px-Pork_chops_raw.jpg"
+      }
+    ]
+  },
+  {
+    "pork shoulder": [
+      {
+        "ingredient_name": "pork shoulder",
+        "vietnamese_name": "thịt vai heo",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Pork_shoulder.jpg/1280px-Pork_shoulder.jpg"
+      }
+    ]
+  },
+  {
+    "potatoes": [
+      {
+        "ingredient_name": "potatoes",
+        "vietnamese_name": "khoai tây",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Potato-blossom.jpg/1200px-Potato-blossom.jpg"
+      }
+    ]
+  },
+  {
+    "powdered sugar": [
+      {
+        "ingredient_name": "powdered sugar",
+        "vietnamese_name": "đường bột",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Powdered_sugar.jpg/1200px-Powdered_sugar.jpg"
+      }
+    ]
+  },
+  {
+    "prime rib roast": [
+      {
+        "ingredient_name": "prime rib roast",
+        "vietnamese_name": "thịt thăn sườn bò",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Prime_Rib_Roast.jpg/1280px-Prime_Rib_Roast.jpg"
+      }
+    ]
+  },
+  {
+    "ramen noodles": [
+      {
+        "ingredient_name": "ramen noodles",
+        "vietnamese_name": "mì ramen",
+        "unit": "g",
+        "category": "Instant Foods",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Instant_noodles.jpg/1200px-Instant_noodles.jpg"
+      }
+    ]
+  },
+  {
+    "red food coloring": [
+      {
+        "ingredient_name": "red food coloring",
+        "vietnamese_name": "màu thực phẩm đỏ",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Food_coloring.jpg/1200px-Food_coloring.jpg"
+      }
+    ]
+  },
+  {
+    "red onion": [
+      {
+        "ingredient_name": "red onion",
+        "vietnamese_name": "hành tây đỏ",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Red_Onion_-_Whole_and_Sliced.jpg/1200px-Red_Onion_-_Whole_and_Sliced.jpg"
+      }
+    ]
+  },
+  {
+    "rice": [
+      {
+        "ingredient_name": "rice",
+        "vietnamese_name": "gạo",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Rice_grains.jpg/1280px-Rice_grains.jpg"
+      }
+    ]
+  },
+  {
+    "rice noodles": [
+      {
+        "ingredient_name": "rice noodles",
+        "vietnamese_name": "bánh phở",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dried_rice_noodles.jpg/1280px-Dried_rice_noodles.jpg"
+      }
+    ]
+  },
+  {
+    "rice paper": [
+      {
+        "ingredient_name": "rice paper",
+        "vietnamese_name": "bánh tráng",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rice_paper.jpg/1200px-Rice_paper.jpg"
+      }
+    ]
+  },
+  {
+    "rice vinegar": [
+      {
+        "ingredient_name": "rice vinegar",
+        "vietnamese_name": "giấm gạo",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rice_vinegar_bottles.jpg/640px-Rice_vinegar_bottles.jpg"
+      }
+    ]
+  },
+  {
+    "ricotta cheese": [
+      {
+        "ingredient_name": "ricotta cheese",
+        "vietnamese_name": "Phô mai Ricotta",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ricotta_cheese.jpg/1200px-Ricotta_cheese.jpg"
+      }
+    ]
+  },
+  {
+    "rock sugar": [
+      {
+        "ingredient_name": "rock sugar",
+        "vietnamese_name": "đường phèn",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2020/06/Rock-Sugar-005.jpg"
+      }
+    ]
+  },
+  {
+    "romaine lettuce": [
+      {
+        "ingredient_name": "romaine lettuce",
+        "vietnamese_name": "xà lách romaine",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Romaine_lettuce.jpg/1200px-Romaine_lettuce.jpg"
+      }
+    ]
+  },
+  {
+    "saffron threads": [
+      {
+        "ingredient_name": "saffron threads",
+        "vietnamese_name": "nhụy hoa nghệ tây",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Saffron_threads.jpg/1200px-Saffron_threads.jpg"
+      }
+    ]
+  },
+  {
+    "salmon fillet": [
+      {
+        "ingredient_name": "salmon fillet",
+        "vietnamese_name": "phi-lê cá hồi",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Salmon_fillet.jpg/1200px-Salmon_fillet.jpg"
+      }
+    ]
+  },
+  {
+    "salt": [
+      {
+        "ingredient_name": "salt",
+        "vietnamese_name": "muối",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Salt_crystals.jpg/1200px-Salt_crystals.jpg"
+      }
+    ]
+  },
+  {
+    "scallops": [
+      {
+        "ingredient_name": "scallops",
+        "vietnamese_name": "Sò điệp",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Scallops_on_ice.jpg/1280px-Scallops_on_ice.jpg"
+      }
+    ]
+  },
+  {
+    "seaweed": [
+      {
+        "ingredient_name": "seaweed",
+        "vietnamese_name": "rong biển",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Seaweed_-_Edible_nori.jpg/1280px-Seaweed_-_Edible_nori.jpg"
+      }
+    ]
+  },
+  {
+    "seaweed (wakame)": [
+      {
+        "ingredient_name": "seaweed (wakame)",
+        "vietnamese_name": "rong biển wakame",
+        "unit": "g",
+        "category": "Prepared Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Wakame_seaweed.jpg/1280px-Wakame_seaweed.jpg"
+      }
+    ]
+  },
+  {
+    "sesame oil": [
+      {
+        "ingredient_name": "sesame oil",
+        "vietnamese_name": "dầu mè",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sesame_oil_in_bottle.jpg/800px-Sesame_oil_in_bottle.jpg"
+      }
+    ]
+  },
+  {
+    "sesame seeds": [
+      {
+        "ingredient_name": "sesame seeds",
+        "vietnamese_name": "hạt mè",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/03/sesame-seeds.jpg"
+      }
+    ]
+  },
+  {
+    "shallots": [
+      {
+        "ingredient_name": "shallots",
+        "vietnamese_name": "hành tím",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Shallots-3.jpg/1200px-Shallots-3.jpg"
+      }
+    ]
+  },
+  {
+    "short-grain rice": [
+      {
+        "ingredient_name": "short-grain rice",
+        "vietnamese_name": "Gạo hạt ngắn",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Short_grain_rice.jpg/1200px-Short_grain_rice.jpg"
+      }
+    ]
+  },
+  {
+    "shrimp": [
+      {
+        "ingredient_name": "shrimp",
+        "vietnamese_name": "tôm",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Shrimp_and_peppers.jpg/1280px-Shrimp_and_peppers.jpg"
+      }
+    ]
+  },
+  {
+    "soy sauce": [
+      {
+        "ingredient_name": "soy sauce",
+        "vietnamese_name": "nước tương",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Soy_sauce.jpg/1280px-Soy_sauce.jpg"
+      }
+    ]
+  },
+  {
+    "spaghetti": [
+      {
+        "ingredient_name": "spaghetti",
+        "vietnamese_name": "mì Ý",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spaghetti_with_tomatoes.jpg/1280px-Spaghetti_with_tomatoes.jpg"
+      }
+    ]
+  },
+  {
+    "spinach": [
+      {
+        "ingredient_name": "spinach",
+        "vietnamese_name": "rau bina",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Spinach_in_basket.jpg/1200px-Spinach_in_basket.jpg"
+      }
+    ]
+  },
+  {
+    "star anise": [
+      {
+        "ingredient_name": "star anise",
+        "vietnamese_name": "đại hồi",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Star_anise.jpg/1200px-Star_anise.jpg"
+      }
+    ]
+  },
+  {
+    "steak": [
+      {
+        "ingredient_name": "steak",
+        "vietnamese_name": "thịt bò bít tết",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steak_and_fries.jpg/1280px-Steak_and_fries.jpg"
+      }
+    ]
+  },
+  {
+    "strawberries": [
+      {
+        "ingredient_name": "strawberries",
+        "vietnamese_name": "dâu tây",
+        "unit": "g",
+        "category": "Fresh Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Strawberry-350.jpg/320px-Strawberry-350.jpg"
+      }
+    ]
+  },
+  {
+    "strong coffee": [
+      {
+        "ingredient_name": "strong coffee",
+        "vietnamese_name": "cà phê đậm đặc",
+        "unit": "ml",
+        "category": "Beverages",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dark_roast_coffee_beans.jpg/800px-Dark_roast_coffee_beans.jpg"
+      }
+    ]
+  },
+  {
+    "sugar": [
+      {
+        "ingredient_name": "sugar",
+        "vietnamese_name": "đường",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://www.example.com/sugar.jpg"
+      }
+    ]
+  },
+  {
+    "tahini": [
+      {
+        "ingredient_name": "tahini",
+        "vietnamese_name": "Tahini (vừng nghiền)",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Tahini_sesame_paste.jpg/1200px-Tahini_sesame_paste.jpg"
+      }
+    ]
+  },
+  {
+    "takoyaki flour": [
+      {
+        "ingredient_name": "takoyaki flour",
+        "vietnamese_name": "Bột Takoyaki",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Takoyaki_flour.jpg/1200px-Takoyaki_flour.jpg"
+      }
+    ]
+  },
+  {
+    "takoyaki sauce": [
+      {
+        "ingredient_name": "takoyaki sauce",
+        "vietnamese_name": "sốt takoyaki",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Takoyaki_sauce.jpg/1200px-Takoyaki_sauce.jpg"
+      },
+      {
+        "ingredient_name": "worcestershire sauce",
+        "vietnamese_name": "nước tương Worcestershire",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lea_and_Perrins_Worcestershire_Sauce.jpg/1200px-Lea_and_Perrins_Worcestershire_Sauce.jpg"
+      },
+      {
+        "ingredient_name": "ketchup",
+        "vietnamese_name": "tương cà",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ketchup_packets.jpg/1200px-Ketchup_packets.jpg"
+      },
+      {
+        "ingredient_name": "sugar",
+        "vietnamese_name": "đường",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sugar_on_white_background.jpg/1200px-Sugar_on_white_background.jpg"
+      },
+      {
+        "ingredient_name": "soy sauce",
+        "vietnamese_name": "xì dầu",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Soy_Sauce_Kikkoman.jpg/1200px-Soy_Sauce_Kikkoman.jpg"
+      },
+      {
+        "ingredient_name": "oyster sauce",
+        "vietnamese_name": "nước sốt hàu",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Oyster_sauce.jpg/1200px-Oyster_sauce.jpg"
+      }
+    ]
+  },
+  {
+    "tamarind paste": [
+      {
+        "ingredient_name": "tamarind paste",
+        "vietnamese_name": "mẻ me",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tamarind_paste.jpg/1200px-Tamarind_paste.jpg"
+      }
+    ]
+  },
+  {
+    "tenkasu": [
+      {
+        "ingredient_name": "tenkasu",
+        "vietnamese_name": "bột chiên giòn",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Tenkasu.jpg/1280px-Tenkasu.jpg"
+      }
+    ]
+  },
+  {
+    "tofu": [
+      {
+        "ingredient_name": "tofu",
+        "vietnamese_name": "đậu phụ",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tofu_blocks.jpg/1200px-Tofu_blocks.jpg"
+      }
+    ]
+  },
+  {
+    "tomato": [
+      {
+        "ingredient_name": "tomato",
+        "vietnamese_name": "cà chua",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/1200px-Tomato_je.jpg"
+      }
+    ]
+  },
+  {
+    "tomato sauce": [
+      {
+        "ingredient_name": "tomato sauce",
+        "vietnamese_name": "sốt cà chua",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://www.allrecipes.com/thmb/Fm-FqYjJ7-p-Qn4lI1p7T8M2t4c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/164021-homemade-tomato-sauce-mfs-17-4x3-06676ec7835644c48cf3896eb0466d1a.jpg"
+      }
+    ]
+  },
+  {
+    "tomatoes": [
+      {
+        "ingredient_name": "tomatoes",
+        "vietnamese_name": "cà chua",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://www.example.com/images/tomatoes.jpg"
+      }
+    ]
+  },
+  {
+    "tortilla chips": [
+      {
+        "ingredient_name": "tortilla chips",
+        "vietnamese_name": "bánh tortilla chiên",
+        "unit": "g",
+        "category": "Snacks",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Tortilla_chips.jpg/1200px-Tortilla_chips.jpg"
+      }
+    ]
+  },
+  {
+    "tortillas": [
+      {
+        "ingredient_name": "tortillas",
+        "vietnamese_name": "bánh tortillas",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tortillas.jpg/1200px-Tortillas.jpg"
+      }
+    ]
+  },
+  {
+    "tuna": [
+      {
+        "ingredient_name": "tuna",
+        "vietnamese_name": "cá ngừ",
+        "unit": "g",
+        "category": "Seafood & Fish Balls",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Albacore_tuna_fillet.jpg/1200px-Albacore_tuna_fillet.jpg"
+      }
+    ]
+  },
+  {
+    "turkey breast": [
+      {
+        "ingredient_name": "turkey breast",
+        "vietnamese_name": "ức gà tây",
+        "unit": "g",
+        "category": "Fresh Meat",
+        "image": "https://www.eatright.org/-/media/eatrightimages/food/ingredients/poultry/turkey-breast-raw.jpg"
+      }
+    ]
+  },
+  {
+    "unsalted butter": [
+      {
+        "ingredient_name": "unsalted butter",
+        "vietnamese_name": "bơ lạt",
+        "unit": "g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://www.seriouseats.com/thmb/tMv0rM9U-3M5Xp0FwBqJt9oJ2L4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20230119-butter-vicky-wasik-19-afac44675a0b4865945d4614879b2c97.jpg"
+      }
+    ]
+  },
+  {
+    "vanilla extract": [
+      {
+        "ingredient_name": "vanilla extract",
+        "vietnamese_name": "chiết xuất vani",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Vanilla_extract_bottle.jpg/1280px-Vanilla_extract_bottle.jpg"
+      }
+    ]
+  },
+  {
+    "vegetable oil": [
+      {
+        "ingredient_name": "vegetable oil",
+        "vietnamese_name": "dầu thực vật",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Vegetable_oil.jpg/1200px-Vegetable_oil.jpg"
+      }
+    ]
+  },
+  {
+    "vermicelli noodles": [
+      {
+        "ingredient_name": "vermicelli noodles",
+        "vietnamese_name": "bún tàu",
+        "unit": "g",
+        "category": "Grains & Staples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/B%C3%BAn_t%C3%A0u.jpg/1200px-B%C3%BAn_t%C3%A0u.jpg"
+      }
+    ]
+  },
+  {
+    "vinegar": [
+      {
+        "ingredient_name": "vinegar",
+        "vietnamese_name": "giấm",
+        "unit": "ml",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vinegar_bottles.jpg/1200px-Vinegar_bottles.jpg"
+      }
+    ]
+  },
+  {
+    "walnuts": [
+      {
+        "ingredient_name": "walnuts",
+        "vietnamese_name": "quả óc chó",
+        "unit": "g",
+        "category": "Dried Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Walnuts_in_shell.jpg/1200px-Walnuts_in_shell.jpg"
+      }
+    ]
+  },
+  {
+    "wasabi": [
+      {
+        "ingredient_name": "wasabi",
+        "vietnamese_name": "cây cải ngựa Nhật Bản",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Wasabi_root.jpg/800px-Wasabi_root.jpg"
+      }
+    ]
+  },
+  {
+    "water": [
+      {
+        "ingredient_name": "water",
+        "vietnamese_name": "nước",
+        "unit": "ml",
+        "category": "Beverages",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Bottled_water_1.jpg/1280px-Bottled_water_1.jpg"
+      }
+    ]
+  },
+  {
+    "white pepper": [
+      {
+        "ingredient_name": "white pepper",
+        "vietnamese_name": "tiêu trắng",
+        "unit": "g",
+        "category": "Seasonings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/White_pepper_seeds.jpg/1200px-White_pepper_seeds.jpg"
+      }
+    ]
+  },
+  {
+    "white wine": [
+      {
+        "ingredient_name": "white wine",
+        "vietnamese_name": "rượu vang trắng",
+        "unit": "ml",
+        "category": "Alcoholic Beverages",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/White_wine_in_a_glass.jpg/1200px-White_wine_in_a_glass.jpg"
+      }
+    ]
+  },
+  {
+    "wood ear mushrooms": [
+      {
+        "ingredient_name": "wood ear mushrooms",
+        "vietnamese_name": "mộc nhĩ",
+        "unit": "g",
+        "category": "Vegetables",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wood_ear_mushrooms.jpg/1280px-Wood_ear_mushrooms.jpg"
+      }
+    ]
+  },
+  {
+    "yogurt": [
+      {
+        "ingredient_name": "yogurt",
+        "vietnamese_name": "sữa chua",
+        "unit": "g",
+        "category": "Yogurt",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Yogurt_with_blueberries.jpg/1200px-Yogurt_with_blueberries.jpg"
+      }
+    ]
+  }
+]

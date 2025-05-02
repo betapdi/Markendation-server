@@ -1,15 +1,22 @@
 package com.markendation.server.utils;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class IngredientCleaned {
-    private String name;
+    private String ingredient_name;
     private String unit;
     private String image;
     private String vietnamese_name;
     private String category;
 
     // Getters and Setters
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public String getName() { return ingredient_name; }
+    public void setName(String name) { this.ingredient_name = name; }
 
     public String getUnit() { return unit; }
     public void setUnit(String unit) { this.unit = unit; }

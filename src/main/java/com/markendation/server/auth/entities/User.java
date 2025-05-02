@@ -20,7 +20,6 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.markendation.server.models.Basket;
 import com.markendation.server.utils.Location;
 
@@ -59,6 +58,7 @@ public class User implements UserDetails {
     @DBRef
     private Basket basket;
 
+    @Builder.Default
     private List<Basket> savedBaskets = new ArrayList<>();
 
     @Builder.Default 

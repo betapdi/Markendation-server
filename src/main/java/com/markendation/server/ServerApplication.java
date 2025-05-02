@@ -2,10 +2,13 @@ package com.markendation.server;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -45,20 +48,36 @@ public class ServerApplication {
 			// System.out.println(cnt);
 			// String currentDir = System.getProperty("user.dir");
 
-			// // Construct the path to the JSON file manually
-			// String jsonFilePath = Paths.get(currentDir, "src", "main", "java", "com", "markendation", "server", "ingredients_cleaned.json").toString();
+			// String jsonFilePath = Paths.get(currentDir, "src", "main", "java", "com", "markendation", "server", "ingredients_analysis.json").toString();
 
-			// ObjectMapper mapper = new ObjectMapper();
-			// List<IngredientCleaned> ingredients = mapper.readValue(new File(jsonFilePath), new TypeReference<List<IngredientCleaned>>() {});
+			// try {
+			// 	String content = new String(Files.readAllBytes(Paths.get(jsonFilePath)), java.nio.charset.StandardCharsets.UTF_8);
+			// 	JSONArray ingredientsArray = new JSONArray(content);
 
-			// for (IngredientCleaned ingredient : ingredients) {
-			// 	Ingredient newIngredient = new Ingredient();
-			// 	newIngredient.setName(ingredient.getName());
-			// 	newIngredient.setCategory(ingredient.getCategory());
-			// 	newIngredient.setImageUrl(ingredient.getImage());
-			// 	newIngredient.setVietnameseName(ingredient.getVietnamese_name());
-			// 	newIngredient.setUnit(ingredient.getUnit());
-			// 	ingredientRepository.save(newIngredient);
+			// 	for (int i = 0; i < ingredientsArray.length(); i++) {
+			// 		JSONObject item = ingredientsArray.getJSONObject(i);
+			// 		for (String key : item.keySet()) {
+			// 			JSONArray innerArray = item.getJSONArray(key);
+			// 			JSONObject ingredient = innerArray.getJSONObject(0);
+	
+			// 			String name = ingredient.getString("ingredient_name");
+			// 			String vietnamese = ingredient.getString("vietnamese_name");
+			// 			String unit = ingredient.getString("unit");
+			// 			String category = ingredient.getString("category");
+			// 			String image = ingredient.getString("image");
+	
+			// 			Ingredient newIngredient = Ingredient.builder()
+			// 										.name(name)
+			// 										.vietnameseName(vietnamese)
+			// 										.unit(unit)
+			// 										.category(category)
+			// 										.imageUrl(image).build();
+						
+			// 			ingredientRepository.save(newIngredient);
+			// 		}
+			// 	}
+			// } catch (IOException e) {
+			// 	System.err.println("Error reading file: " + e.getMessage());
 			// }
 		};
 	}
