@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
 import com.markendation.server.auth.entities.User;
 import com.markendation.server.auth.repositories.UserRepository;
+import com.markendation.server.classes.StoreCalculation;
 import com.markendation.server.dto.BasketDto;
 import com.markendation.server.dto.IngredientDto;
 import com.markendation.server.exceptions.UserNotFoundException;
@@ -18,7 +20,6 @@ import com.markendation.server.models.Ingredient;
 import com.markendation.server.repositories.primary.BasketRepository;
 import com.markendation.server.repositories.primary.DishRepository;
 import com.markendation.server.repositories.primary.IngredientRepository;
-import com.markendation.server.utils.StoreCalculation;
 
 @Service
 public class BasketService {
@@ -98,7 +99,15 @@ public class BasketService {
         Map<String, Ingredient> ingredientMap = new TreeMap<>();
         
         for (Ingredient ingredient : user.getBasket().getIngredients()) {
-            ingredientMap.put(ingredient.getId(), ingredient);
+            if (ingredient.getId() != null) {
+                ingredientMap.put(ingredient.getId(), ingredient);
+            }
+
+            else {
+                String uuid = UUID.randomUUID().toString();
+                ingredient.setId(uuid);
+                ingredientMap.put(uuid, ingredient);
+            }
         }
 
         for (Dish dish : user.getBasket().getDishes()) {
@@ -112,10 +121,19 @@ public class BasketService {
                     ingredientMap.put(id, chosen);
                 }
 
-                else ingredientMap.put(ingredient.getId(), ingredient);
+                else if (ingredient.getId() != null) {
+                    ingredientMap.put(ingredient.getId(), ingredient);
+                }
+
+                else {
+                    String uuid = UUID.randomUUID().toString();
+                    ingredient.setId(uuid);
+                    ingredientMap.put(uuid, ingredient);
+                }
             }
         }
 
+        userRepository.save(user);
         List<Ingredient> ingredients = new ArrayList<>(ingredientMap.values());
         List<StoreCalculation> response = calculatingService.calculateIngredients(user.getLocation(), ingredients);
         return response;

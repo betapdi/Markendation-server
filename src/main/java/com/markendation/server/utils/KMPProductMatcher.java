@@ -7,7 +7,7 @@ public class KMPProductMatcher {
     int[] lps;
 
     public KMPProductMatcher(String pattern) {
-        this.pattern = pattern;
+        this.pattern = pattern.toLowerCase();
         lps = computeLPSArray(this.pattern);
     }
 
@@ -34,7 +34,8 @@ public class KMPProductMatcher {
         return lps;
     }
 
-    public boolean isMatch(String s2) {
+    public boolean isMatch(String s3) {
+        String s2 = s3.toLowerCase();
         if (pattern == null || s2 == null || pattern.length() > s2.length()) {
             return false;
         }

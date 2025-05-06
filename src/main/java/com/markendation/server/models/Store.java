@@ -3,7 +3,7 @@ package com.markendation.server.models;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.markendation.server.utils.LocationMeta;
+import com.markendation.server.classes.LocationMeta;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

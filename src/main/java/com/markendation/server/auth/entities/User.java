@@ -20,8 +20,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.markendation.server.classes.Location;
 import com.markendation.server.models.Basket;
-import com.markendation.server.utils.Location;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

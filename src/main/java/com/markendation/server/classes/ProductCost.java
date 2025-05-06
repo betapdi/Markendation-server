@@ -1,4 +1,4 @@
-package com.markendation.server.utils;
+package com.markendation.server.classes;
 
 import com.markendation.server.models.Product;
 

@@ -4,9 +4,9 @@ import org.springframework.stereotype.Service;
 
 import com.markendation.server.auth.entities.User;
 import com.markendation.server.auth.repositories.UserRepository;
+import com.markendation.server.classes.Location;
 import com.markendation.server.dto.UserDto;
 import com.markendation.server.exceptions.UserNotFoundException;
-import com.markendation.server.utils.Location;
 
 @Service
 public class UserService {

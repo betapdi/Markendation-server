@@ -1,11 +1,14 @@
-package com.markendation.server.utils;
+package com.markendation.server.classes;
 
 import java.util.List;
 
 import org.springframework.data.util.Pair;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.markendation.server.models.Dish;
 import com.markendation.server.models.Ingredient;
+import com.markendation.server.utils.IngredientResponseDeserializer;
+import com.markendation.server.utils.UnitQuantityParser;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,7 +25,8 @@ public class ModelResponse {
     @AllArgsConstructor
     @Getter
     @Setter
-    public class IngredientResponse {
+    @JsonDeserialize(using = IngredientResponseDeserializer.class)
+    public static class IngredientResponse {
         String ingredient_name;
         String total_unit;
         String category;
@@ -42,20 +46,29 @@ public class ModelResponse {
         }
     };
 
+    @NoArgsConstructor
+    @AllArgsConstructor
+    @Getter
+    @Setter
+    public static class TempIngredients {
+        List<IngredientResponse> ingredients;
+    }
+
     private String correlationId;
-    private String name;
+    private String dish;
     private String imageUrl;
-    private int servings;
-    private List<IngredientResponse> ingredients;
+    private int servings = 1;
+    private TempIngredients ingredients;
+    private String modelType;
 
     public Dish toDish() {
         Dish result = new Dish();
         result.setImageUrl(imageUrl);
-        result.setName(name);
-        result.setVietnameseName(name);
+        result.setName(dish);
+        result.setVietnameseName(dish);
         result.setServings(servings);
 
-        for (IngredientResponse ingredientResponse : ingredients) {
+        for (IngredientResponse ingredientResponse : ingredients.getIngredients()) {
             Ingredient ingredient = ingredientResponse.toIngredient();
             result.getIngredients().add(ingredient);
         }

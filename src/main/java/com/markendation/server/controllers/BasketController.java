@@ -3,9 +3,9 @@ package com.markendation.server.controllers;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.markendation.server.classes.StoreCalculation;
 import com.markendation.server.dto.BasketDto;
 import com.markendation.server.services.BasketService;
-import com.markendation.server.utils.StoreCalculation;
 
 import java.io.IOException;
 import java.util.List;

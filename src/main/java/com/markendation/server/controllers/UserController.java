@@ -3,9 +3,9 @@ package com.markendation.server.controllers;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.markendation.server.classes.Location;
 import com.markendation.server.dto.UserDto;
 import com.markendation.server.services.UserService;
-import com.markendation.server.utils.Location;
 
 import java.io.IOException;
 

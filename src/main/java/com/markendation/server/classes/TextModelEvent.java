@@ -1,16 +1,16 @@
-package com.markendation.server.utils;
+package com.markendation.server.classes;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
-public class ImageModelEvent {
+public class TextModelEvent {
     String correlationId;
-    String eventType = "image";
-    String imageUrl;
+    String eventType = "text";
+    String description;
 }

@@ -8,8 +8,6 @@ import org.springframework.web.multipart.MultipartFile;
 import com.markendation.server.dto.DishDto;
 import com.markendation.server.services.AIService;
 
-import java.io.IOException;
-import java.sql.Time;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;

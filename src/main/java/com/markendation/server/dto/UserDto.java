@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.markendation.server.auth.entities.User;
+import com.markendation.server.classes.Location;
 import com.markendation.server.models.Basket;
-import com.markendation.server.utils.Location;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

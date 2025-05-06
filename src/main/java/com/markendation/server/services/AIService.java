@@ -12,6 +12,9 @@ import java.util.concurrent.TimeoutException;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.markendation.server.classes.ImageModelEvent;
+import com.markendation.server.classes.ModelResponse;
+import com.markendation.server.classes.TextModelEvent;
 import com.markendation.server.dto.DishDto;
 import com.markendation.server.kafka.IngredientConsumer;
 import com.markendation.server.kafka.KafkaProducer;
@@ -19,9 +22,6 @@ import com.markendation.server.models.Dish;
 import com.markendation.server.models.Ingredient;
 import com.markendation.server.repositories.primary.DishRepository;
 import com.markendation.server.repositories.primary.IngredientRepository;
-import com.markendation.server.utils.ImageModelEvent;
-import com.markendation.server.utils.ModelResponse;
-import com.markendation.server.utils.TextModelEvent;
 
 @Service
 public class AIService {
@@ -75,17 +75,17 @@ public class AIService {
         
         ingredientConsumer.getFutures().put(correlationId, future);
         event.setCorrelationId(correlationId);
-        event.setImageUrl(imageUrl);
+        event.setFileName(imageUrl);
 
         kafkaProducer.send(event);
 
         ModelResponse response = future.get(10, TimeUnit.SECONDS);
         Dish dish = response.toDish();
 
-        for (Ingredient ingredient : dish.getIngredients()) {
-            ingredient = ingredientRepository.save(ingredient);
-        }
-        dish = dishRepository.save(dish);
+        // for (Ingredient ingredient : dish.getIngredients()) {
+        //     ingredient = ingredientRepository.save(ingredient);
+        // }
+        // dish = dishRepository.save(dish);
         
         DishDto result = new DishDto();
         result.update(dish);

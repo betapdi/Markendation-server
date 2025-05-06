@@ -19,6 +19,9 @@ import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
+import com.markendation.server.classes.Location;
+import com.markendation.server.classes.ProductCost;
+import com.markendation.server.classes.StoreCalculation;
 import com.markendation.server.exceptions.CategoryNotFoundException;
 import com.markendation.server.models.MetaCategory;
 import com.markendation.server.models.Ingredient;
@@ -28,9 +31,6 @@ import com.markendation.server.repositories.metadata.MetaCategoryRepository;
 import com.markendation.server.repositories.metadata.StoreRepository;
 import com.markendation.server.utils.KMPProductMatcher;
 import com.markendation.server.utils.LRUCache;
-import com.markendation.server.utils.Location;
-import com.markendation.server.utils.ProductCost;
-import com.markendation.server.utils.StoreCalculation;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 
@@ -211,10 +211,10 @@ public class CalculatingService {
         }
 
         for (StoreCalculation storeData : storeDatas) {
-            double costRating = 5 * (maxCost - storeData.getTotalCost()) / (maxCost - minCost);
-            double distRating = 5 * (maxDist - storeData.getDistance()) / (maxDist - minDist);
+            double costRating = (maxCost == minCost ? (5 * (maxCost - storeData.getTotalCost()) / (maxCost - minCost)) : 5);
+            double distRating = (maxDist == minDist ? (5 * (maxDist - storeData.getDistance()) / (maxDist - minDist)) : 5);
             // System.out.println(costRating); System.out.println(distRating); 
-            double rating = costRating * 0.0883 + storeData.getStars() * 0.4824 + distRating * 0.1575;
+            double rating = costRating * 0.0883 + storeData.getStars() * 0.4824 + distRating * 0.1575 + storeData.getRecently() * 0.2718;
             storeData.setRating(rating);
         }
 

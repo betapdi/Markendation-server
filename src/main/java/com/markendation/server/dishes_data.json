@@ -1,0 +1,926 @@
+[
+  {
+    "dish": "apple_pie",
+    "vietnamese_name": "bánh táo",
+    "image": "https://th.bing.com/th/id/OIP.dXFT_I7KM1EcLbWkVzOnHgHaE7?w=266&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3",
+    "ingredients": [
+      {
+        "ingredient_name": "apple",
+        "vietnamese_name": "táo",
+        "unit": "600 g",
+        "category": "Fresh Fruits",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Red_Apple.jpg/1200px-Red_Apple.jpg"
+      },
+      {
+        "ingredient_name": "flour",
+        "vietnamese_name": "bột mì đa dụng",
+        "unit": "300 g",
+        "category": "Grains & Staples",
+        "image": "https://down-my.img.susercontent.com/file/sg-11134201-23030-xqep9ujw3dov58"
+      },
+      {
+        "ingredient_name": "butter",
+        "vietnamese_name": "bơ",
+        "unit": "225 g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://th.bing.com/th/id/OIP.cG6Dut_MnjbolNs5VQP75gHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "sugar",
+        "vietnamese_name": "đường cát",
+        "unit": "150 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.XbEv4eIvy2YgzIaLM3D88QHaFj?w=244&h=184&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "cinnamon",
+        "vietnamese_name": "quế",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.c8961110e63e5428db5952b89a91d403?rik=FpgcpXNyNwW9wA&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "salt",
+        "vietnamese_name": "muối",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      }
+    ]
+  },
+  {
+    "dish": "baby_back_ribs",
+    "vietnamese_name": "Sườn non nướng",
+    "image": "https://th.bing.com/th/id/R.4eed8df7bbfc1536bed52d5875118ca7?rik=U9wExLsJw5%2btAQ&pid=ImgRaw&r=0",
+    "ingredients": [
+      {
+        "ingredient_name": "rib",
+        "vietnamese_name": "Sườn non",
+        "unit": "1000 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.Dbfu_1anb4WgmQDcExNhYQHaDt?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "sugar",
+        "vietnamese_name": "Đường nâu",
+        "unit": "50 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP._yHfUuL_IQ3lnipl3IeKFQHaEL?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Garlic powder",
+        "vietnamese_name": "Tỏi bột",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.PXo2JbHRST27EChcTgWBAQHaE9?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Onion powder",
+        "vietnamese_name": "Hành tây bột",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.ELEgaCiJlyIaPdbJVNvstQHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Black pepper",
+        "vietnamese_name": "Tiêu đen",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.UO_GzjaSTyA_B4sKiIn-ggHaGV?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Salt",
+        "vietnamese_name": "Muối",
+        "unit": "10 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "BBQ sauce",
+        "vietnamese_name": "Sốt BBQ",
+        "unit": "100 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.RztAv3GToHZpIb_5J4PoZgHaFj?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "beef_tartare",
+    "vietnamese_name": "bò bít tết sống",
+    "image": "https://file.hstatic.net/1000389344/file/tartaree_dd680636de4f4d36929ecf680f0144cd_grande.jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "beef",
+        "vietnamese_name": "thịt bò sống (thăn hoặc thớ)",
+        "unit": "200 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.Ue3DAe1wE5a0wcwKhu1ubwHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "egg",
+        "vietnamese_name": "lòng đỏ trứng",
+        "unit": "1",
+        "category": "Prepared Vegetables",
+        "image": "https://cdn.tgdd.vn/2020/07/CookProductThumb/14-620x620-6.jpg"
+      },
+      {
+        "ingredient_name": "shallots",
+        "vietnamese_name": "hành tím",
+        "unit": "15 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.5xhsMRHIakH1zLYY2WUe1QHaEL?w=304&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "capers",
+        "vietnamese_name": "cà phê",
+        "unit": "10 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.puHUhojWc4REluTTVz-vZwHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "olive oil",
+        "vietnamese_name": "dầu ô liu",
+        "unit": "10 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.ICtB1ucppWfpKlpkLrrrrgHaEK?w=300&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3"
+      },
+      {
+        "ingredient_name": "salt",
+        "vietnamese_name": "muối",
+        "unit": "to taste",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "black pepper",
+        "vietnamese_name": "tiêu đen",
+        "unit": "to taste",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.UO_GzjaSTyA_B4sKiIn-ggHaGV?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "bibimbap",
+    "vietnamese_name": "Cơm trộn Hàn Quốc",
+    "image": "https://th.bing.com/th/id/OIP.xR5K-olG-tldZj3eK_Z-QAHaEo?w=294&h=183&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "vietnamese_name": "Cơm",
+        "unit": "200 g",
+        "category": "Grains & Staples",
+        "image": "https://th.bing.com/th/id/OIP.pLqijxNtz7FTci9Pmgpq5QHaEl?w=271&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Beef",
+        "vietnamese_name": "Thịt bò thái lát mỏng",
+        "unit": "100 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.Ue3DAe1wE5a0wcwKhu1ubwHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Carrot",
+        "vietnamese_name": "Cà rốt",
+        "unit": "50 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.MdUp0WpxlIvVQ22OBDf9bwHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Bean sprouts",
+        "vietnamese_name": "Giá đỗ",
+        "unit": "50 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.nyA_h3WKcWSWpRJhwdHYmgHaFA?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Egg",
+        "vietnamese_name": "Trứng",
+        "unit": "1",
+        "category": "Fresh Meat",
+        "image": "https://cdn.tgdd.vn/2020/07/CookProductThumb/14-620x620-6.jpg"
+      },
+      {
+        "ingredient_name": "Gochujang",
+        "vietnamese_name": "Tương ớt Hàn Quốc",
+        "unit": "30 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.1G1PSK16C0egMhDrwVzJkAHaE8?w=296&h=198&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Sesame oil",
+        "vietnamese_name": "Dầu mè",
+        "unit": "5 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.FVFODw7BDy0k0-haNpbmBQHaEK?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Soy sauce",
+        "vietnamese_name": "Nước tương",
+        "unit": "10 ml",
+        "category": "Seasonings",
+        "image": "https://toplist.vn/images/800px/nuoc-tuong-cholimex-huong-viet-574446.jpg"
+      },
+      {
+        "ingredient_name": "Sesame seed",
+        "vietnamese_name": "Hạt mè",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.CrwiqA1xA_R-YkaUUOQSHwHaE5?w=268&h=180&c=7&r=0&o=5&pid=1.7"
+      }
+    ]
+  },
+  {
+    "dish": "bread_pudding",
+    "vietnamese_name": "bánh mì nướng",
+    "image": "https://th.bing.com/th/id/R.ac7d361f470d6f6966ac04340c113763?rik=8mhaEyfjjJ76PQ&pid=ImgRaw&r=0",
+    "ingredients": [
+      {
+        "ingredient_name": "bread",
+        "vietnamese_name": "bánh mì",
+        "unit": "250 g",
+        "category": "Grains & Staples",
+        "image": "https://th.bing.com/th/id/R.9e7890326d599651e2c216d7c5832521?rik=o61oja7waWbXJA&riu=http%3a%2f%2fdongtienbakery.com%2fimage%2fcache%2fdata%2fProduct_B%c3%a1nh+m%c3%ac%2fB%c3%a1nh+m%c3%ac+kh%c3%b4ng+nh%c3%a2n+(3)_fix-608x416f.jpg&ehk=b20dEHf1lS%2fLQaE16wWg5TVheNZ%2b9YLY56D49rP%2fdmQ%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "egg",
+        "vietnamese_name": "trứng",
+        "unit": "3",
+        "category": "Fresh Meat",
+        "image": "https://cdn.tgdd.vn/2020/07/CookProductThumb/14-620x620-6.jpg"
+      },
+      {
+        "ingredient_name": "sugar",
+        "vietnamese_name": "đường",
+        "unit": "50 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.XbEv4eIvy2YgzIaLM3D88QHaFj?w=244&h=184&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "butter",
+        "vietnamese_name": "bơ",
+        "unit": "30 g",
+        "category": "Milk",
+        "image": "https://th.bing.com/th/id/OIP.cG6Dut_MnjbolNs5VQP75gHaFj?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "caprese_salad",
+    "vietnamese_name": "Gỏi cà chua mozzarella",
+    "image": "https://th.bing.com/th/id/OIP.zU2xvHBlOze1LNt-GcsvogHaEK?cb=iwp1&rs=1&pid=ImgDetMain",
+    "ingredients": [
+      {
+        "ingredient_name": "mozzarella",
+        "vietnamese_name": "Phô mai mozzarella tươi",
+        "unit": "100 g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://th.bing.com/th/id/OIP.4TonXL228ssWg8y66nGwRAHaHa?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Tomato",
+        "vietnamese_name": "Cà chua",
+        "unit": "150 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.wBKSKB0RuBYazXWGw3G8OQHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "basil",
+        "vietnamese_name": "Lá húng quế tươi",
+        "unit": "10 g",
+        "category": "Vegetables",
+        "image": "https://monngonmoingay.com/wp-content/smush-webp/2024/01/MNMN-hung-que.jpg.webp"
+      },
+      {
+        "ingredient_name": "Extra virgin olive oil",
+        "vietnamese_name": "Dầu ô liu nguyên chất",
+        "unit": "15 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.ICtB1ucppWfpKlpkLrrrrgHaEK?w=300&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3"
+      },
+      {
+        "ingredient_name": "Salt",
+        "vietnamese_name": "Muối",
+        "unit": "2 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Black pepper",
+        "vietnamese_name": "Tiêu đen",
+        "unit": "1 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.UO_GzjaSTyA_B4sKiIn-ggHaGV?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "carrot_cake",
+    "vietnamese_name": "Bánh Cà Rốt",
+    "image": "https://th.bing.com/th/id/OIP.zVEi9kUt7KK8Mka2AAWfYgHaE8?cb=iwp1&w=730&h=487&rs=1&pid=ImgDetMain",
+    "ingredients": [
+      {
+        "ingredient_name": "Carrot",
+        "vietnamese_name": "Cà rốt",
+        "unit": "250 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.MdUp0WpxlIvVQ22OBDf9bwHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "flour",
+        "vietnamese_name": "Bột mì đa dụng",
+        "unit": "200 g",
+        "category": "Cereals & Grains",
+        "image": "https://down-my.img.susercontent.com/file/sg-11134201-23030-xqep9ujw3dov58"
+      },
+      {
+        "ingredient_name": "Sugar",
+        "vietnamese_name": "Đường",
+        "unit": "200 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.XbEv4eIvy2YgzIaLM3D88QHaFj?w=244&h=184&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Egg",
+        "vietnamese_name": "Trứng gà",
+        "unit": "3",
+        "category": "Fresh Meat",
+        "image": "https://cdn.tgdd.vn/2020/07/CookProductThumb/14-620x620-6.jpg"
+      },
+      {
+        "ingredient_name": "oil",
+        "vietnamese_name": "Dầu ăn",
+        "unit": "120 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.FVFODw7BDy0k0-haNpbmBQHaEK?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Baking soda",
+        "vietnamese_name": "Baking soda",
+        "unit": "1 tsp",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.ZHjyPa54HgaLhOuJp45jrQHaHa?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Cinnamon",
+        "vietnamese_name": "Quế",
+        "unit": "1 tsp",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.c8961110e63e5428db5952b89a91d403?rik=FpgcpXNyNwW9wA&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Salt",
+        "vietnamese_name": "Muối",
+        "unit": "0.5 tsp",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      }
+    ]
+  },
+  {
+    "dish": "chicken_curry",
+    "vietnamese_name": "Cà ri gà",
+    "image": "https://th.bing.com/th/id/OIP.y-WOrFQRNPAcWtS3z5z9rQHaEK?cb=iwp1&rs=1&pid=ImgDetMain",
+    "ingredients": [
+      {
+        "ingredient_name": "Chicken",
+        "vietnamese_name": "Thịt gà",
+        "unit": "500 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.jElcBC3MX9ohA9d8dVhodAHaHa?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Onion",
+        "vietnamese_name": "Hành tây",
+        "unit": "100 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.ppGltlGHU8F6dHH4rOGQAgHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Garlic",
+        "vietnamese_name": "Tỏi",
+        "unit": "20 g",
+        "category": "Vegetables",
+        "image": "https://www.bing.com/th/id/OIP.CMU2updopfezTKvRU6va4wHaFD?w=157&h=106&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+      },
+      {
+        "ingredient_name": "Ginger",
+        "vietnamese_name": "Gừng",
+        "unit": "20 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/R.734a02448825c7ee2bb08b4b3337f0d6?rik=tTzqf4Pap5p53w&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Potato",
+        "vietnamese_name": "Khoai tây",
+        "unit": "200 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.G6afy3B2-lIgaKepOgExggHaEp?w=272&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Carrot",
+        "vietnamese_name": "Cà rốt",
+        "unit": "100 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.MdUp0WpxlIvVQ22OBDf9bwHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Coconut milk",
+        "vietnamese_name": "Nước cốt dừa",
+        "unit": "400 ml",
+        "category": "Beverages",
+        "image": "https://th.bing.com/th/id/R.5f9bdede829899a06b9418be5aa5fc02?rik=DAzjRR7wh5oGqw&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Curry powder",
+        "vietnamese_name": "Bột cà ri",
+        "unit": "15 g",
+        "category": "Seasonings",
+        "image": "https://giavivietan.com/wp-content/uploads/2020/08/B%E1%BB%99t-c%C3%A0-ry-50gr.jpg"
+      },
+      {
+        "ingredient_name": "Fish sauce",
+        "vietnamese_name": "Nước mắm",
+        "unit": "15 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.05985a65ab95c88e706e6498cc440953?rik=%2byb7r7XNXMN9qA&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Salt",
+        "vietnamese_name": "Muối",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      }
+    ]
+  },
+  {
+    "dish": "chicken_wings",
+    "vietnamese_name": "Cánh gà chiên",
+    "image": "https://i.ytimg.com/vi/S2bfZr2s-1g/maxresdefault.jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "Chicken wings",
+        "vietnamese_name": "Cánh gà",
+        "unit": "500 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/R.e18477947eb7b87369ce1cfe8417acd8?rik=fkYuk90GUsLcGg&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Cooking oil",
+        "vietnamese_name": "Dầu ăn",
+        "unit": "200 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.FVFODw7BDy0k0-haNpbmBQHaEK?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Soy sauce",
+        "vietnamese_name": "Nước tương",
+        "unit": "30 ml",
+        "category": "Seasonings",
+        "image": "https://toplist.vn/images/800px/nuoc-tuong-cholimex-huong-viet-574446.jpg"
+      },
+      {
+        "ingredient_name": "Garlic",
+        "vietnamese_name": "Tỏi",
+        "unit": "15 g",
+        "category": "Vegetables",
+        "image": "https://www.bing.com/th/id/OIP.CMU2updopfezTKvRU6va4wHaFD?w=157&h=106&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+      },
+      {
+        "ingredient_name": "Black pepper",
+        "vietnamese_name": "Tiêu đen",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.UO_GzjaSTyA_B4sKiIn-ggHaGV?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Salt",
+        "vietnamese_name": "Muối",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Sugar",
+        "vietnamese_name": "Đường",
+        "unit": "10 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.XbEv4eIvy2YgzIaLM3D88QHaFj?w=244&h=184&c=7&r=0&o=5&pid=1.7"
+      }
+    ]
+  },
+  {
+    "dish": "filet_mignon",
+    "vietnamese_name": "Thăn bò phi lê",
+    "image": "https://th.bing.com/th/id/OIP.A2BGocVZVMMxvGT91Tbx8wHaE8?cb=iwp1&rs=1&pid=ImgDetMain",
+    "ingredients": [
+      {
+        "ingredient_name": "Mignon",
+        "vietnamese_name": "Thăn bò phi lê",
+        "unit": "200 g",
+        "category": "Fresh Meat",
+        "image": "https://meoeva.com/wp-content/uploads/2022/10/229947-than-bo-vai.jpeg"
+      },
+      {
+        "ingredient_name": "Salt",
+        "vietnamese_name": "Muối",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Black Pepper",
+        "vietnamese_name": "Tiêu đen",
+        "unit": "3 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.UO_GzjaSTyA_B4sKiIn-ggHaGV?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Olive Oil",
+        "vietnamese_name": "Dầu ô liu",
+        "unit": "15 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.ICtB1ucppWfpKlpkLrrrrgHaEK?w=300&h=180&c=7&r=0&o=7&cb=iwp1&dpr=1.3&pid=1.7&rm=3"
+      },
+      {
+        "ingredient_name": "Butter",
+        "vietnamese_name": "Bơ",
+        "unit": "30 g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://th.bing.com/th/id/OIP.cG6Dut_MnjbolNs5VQP75gHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Garlic",
+        "vietnamese_name": "Tỏi",
+        "unit": "2 cloves",
+        "category": "Vegetables",
+        "image": "https://www.bing.com/th/id/OIP.CMU2updopfezTKvRU6va4wHaFD?w=157&h=106&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+      }
+    ]
+  },
+  {
+    "dish": "hamburger",
+    "vietnamese_name": "bánh hamburger",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "Ground beef",
+        "vietnamese_name": "Thịt bò xay",
+        "unit": "150 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.TzAJTJdKXN4-sc9KkY_VHQHaE6?w=261&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Hamburger",
+        "vietnamese_name": "Bánh mì hamburger",
+        "unit": "2",
+        "category": "Grains & Staples",
+        "image": "https://i.ytimg.com/vi/cJGE0TJA2cg/sddefault.jpg"
+      },
+      {
+        "ingredient_name": "Lettuce",
+        "vietnamese_name": "Xà lách",
+        "unit": "30 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/R.3fd3b38da030631bc9dcff8d7db2e486?rik=Y%2b5zcDabCuYSmQ&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Tomato",
+        "vietnamese_name": "Cà chua",
+        "unit": "50 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.wBKSKB0RuBYazXWGw3G8OQHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Onion",
+        "vietnamese_name": "Hành tây",
+        "unit": "30 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.ppGltlGHU8F6dHH4rOGQAgHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Ketchup",
+        "vietnamese_name": "Tương cà",
+        "unit": "15 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.an85fKmodauMudLi-eofTgHaEc?w=300&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Mustard",
+        "vietnamese_name": "Mù tạt",
+        "unit": "10 ml",
+        "category": "Seasonings",
+        "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0ANIDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAEGBAUHAwL/xABEEAACAQMDAQYCBwYDBAsAAAABAgMABBEFEiExBhMiQVGRYXEUMjNygaGxFSNCUmLBByTwkrLR4RYlNENkc3SCg6Lx/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAMEAQIFBv/EADURAAICAQIEAgcHBAMAAAAAAAABAgMRBDEFEiFBImETMlFxkaHBFCMkgbHR8AYVNOEzQvH/2gAMAwEAAhEDEQA/AOt0pSgFKmooBSlTQEUpWq1S7u7V4BEQY2BMoHDhQcFl4OfLjj+xiutVUHNrOAbWvNpoEzvkRcerDPt1rRtPJIMtKzA8gljjHr6VgyusvcNHPdxAtMmYQAhZSqkS5VvXg4Pr8a4D45zPlhD4/wCgWN9QskBJckDqQMAfMvgVitrNuztFEI2kCCQqZVLBD0cquTg+uarm9VijaaWR8iZZVnnhLJDkYBEa7SDyTny88GvCNbWAwCNbfvLKR0RRDK52SI7bQZGLDkeTHhucdailxHUTTw8e5fuYLKdSuyQw7sKOqheD+JJNbSC4inTch+8vmp+IqkNLclcxLeOsbd5CxKRgAr9RiyhSOR16EfMVsLS9uou5eZBBOxYCMMGDqOcgAnjpnPQ/MZh0/Eb6JZufMn8UZLbSsa1u4bpMocOMb0PVf+VZNerqthbFTg8pgUpSpAKVNRQClKUApSpoCKUpQClKUApSlATUUpQCpqKUArV6ou57fOMbXyPxFbStdqQO+1+Ug/Na0msrANKgMLAE/un5H9BP9qiaG2SZHaKVzJ3mNrNsRghGMDpuycfEn+avd0U44HIA+fWqP2s7Q65p7Lb2Vy1um0oXh2iViJSudxBPlj8fhXmtXw/8QlV05uhlrJc4YPszFYqIZCrbmiIdCVJ3SI/GQRg+uR6VrhIdOgu4bzXbCFxJNLavPNahl7wkhJlkJYhTjAGODjyzXIbnVdUuzm8v76cE89/dTsuPPgtj8q9T+xsKYLKV2D5Yxu7x7APN5VXqf9eVTx4bKCanLOfLP6v6BRydKu+0HZkd59L12K6gurVraW2to3mjMuzaXgQJxzkgmQn59Vrk3bPTbRmOm6e08yww2sM99tgigt4U2JFFBAS23zOZOSc/AVYXjRrGkMVtEwSZQxczykynBbbEp5HRf+de0PZ7W7i40+GW0urf6fL3FvJc2zQxEohck7jv6A/wc/pcq0FaTjLb4fokZaReuxGt6/rWvRyXUq/RYYJ2eO3iSGBe8V1UEDxHlfMn8q6rkVy7/Di2htLvVYGeGSe1kmhdovEHVXkQMrfy5DeX/Ppm6E5GQD7H8iDVzT1wrTjBYWf2MM9qV5AgY8Xvn9TX0CeeR1/KrJg9KivIvJuIAXGB1LA58/4cU71xnMZP3WQ/3FAetKhTuCnBGRnDYyPgcVNAKmopQClKUApSlAKUpQE1FKUApSlAKwNRGfo/zkH+7WfWFf8ASH7zf2rWWwNYw5GfIgCuZ9tkZrqNVQu7yGNEHBZ3uNqjj4kV09hzz0yMVQ9fiR+0WgI+Nrarbk7uB4blWGa52p/yKn5/Rmy3MLVey+k26LaaeO6urC0txdXO3vXnvb6VFiWVn3cKiyysFGcFR58/L6Z2btZez66xb3Kd7dSW8EFxHKCbdI17ufUFTxFnd0LdQNwTohrM1zWtOstQ1jTZWUmSe2nupe8BLPzcXEQSMFgzARQLyMKD086na6x2gVrtrSe/klvGcyzRqkTBpJTM4imIZ1yeuHHQeldFtIJNliiitUub+zW0XTNX1SWytXtdPgTZDBZ6isbm2csCS+x3PhHAz5eJNqyKdXvbczfSbGzvLq9gjnF5FHqd/KtlAzXKDDOiFsgeFcALyCaqkv7VEiSzzW9vKYhad5NJvmSFlaMqzEs2MZDc+fxrw3xJHJEdVuGSUKXitUkWORkO5QwOFwD04rT0iew5WWrsLevp0k0yAbzBHD4wSAWMjZIyOa6PH2iyQJkhkA65VkP4HkflXMey1tLPb3oUN3kawNj+LhUDAZ8xvqwG1vIvq3EoPGBMM/gcivMavU6im6ThPC+RXnKcZNYL9DrmlSYDM0Z+PiUfip/tWYt5p0nK3MR+bAf71cxP7SUNzDKwHhBwu47hycfDNfaXN8h8ds/UDMbEgZOPjSri+o2ajL88GqufdHTu9tc+G5hH/wAif8akOjBtssT4BJ2sGOPc1zcaqYwxfv0Cu6ZYDnaAcgE5wc8Vk2N5Ne3FikLnEt3DHu2lWwHBfHn0BqzDjE20nXubq1N4OiJ9VeMcDgdOefKvqlK9GSipqKUApSlAKUpQClKUBNRU1FAKmopQCsO/Hhh++f0rMrEvhlIvvn9KxLYGvP4+uRXNe3qgzLnzcg468zQ/8a6WeSPgP15rm/8AiB4XB9Cxz/77c1ztV/zVPz+jN479SpokSOQkSLkYPG5s9ScnJ5rGS8iWG1hIupwE2yQNKUh3KQVEax84x1zXvaafreqHMaSLCc5fAjQ/icD/AF0qyWXZe1ttv0iXLkZMcR2seh8Tt4scjoB+dV79bRpsq2WX7Ed3WWU3cufBFeXV7bRX1wiqG0kuZi5hS3D7QsEALOABjgcn59a2ltolyCq7I7YtG8oa6bEhjQhWbHXAJA5I61cYbaztVK28UcY8yo8R+8x5/OtZeRzG9u2VbbdLpptrb6XOCoV3jjlkEbHAHIGAM8erCubXxSWrm64eFJPcqf3CrT/40OvtfV/sjY9mLEWMt/DvMjyWdzOzbdoyjwcAZPpVoBVlHQj481W9EiliS6ikdTLB2bvkdo920vDFGuVL+Ly86wbvtHqOn2kEqCCbdKUYXCk5UKT9ZCDmreivWFCXi5m+vuOXZc5y5p7stzQWr/WhjJ9doH5ivI2Nkc4Qrn+Vm/Q1WbLtbe3Np9MbSO8iEjROLK7DSRkMF3PHKnAPkd2OPwrO/wClOmRpDJd2+oWiS7O7eWGORDujWUDdBIx6MD0866M9JTP1oL4EfhZsn02I52yuPgwVqztF06OO/gk37u6SVwAoCgkbc8efNay31vR7tO8t7tXTcUyY5VIYdQQyg1Y9Ckina5kjO4Kka5wQPGSfP5VWq0ekjauVLK7Z+gUY5yjeipqKV2TcVNRU0BFKUoBSlKAUpSgJqKmooBSlTQEVi3o/dxn+v+xrKrGvPs1++P0NYewMEjg/PINVfWbSyuL9muIVlMRHdq4LICyo31T4fIdas5/iHyrQaoT9OnG1j4YTkYC8xjqev5V53j8pRojKLx1+jDk49Uam6maytL26VYlNrazTIpzjciEqAB4euPKqV2RFzc69LcSPJL3en6hNds7kl+8QRIHJznLsuPl8K9O0t/2jjuru1lMsFhOZUt44VHdT264yS4G4+rZPHoK8+zNtrl1Dq8WnzR2NtO1tFf6m6s0yogaRbW1VSCWbO5sY6DLAcNjhmk9BpZ2TkszW/ZLHdmqXctt1qOnWb93eXlrBIBzG0u+QfeRFJH41h3ES6qm6wnhmjuLU6crRHKxNJdQXDys3ltVSMYySRjrxr77snpFvpupXEU181xa20t009xLHtdkAO1olTHi6DxE89TU/4eR3RudZnA/yiwwQksDtN1vLDB6ZC7s/eHrUOg4dQ8XUWN48uj/nvMKJd9NsNs2qO/15dK1FMfyq+2qRbPF9I01pTFi2W/u0W4ZRE8sVuSisD15OceeK6TpcWbi8L4Z2sJkZsAEgsOBjyrlU8r27wlYriXwXCAQRrIAx2Fe9RkZSvHIwPnxXS9BCqdUYromzE90e5tNOe4ZVuZ0eSVJwbULvWHBBlLSFYwpPpnBbyUc/H7Pkv4ljk1KSXu5FMaMuVildhDskPeE7lUIHwCBn0XJxplEkYMGkXVzI7sCi6deWjxjBw2+BjEccD6orJtNO1R1h/wCqdbh2ZOXns2jDyIY5JAl2owSCfU+1dY1wNM+jxQzJbStLB9Kuu4lcbWkjEhVWKj1xmuodjY2FlfSnOZLoIM/yxxL09zXLrG2e1X6M6MjQ3E8ZVtpK7ZWGCV49q612SQpo6Mf+8ubh/Ztn9q42kinq5y95mvub+lKV2yUVNRU0BFKUoBSlKAUpSgJqKmooBU1FTQEVj3f2Q++v96yK8Lr7I/eWsPYGAcc/nWg1P/tkv3Iv9wVvzWj1GNmu5COFEcRJPwXzrzf9RL8MvevqbKLl0RTr63u9a1G9t1S5t9M0uxuoru5Kd2bqZgJVtbdmBGHITdj+FfIHDe/ZCxuItDCylVea9nvHA5KLJBAqK3xwM49D7bxQxmZFRmWNEYPuGGZiCEVV9Rz18x681bW9QsdE0ubS9LvZVvpLoHZHO88lpAQA8ZlP1fqqFUHI56ZqjotQtTR9h5cdF388tt9jEoOO5ZL/AEuTVoo9ODGDSu+jl1BwCLi/EeGSBD5R55Y9SQMfVzWzjg07TLVYYo4re1iBIVFCjAAyf0ySaqfZHtBqM1nq0mpOJLa0NnDasWJne4aMh48uSxBADn0JOODhfq9vZL5mnnbbAu0LAjndIAc8tgjHxx8h5j0Dsho61Ut12KWo1UaVhdWWns3qY1DVtRjiBWCPTxtD4yz97jdwM1zi6u2s45Z1GWLhVGSBub1xzxzV57BKpvtYfHItrZcnqA0jHH5Vz7WV/wAvPwfBdAn4Dcy1Wb9Mq3Pu2aUTlZXGUu+T007VdQuRc97K4EbLhkd1XBUkg5by6/jWZ9OkkiEiXTtGQTvErbcA4JyTiq6JUFktrC4DvFNcXjj+FFz4PmeB/wDtZNrGt3FbQg5tLVVV1xgTz/WO4egz+da30pZnnCz8iV+03luRIyPu3biG3Z3bs85zXWOza7NE0zn60byc/wBbs1cphG3A6YB6eWB5V17R07vStKTPSzg5PmSgNbcMWZyZLVszPpSldwlFTUVNARSlKAUpSgFKUoBSpqKAUpSgFeF19i33k/WvevG6+xk+a/qKw9ga71rSavs3y7xkGNB0B2nY3i54/Hyreevy5rUanFPJJIsIbe8UYVgpIUg+dcHjkXKhYX/ZFij1n7jUwt/mJVVtqfR4/wB0ASIuMBSw4BxnPA/+vFduLD/D3SNZj0u5025nupYYG33d072MVxcplY2UsG5yPESQCfL6ws17MNKh1HUr1Jo7S3EJJhSOSdpHKxoqDO3AJ6sfM9P4qTd6h2R7SXsMb6dqUN257qGY3UStdk/VjnYAgee3gnnGR0qDg9FtUZXWJpNL5dyO+xRjyrtkz7HSodBh1FWuo55ryeBooAGxaJb97hpt3Vzu2444GT1xXnKWclmzk+bMij8BxX3d3MSLNdS/uoUC7sb3wOEAycsT086w4murieznaSCLS5rNrvcQXu5OXRYwoyAxI9cAA5OeDrap6mbn29u38Z5SyyWpk59l32X/AKXfsCD3+t5AGI7IDGP5pfOqXdRo9xqETruQ3FyhXrkCRhV27Aqd2tsf/Ar+I70mq3f2MN42qRBGRzc3GZYDhyolO5JF/lOCMirDg3p6/wAzq6Zc1EWvP9SlrJbwRXklrby4Kt3kt2okjCq23u12+E/HJ962mnrKLaAyJEpYbwsSbAFbkZUcZ9a1t1LsmYrfqtlkxLHAY27vbxt7huqj1FbqAHZHl+88IO8gLvGMg4AA/Kmrf3a8/eTy2MyIZJwQDt4PoTXY7RdlraJ/JBCvsgFcgtV3SIuPrPGvuwFdlUBVUegA9hip+FrwyZNV6pNKUrskopSpoCKUpQClKUApT2p7UApU+1R7UApT2qfagIrxufsJfwP5ivb2ryufsJfkP1FYewNcemfh/avCQsGbGMBRyxPXnyAr2zx+FVztDqN1aSR29soVp7dHe43+JV3su2NfI8cn/hzXutVS5pEV10aYOctjH7Q65ZWVlewtHBcOYXWaIhZosMu3u3DKVLE9R0HzGKonZ/Skt4rTW7pN0zu8+lQMVWONYmKi9m3eQIPdjj6u48AB82/u7ezi33QkkSWO4hjWOMczOoCsSxx4QWIrEnlm7R3LW+md5baRCscV5fSKyJFboqxrEFU9cABIwck8nAGRWhZZbXz5xn5I51d1t1XpE8cz+CX1PGeHUTqcV0YZL/S7gTW22DMkb2+3uZFRBk5VuVO3ll68HbsO41edbqOCOzhh0xBbJGgQYVPH3capuG/nLZ6knkkHGdMYi0SQxGO3hSK2tIj4jHBEAiKfU+ZPmST51iCO9Fne25uLiO3niu7tkjtSUj7ueaBIJJWYfaPxgDzB9Qaqthc+RLojqcF9BrLJwlBOMcYzlrf2e3Bcf8OTI9vqssjbnkazYnAHBEhA4+FVXWb2exu9fWIxBo7++WEujM6vLMylY9niy2SMVeexMENvb6mkbFsTWyMT1JSPHyqk62iftvWyQPDqFy4JH1TvLbh70nJLTwl5v6mLq3U2msdW8LzeSrXKap3YdYY4ZXliUJaBd2WBBMjDxZz8cVuLdHRI1dzI6qAztjLEeZxWhW2kmE0kUDM007kbVljeOPPBSWQ7Pj0PWrBCu1FXczEKq5Y5Y4HVj61DrOkYorTfTButDiWW/slIyO/jOPkwNdZrmPZhA2pWfwce+a6d7Vc4Wvu2/MsVeohSntT2rrEgpT2qfagIpT2p7UApT2pQClKUBNRU1FAKmoqaAivK4+wm+7/evWvK4GYZh/Qaw9gaz09qqfabH0uz/wDSfl30lWvPA/1xVd1m0+lXlqzSFY0tgrBR4z+8duCeK5uvWa8e4q6yieoqdday3gqskUM47uWOKSPh2E6q0YCn6z7xjA/11wdfeX7MIre3fEMClFSJUigTPH7uNAFHtzWTdjUdRUw6XZ3D2m4tI0ETHdg+HvXbAOPLn1OK9Y9Ok020S4mtpReHd3QeN+7tm6b5CVxvHlzgeXTJqV1ckPF/o73COD06FJ6nxTfbsvy9vm10GiWSxIuq3j3G7dIltBFhd6r4S8zPycnoo9Mn0qI9Nub28eXvs24u5bmG2Jl2KplZyG/gUA/WwPlXsjXs9ra93CY7eOFY43uVAedg3iKBQZG58wP1rbws1tayTCMrHGHFxM8EkbEoBhlSZlO0eQ28/rH45Sy+kTsXaj0ClKLWX8kWbsnbm2g1JWdWZrmJnCggKe6UYGST71Re0KMmu60CMbrpnGf6wGq99lIZorbUu9wXa9yTzk/uU67uc+tVPtUit2gvxja3dwE+Yb90nPFT3xzpY4WP4zzOpTtnLDyUUQ/StWunaTwWjqNqsckqoC9PLOc1uFz+dfTRBC5CDnksgGW+fnX3DGXxnAHqTXPulKxpY2RQlVNvYsfZJC2rW3oiSyEYJ6KQDnpXSqpPY+AR3E8nUPAQpPU7WAJ48qu1dzQRcaUmTxi4rDFKUq+bCpqKmgIpSlAKUpQClKUBNRU1FAKmoqaAivib7Gb/AMtv0r7qGUMrKejAg/jWGDSKeB6HOa1GrNHEs88gR1SCKBEkV2jaSeUxL3wTnYN2W56eYrcyRtC5jPlnB9R61odYuJIZVCEfvLfBUgHcNzjo3H5VR1UowipT2JqYylPEdzWWdyrd6JZJ9SlSR7eDuZQbTYpGTBGmIwMjAO3jb1xycPWdS+iWv7MMh7++cvcqjbo7W1YgmGI+fTHv68fDarfzTwWkcuDK4jOwKAAoLM5CccAf6zWNqGlW13HcXFqhF5GrHvHkkczKBuO8Hjd6YA9PlQ+058L2Z0uWFNsXZubQ39uk8jpd2xQxQRQp300YjjjAXkbCpI5P1uemPXFnvtJjZQFS4MZSWGONpO5WUHfulkc5bnyCgfM9KvFZ6k5ALRAD+skj04ArOjs1i2tPKD6DOxSfhzk1rZqFBYTWfidGvRUetJs6Z2NuJrvT7+4lOWfUZQMDAAWGJcAelVvtWCuv3B5O+G3ZCTwrd2Bt6e1WPsSY20icxnK/tC5GR04WMVo+167dWckArJaQZDAFWALDBB+VWLm/skZPyOBqJKN0uVdCtyBsgcryeCM8+dfcQCjJDMQCfCoGMeeeteXdw/yyDrjZM+B90OSBXtEI1IwJTjzeViD8wuM1y/SRIHai+9loiouXbIfu4lK54RTyFPxGOfnjyqz1WuyQJt75zzmWJAfgqZwPerLXoNG+alNGmc9RSlKuAVNRU0BFKUoBSlKAe1PalKAn2qPalKAe1T7VFKAe1KUoDDv4nZBKgyYsl1HJZPPHxHWqT2h+1tGVHkzbnaEAbI7xjkZOPzroVVnWuzc2pyxCGeOGEbi24MXQl9/7vb8eRyOvpxVHW0u2vEUWNNNV2KTOfpK9u0soECgQuHLbnMYfgHCDb14615iacRzGWYiOQynYD3aNlFZQQnJU/Oug23YvSoYhHNPdTEDbkFI1A3bhhQp8/ia2tr2f0C0KvFYQtIMfvJwZpP8Aalya58NBbs8IuW6mmUudxyzldvYazfgJp9hMUYnLRxlYwD5FhtT5HdxirHa9gL6dhLqF9HEWA3R24MzDz2lmwv5GuiAAAAAADoB0FTV6vQwj63UgnrLJbdDX6RpNno1mLK0MhjEjylpmDOzvjJ4AHlVY7axDv7GYDkwmM/gxIq71ou0+nyX2nMYYy89u6yIqjLMmcMAB7/hUuqrzQ4xKUm5dWczNekfUUkhlicpIuGHkeD8iDzXva2V/O6LFa3Em4geCJyP9rGPzrzCSaIcPJf8AsomNMdv57qQ/gqon9q3/ALVr9Hs5LDT7a2kx3q73k2nIDuxcjPw6fhWwr1WlhyUxi/YTD2p7UpVgD2qfaopQD2p7UpQD2pSlAKUpQClKUApSlAKUpQClKUApSlAKUpQCmKUoD4MMDMHaKMuOjFFLD8SM194pSsJJbAUpSsgUpSgFKUoBSlKAUpSgP//Z"
+      }
+    ]
+  },
+  {
+    "dish": "hot_dog",
+    "vietnamese_name": "Bánh mì xúc xích",
+    "image": "https://emas.edu.vn/uploads/images/4/images/Kien%20thuc/2023/HotDog%20(1).jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "Hot dog sausage",
+        "vietnamese_name": "Xúc xích",
+        "unit": "100 g",
+        "category": "Cold Cuts: Sausages & Ham",
+        "image": "https://th.bing.com/th/id/OIP.HyK11BQ1NerzCQVvIsIbUwHaE7?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Hot dog bun",
+        "vietnamese_name": "Bánh mì",
+        "unit": "1 pc",
+        "category": "Cereals & Grains",
+        "image": "https://www.banhsibaohan.com/uploads/S7A1775.jpg"
+      },
+      {
+        "ingredient_name": "Ketchup",
+        "vietnamese_name": "Tương cà",
+        "unit": "20 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.an85fKmodauMudLi-eofTgHaEc?w=300&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Mustard",
+        "vietnamese_name": "Mù tạt",
+        "unit": "10 ml",
+        "category": "Seasonings",
+        "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0ANIDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAEGBAUHAwL/xABEEAACAQMDAQYCBwYDBAsAAAABAgMABBEFEiExBhMiQVGRYXEUMjNygaGxFSNCUmLBByTwkrLR4RYlNENkc3SCg6Lx/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAMEAQIFBv/EADURAAICAQIEAgcHBAMAAAAAAAABAgMRBDEFEiFBImETMlFxkaHBFCMkgbHR8AYVNOEzQvH/2gAMAwEAAhEDEQA/AOt0pSgFKmooBSlTQEUpWq1S7u7V4BEQY2BMoHDhQcFl4OfLjj+xiutVUHNrOAbWvNpoEzvkRcerDPt1rRtPJIMtKzA8gljjHr6VgyusvcNHPdxAtMmYQAhZSqkS5VvXg4Pr8a4D45zPlhD4/wCgWN9QskBJckDqQMAfMvgVitrNuztFEI2kCCQqZVLBD0cquTg+uarm9VijaaWR8iZZVnnhLJDkYBEa7SDyTny88GvCNbWAwCNbfvLKR0RRDK52SI7bQZGLDkeTHhucdailxHUTTw8e5fuYLKdSuyQw7sKOqheD+JJNbSC4inTch+8vmp+IqkNLclcxLeOsbd5CxKRgAr9RiyhSOR16EfMVsLS9uou5eZBBOxYCMMGDqOcgAnjpnPQ/MZh0/Eb6JZufMn8UZLbSsa1u4bpMocOMb0PVf+VZNerqthbFTg8pgUpSpAKVNRQClKUApSpoCKUpQClKUApSlATUUpQCpqKUArV6ou57fOMbXyPxFbStdqQO+1+Ug/Na0msrANKgMLAE/un5H9BP9qiaG2SZHaKVzJ3mNrNsRghGMDpuycfEn+avd0U44HIA+fWqP2s7Q65p7Lb2Vy1um0oXh2iViJSudxBPlj8fhXmtXw/8QlV05uhlrJc4YPszFYqIZCrbmiIdCVJ3SI/GQRg+uR6VrhIdOgu4bzXbCFxJNLavPNahl7wkhJlkJYhTjAGODjyzXIbnVdUuzm8v76cE89/dTsuPPgtj8q9T+xsKYLKV2D5Yxu7x7APN5VXqf9eVTx4bKCanLOfLP6v6BRydKu+0HZkd59L12K6gurVraW2to3mjMuzaXgQJxzkgmQn59Vrk3bPTbRmOm6e08yww2sM99tgigt4U2JFFBAS23zOZOSc/AVYXjRrGkMVtEwSZQxczykynBbbEp5HRf+de0PZ7W7i40+GW0urf6fL3FvJc2zQxEohck7jv6A/wc/pcq0FaTjLb4fokZaReuxGt6/rWvRyXUq/RYYJ2eO3iSGBe8V1UEDxHlfMn8q6rkVy7/Di2htLvVYGeGSe1kmhdovEHVXkQMrfy5DeX/Ppm6E5GQD7H8iDVzT1wrTjBYWf2MM9qV5AgY8Xvn9TX0CeeR1/KrJg9KivIvJuIAXGB1LA58/4cU71xnMZP3WQ/3FAetKhTuCnBGRnDYyPgcVNAKmopQClKUApSlAKUpQE1FKUApSlAKwNRGfo/zkH+7WfWFf8ASH7zf2rWWwNYw5GfIgCuZ9tkZrqNVQu7yGNEHBZ3uNqjj4kV09hzz0yMVQ9fiR+0WgI+Nrarbk7uB4blWGa52p/yKn5/Rmy3MLVey+k26LaaeO6urC0txdXO3vXnvb6VFiWVn3cKiyysFGcFR58/L6Z2btZez66xb3Kd7dSW8EFxHKCbdI17ufUFTxFnd0LdQNwTohrM1zWtOstQ1jTZWUmSe2nupe8BLPzcXEQSMFgzARQLyMKD086na6x2gVrtrSe/klvGcyzRqkTBpJTM4imIZ1yeuHHQeldFtIJNliiitUub+zW0XTNX1SWytXtdPgTZDBZ6isbm2csCS+x3PhHAz5eJNqyKdXvbczfSbGzvLq9gjnF5FHqd/KtlAzXKDDOiFsgeFcALyCaqkv7VEiSzzW9vKYhad5NJvmSFlaMqzEs2MZDc+fxrw3xJHJEdVuGSUKXitUkWORkO5QwOFwD04rT0iew5WWrsLevp0k0yAbzBHD4wSAWMjZIyOa6PH2iyQJkhkA65VkP4HkflXMey1tLPb3oUN3kawNj+LhUDAZ8xvqwG1vIvq3EoPGBMM/gcivMavU6im6ThPC+RXnKcZNYL9DrmlSYDM0Z+PiUfip/tWYt5p0nK3MR+bAf71cxP7SUNzDKwHhBwu47hycfDNfaXN8h8ds/UDMbEgZOPjSri+o2ajL88GqufdHTu9tc+G5hH/wAif8akOjBtssT4BJ2sGOPc1zcaqYwxfv0Cu6ZYDnaAcgE5wc8Vk2N5Ne3FikLnEt3DHu2lWwHBfHn0BqzDjE20nXubq1N4OiJ9VeMcDgdOefKvqlK9GSipqKUApSlAKUpQClKUBNRU1FAKmopQCsO/Hhh++f0rMrEvhlIvvn9KxLYGvP4+uRXNe3qgzLnzcg468zQ/8a6WeSPgP15rm/8AiB4XB9Cxz/77c1ztV/zVPz+jN479SpokSOQkSLkYPG5s9ScnJ5rGS8iWG1hIupwE2yQNKUh3KQVEax84x1zXvaafreqHMaSLCc5fAjQ/icD/AF0qyWXZe1ttv0iXLkZMcR2seh8Tt4scjoB+dV79bRpsq2WX7Ed3WWU3cufBFeXV7bRX1wiqG0kuZi5hS3D7QsEALOABjgcn59a2ltolyCq7I7YtG8oa6bEhjQhWbHXAJA5I61cYbaztVK28UcY8yo8R+8x5/OtZeRzG9u2VbbdLpptrb6XOCoV3jjlkEbHAHIGAM8erCubXxSWrm64eFJPcqf3CrT/40OvtfV/sjY9mLEWMt/DvMjyWdzOzbdoyjwcAZPpVoBVlHQj481W9EiliS6ikdTLB2bvkdo920vDFGuVL+Ly86wbvtHqOn2kEqCCbdKUYXCk5UKT9ZCDmreivWFCXi5m+vuOXZc5y5p7stzQWr/WhjJ9doH5ivI2Nkc4Qrn+Vm/Q1WbLtbe3Np9MbSO8iEjROLK7DSRkMF3PHKnAPkd2OPwrO/wClOmRpDJd2+oWiS7O7eWGORDujWUDdBIx6MD0866M9JTP1oL4EfhZsn02I52yuPgwVqztF06OO/gk37u6SVwAoCgkbc8efNay31vR7tO8t7tXTcUyY5VIYdQQyg1Y9Ckina5kjO4Kka5wQPGSfP5VWq0ekjauVLK7Z+gUY5yjeipqKV2TcVNRU0BFKUoBSlKAUpSgJqKmooBSlTQEVi3o/dxn+v+xrKrGvPs1++P0NYewMEjg/PINVfWbSyuL9muIVlMRHdq4LICyo31T4fIdas5/iHyrQaoT9OnG1j4YTkYC8xjqev5V53j8pRojKLx1+jDk49Uam6maytL26VYlNrazTIpzjciEqAB4euPKqV2RFzc69LcSPJL3en6hNds7kl+8QRIHJznLsuPl8K9O0t/2jjuru1lMsFhOZUt44VHdT264yS4G4+rZPHoK8+zNtrl1Dq8WnzR2NtO1tFf6m6s0yogaRbW1VSCWbO5sY6DLAcNjhmk9BpZ2TkszW/ZLHdmqXctt1qOnWb93eXlrBIBzG0u+QfeRFJH41h3ES6qm6wnhmjuLU6crRHKxNJdQXDys3ltVSMYySRjrxr77snpFvpupXEU181xa20t009xLHtdkAO1olTHi6DxE89TU/4eR3RudZnA/yiwwQksDtN1vLDB6ZC7s/eHrUOg4dQ8XUWN48uj/nvMKJd9NsNs2qO/15dK1FMfyq+2qRbPF9I01pTFi2W/u0W4ZRE8sVuSisD15OceeK6TpcWbi8L4Z2sJkZsAEgsOBjyrlU8r27wlYriXwXCAQRrIAx2Fe9RkZSvHIwPnxXS9BCqdUYromzE90e5tNOe4ZVuZ0eSVJwbULvWHBBlLSFYwpPpnBbyUc/H7Pkv4ljk1KSXu5FMaMuVildhDskPeE7lUIHwCBn0XJxplEkYMGkXVzI7sCi6deWjxjBw2+BjEccD6orJtNO1R1h/wCqdbh2ZOXns2jDyIY5JAl2owSCfU+1dY1wNM+jxQzJbStLB9Kuu4lcbWkjEhVWKj1xmuodjY2FlfSnOZLoIM/yxxL09zXLrG2e1X6M6MjQ3E8ZVtpK7ZWGCV49q612SQpo6Mf+8ubh/Ztn9q42kinq5y95mvub+lKV2yUVNRU0BFKUoBSlKAUpSgJqKmooBU1FTQEVj3f2Q++v96yK8Lr7I/eWsPYGAcc/nWg1P/tkv3Iv9wVvzWj1GNmu5COFEcRJPwXzrzf9RL8MvevqbKLl0RTr63u9a1G9t1S5t9M0uxuoru5Kd2bqZgJVtbdmBGHITdj+FfIHDe/ZCxuItDCylVea9nvHA5KLJBAqK3xwM49D7bxQxmZFRmWNEYPuGGZiCEVV9Rz18x681bW9QsdE0ubS9LvZVvpLoHZHO88lpAQA8ZlP1fqqFUHI56ZqjotQtTR9h5cdF388tt9jEoOO5ZL/AEuTVoo9ODGDSu+jl1BwCLi/EeGSBD5R55Y9SQMfVzWzjg07TLVYYo4re1iBIVFCjAAyf0ySaqfZHtBqM1nq0mpOJLa0NnDasWJne4aMh48uSxBADn0JOODhfq9vZL5mnnbbAu0LAjndIAc8tgjHxx8h5j0Dsho61Ut12KWo1UaVhdWWns3qY1DVtRjiBWCPTxtD4yz97jdwM1zi6u2s45Z1GWLhVGSBub1xzxzV57BKpvtYfHItrZcnqA0jHH5Vz7WV/wAvPwfBdAn4Dcy1Wb9Mq3Pu2aUTlZXGUu+T007VdQuRc97K4EbLhkd1XBUkg5by6/jWZ9OkkiEiXTtGQTvErbcA4JyTiq6JUFktrC4DvFNcXjj+FFz4PmeB/wDtZNrGt3FbQg5tLVVV1xgTz/WO4egz+da30pZnnCz8iV+03luRIyPu3biG3Z3bs85zXWOza7NE0zn60byc/wBbs1cphG3A6YB6eWB5V17R07vStKTPSzg5PmSgNbcMWZyZLVszPpSldwlFTUVNARSlKAUpSgFKUoBSpqKAUpSgFeF19i33k/WvevG6+xk+a/qKw9ga71rSavs3y7xkGNB0B2nY3i54/Hyreevy5rUanFPJJIsIbe8UYVgpIUg+dcHjkXKhYX/ZFij1n7jUwt/mJVVtqfR4/wB0ASIuMBSw4BxnPA/+vFduLD/D3SNZj0u5025nupYYG33d072MVxcplY2UsG5yPESQCfL6ws17MNKh1HUr1Jo7S3EJJhSOSdpHKxoqDO3AJ6sfM9P4qTd6h2R7SXsMb6dqUN257qGY3UStdk/VjnYAgee3gnnGR0qDg9FtUZXWJpNL5dyO+xRjyrtkz7HSodBh1FWuo55ryeBooAGxaJb97hpt3Vzu2444GT1xXnKWclmzk+bMij8BxX3d3MSLNdS/uoUC7sb3wOEAycsT086w4murieznaSCLS5rNrvcQXu5OXRYwoyAxI9cAA5OeDrap6mbn29u38Z5SyyWpk59l32X/AKXfsCD3+t5AGI7IDGP5pfOqXdRo9xqETruQ3FyhXrkCRhV27Aqd2tsf/Ar+I70mq3f2MN42qRBGRzc3GZYDhyolO5JF/lOCMirDg3p6/wAzq6Zc1EWvP9SlrJbwRXklrby4Kt3kt2okjCq23u12+E/HJ962mnrKLaAyJEpYbwsSbAFbkZUcZ9a1t1LsmYrfqtlkxLHAY27vbxt7huqj1FbqAHZHl+88IO8gLvGMg4AA/Kmrf3a8/eTy2MyIZJwQDt4PoTXY7RdlraJ/JBCvsgFcgtV3SIuPrPGvuwFdlUBVUegA9hip+FrwyZNV6pNKUrskopSpoCKUpQClKUApT2p7UApU+1R7UApT2qfagIrxufsJfwP5ivb2ryufsJfkP1FYewNcemfh/avCQsGbGMBRyxPXnyAr2zx+FVztDqN1aSR29soVp7dHe43+JV3su2NfI8cn/hzXutVS5pEV10aYOctjH7Q65ZWVlewtHBcOYXWaIhZosMu3u3DKVLE9R0HzGKonZ/Skt4rTW7pN0zu8+lQMVWONYmKi9m3eQIPdjj6u48AB82/u7ezi33QkkSWO4hjWOMczOoCsSxx4QWIrEnlm7R3LW+md5baRCscV5fSKyJFboqxrEFU9cABIwck8nAGRWhZZbXz5xn5I51d1t1XpE8cz+CX1PGeHUTqcV0YZL/S7gTW22DMkb2+3uZFRBk5VuVO3ll68HbsO41edbqOCOzhh0xBbJGgQYVPH3capuG/nLZ6knkkHGdMYi0SQxGO3hSK2tIj4jHBEAiKfU+ZPmST51iCO9Fne25uLiO3niu7tkjtSUj7ueaBIJJWYfaPxgDzB9Qaqthc+RLojqcF9BrLJwlBOMcYzlrf2e3Bcf8OTI9vqssjbnkazYnAHBEhA4+FVXWb2exu9fWIxBo7++WEujM6vLMylY9niy2SMVeexMENvb6mkbFsTWyMT1JSPHyqk62iftvWyQPDqFy4JH1TvLbh70nJLTwl5v6mLq3U2msdW8LzeSrXKap3YdYY4ZXliUJaBd2WBBMjDxZz8cVuLdHRI1dzI6qAztjLEeZxWhW2kmE0kUDM007kbVljeOPPBSWQ7Pj0PWrBCu1FXczEKq5Y5Y4HVj61DrOkYorTfTButDiWW/slIyO/jOPkwNdZrmPZhA2pWfwce+a6d7Vc4Wvu2/MsVeohSntT2rrEgpT2qfagIpT2p7UApT2pQClKUBNRU1FAKmoqaAivK4+wm+7/evWvK4GYZh/Qaw9gaz09qqfabH0uz/wDSfl30lWvPA/1xVd1m0+lXlqzSFY0tgrBR4z+8duCeK5uvWa8e4q6yieoqdday3gqskUM47uWOKSPh2E6q0YCn6z7xjA/11wdfeX7MIre3fEMClFSJUigTPH7uNAFHtzWTdjUdRUw6XZ3D2m4tI0ETHdg+HvXbAOPLn1OK9Y9Ok020S4mtpReHd3QeN+7tm6b5CVxvHlzgeXTJqV1ckPF/o73COD06FJ6nxTfbsvy9vm10GiWSxIuq3j3G7dIltBFhd6r4S8zPycnoo9Mn0qI9Nub28eXvs24u5bmG2Jl2KplZyG/gUA/WwPlXsjXs9ra93CY7eOFY43uVAedg3iKBQZG58wP1rbws1tayTCMrHGHFxM8EkbEoBhlSZlO0eQ28/rH45Sy+kTsXaj0ClKLWX8kWbsnbm2g1JWdWZrmJnCggKe6UYGST71Re0KMmu60CMbrpnGf6wGq99lIZorbUu9wXa9yTzk/uU67uc+tVPtUit2gvxja3dwE+Yb90nPFT3xzpY4WP4zzOpTtnLDyUUQ/StWunaTwWjqNqsckqoC9PLOc1uFz+dfTRBC5CDnksgGW+fnX3DGXxnAHqTXPulKxpY2RQlVNvYsfZJC2rW3oiSyEYJ6KQDnpXSqpPY+AR3E8nUPAQpPU7WAJ48qu1dzQRcaUmTxi4rDFKUq+bCpqKmgIpSlAKUpQClKUBNRU1FAKmoqaAivib7Gb/AMtv0r7qGUMrKejAg/jWGDSKeB6HOa1GrNHEs88gR1SCKBEkV2jaSeUxL3wTnYN2W56eYrcyRtC5jPlnB9R61odYuJIZVCEfvLfBUgHcNzjo3H5VR1UowipT2JqYylPEdzWWdyrd6JZJ9SlSR7eDuZQbTYpGTBGmIwMjAO3jb1xycPWdS+iWv7MMh7++cvcqjbo7W1YgmGI+fTHv68fDarfzTwWkcuDK4jOwKAAoLM5CccAf6zWNqGlW13HcXFqhF5GrHvHkkczKBuO8Hjd6YA9PlQ+058L2Z0uWFNsXZubQ39uk8jpd2xQxQRQp300YjjjAXkbCpI5P1uemPXFnvtJjZQFS4MZSWGONpO5WUHfulkc5bnyCgfM9KvFZ6k5ALRAD+skj04ArOjs1i2tPKD6DOxSfhzk1rZqFBYTWfidGvRUetJs6Z2NuJrvT7+4lOWfUZQMDAAWGJcAelVvtWCuv3B5O+G3ZCTwrd2Bt6e1WPsSY20icxnK/tC5GR04WMVo+167dWckArJaQZDAFWALDBB+VWLm/skZPyOBqJKN0uVdCtyBsgcryeCM8+dfcQCjJDMQCfCoGMeeeteXdw/yyDrjZM+B90OSBXtEI1IwJTjzeViD8wuM1y/SRIHai+9loiouXbIfu4lK54RTyFPxGOfnjyqz1WuyQJt75zzmWJAfgqZwPerLXoNG+alNGmc9RSlKuAVNRU0BFKUoBSlKAe1PalKAn2qPalKAe1T7VFKAe1KUoDDv4nZBKgyYsl1HJZPPHxHWqT2h+1tGVHkzbnaEAbI7xjkZOPzroVVnWuzc2pyxCGeOGEbi24MXQl9/7vb8eRyOvpxVHW0u2vEUWNNNV2KTOfpK9u0soECgQuHLbnMYfgHCDb14615iacRzGWYiOQynYD3aNlFZQQnJU/Oug23YvSoYhHNPdTEDbkFI1A3bhhQp8/ia2tr2f0C0KvFYQtIMfvJwZpP8Aalya58NBbs8IuW6mmUudxyzldvYazfgJp9hMUYnLRxlYwD5FhtT5HdxirHa9gL6dhLqF9HEWA3R24MzDz2lmwv5GuiAAAAAADoB0FTV6vQwj63UgnrLJbdDX6RpNno1mLK0MhjEjylpmDOzvjJ4AHlVY7axDv7GYDkwmM/gxIq71ou0+nyX2nMYYy89u6yIqjLMmcMAB7/hUuqrzQ4xKUm5dWczNekfUUkhlicpIuGHkeD8iDzXva2V/O6LFa3Em4geCJyP9rGPzrzCSaIcPJf8AsomNMdv57qQ/gqon9q3/ALVr9Hs5LDT7a2kx3q73k2nIDuxcjPw6fhWwr1WlhyUxi/YTD2p7UpVgD2qfaopQD2p7UpQD2pSlAKUpQClKUApSlAKUpQClKUApSlAKUpQCmKUoD4MMDMHaKMuOjFFLD8SM194pSsJJbAUpSsgUpSgFKUoBSlKAUpSgP//Z"
+      }
+    ]
+  },
+  {
+    "dish": "ice_cream",
+    "vietnamese_name": "Kem",
+    "image": "https://media.istockphoto.com/id/1396897706/vi/anh/vanilla-soft-ph%E1%BB%A5c-v%E1%BB%A5-kem-h%C3%ACnh-n%C3%B3n.jpg?s=612x612&w=0&k=20&c=icHOkbtEzLV3ds7l1K8oFXSnfO-OCJOfpVtRunFwTuk=",
+    "ingredients": [
+      {
+        "ingredient_name": "Cream",
+        "vietnamese_name": "Kem tươi",
+        "unit": "250 ml",
+        "category": "Milk",
+        "image": "https://th.bing.com/th/id/OIP.ULCa92Zp5wqj147OWbSTQwHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Milk",
+        "vietnamese_name": "Sữa tươi",
+        "unit": "125 ml",
+        "category": "Milk",
+        "image": "https://th.bing.com/th/id/OIP.5HZD-GSZH1Eraq1Iy5baJgHaHa?w=185&h=185&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Sugar",
+        "vietnamese_name": "Đường",
+        "unit": "75 g",
+        "category": "Candies",
+        "image": "https://th.bing.com/th/id/OIP.XbEv4eIvy2YgzIaLM3D88QHaFj?w=244&h=184&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Egg",
+        "vietnamese_name": "Trứng",
+        "unit": "40 g",
+        "category": "Prepared Vegetables",
+        "image": "https://cdn.tgdd.vn/2020/07/CookProductThumb/14-620x620-6.jpg"
+      }
+    ]
+  },
+  {
+    "dish": "omelette",
+    "vietnamese_name": "trứng chiên",
+    "image": "https://thelaughingcow-sea.com/wp-content/uploads/2023/08/shutterstock_304454942.webp",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "vietnamese_name": "trứng gà",
+        "unit": "100 g",
+        "category": "Fresh Meat",
+        "image": "https://cdn.tgdd.vn/2020/07/CookProductThumb/14-620x620-6.jpg"
+      },
+      {
+        "ingredient_name": "butter",
+        "vietnamese_name": "bơ",
+        "unit": "20 g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://th.bing.com/th/id/OIP.cG6Dut_MnjbolNs5VQP75gHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "salt",
+        "vietnamese_name": "muối",
+        "unit": "2 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "pepper",
+        "vietnamese_name": "tiêu",
+        "unit": "1 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.UO_GzjaSTyA_B4sKiIn-ggHaGV?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "Pho",
+    "vietnamese_name": "Phở",
+    "image": "https://vietfood.org.vn/wp-content/uploads/2020/12/Pho1.jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "Beef",
+        "vietnamese_name": "Thịt bò",
+        "unit": "200 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.Ue3DAe1wE5a0wcwKhu1ubwHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Noodle",
+        "vietnamese_name": "Bánh phở",
+        "unit": "150 g",
+        "category": "Grains & Staples",
+        "image": "https://noinaupho.vn/wp-content/uploads/2016/03/758-2017-09-22-090337.jpg"
+      },
+      {
+        "ingredient_name": "Onion",
+        "vietnamese_name": "Hành tây",
+        "unit": "100 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.ppGltlGHU8F6dHH4rOGQAgHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Ginger",
+        "vietnamese_name": "Gừng",
+        "unit": "50 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/R.734a02448825c7ee2bb08b4b3337f0d6?rik=tTzqf4Pap5p53w&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Fish Sauce",
+        "vietnamese_name": "Nước mắm",
+        "unit": "20 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.05985a65ab95c88e706e6498cc440953?rik=%2byb7r7XNXMN9qA&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Bean Sprout",
+        "vietnamese_name": "Giá đỗ",
+        "unit": "50 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.nyA_h3WKcWSWpRJhwdHYmgHaFA?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "pizza",
+    "vietnamese_name": "Pizza",
+    "image": "https://daylambanh.edu.vn/wp-content/uploads/2024/04/cach-lam-banh-pizza.jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "Pizza dough",
+        "vietnamese_name": "Bột bánh pizza",
+        "unit": "250 g",
+        "category": "Grains & Staples",
+        "image": "https://th.bing.com/th/id/OIP.RgDSWfAxWtY2yPlNMFH2GAHaHa?w=162&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Mozzarella",
+        "vietnamese_name": "Phô mai mozzarella",
+        "unit": "100 g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://th.bing.com/th/id/OIP.4TonXL228ssWg8y66nGwRAHaHa?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Mushroom",
+        "vietnamese_name": "Nấm",
+        "unit": "50 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.FOdjOgCUMRWOX8dUNm4F5wHaHa?w=480&h=480&rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Onion",
+        "vietnamese_name": "Hành tây",
+        "unit": "30 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.XVtoeb9L_CMa3_zWbmIc6gHaEN?w=331&h=188&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Bell pepper",
+        "vietnamese_name": "Ớt chuông",
+        "unit": "30 g",
+        "category": "Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.dPIBwXR3xbfwzl5xK0ut8gHaEc?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "Ramen",
+    "vietnamese_name": "Mì Ramen",
+    "image": "https://i.ytimg.com/vi/yfEUwNQTXwU/maxresdefault.jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "Noodle",
+        "vietnamese_name": "Mì",
+        "unit": "100 g",
+        "category": "Grains & Staples",
+        "image": "https://noinaupho.vn/wp-content/uploads/2016/03/758-2017-09-22-090337.jpg"
+      },
+      {
+        "ingredient_name": "Pork Belly",
+        "vietnamese_name": "Thịt ba chỉ",
+        "unit": "100 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.w60gN1NbgVjT2QX5szm_0gHaEW?w=270&h=180&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "ingredient_name": "Soy Sauce",
+        "vietnamese_name": "Xì dầu",
+        "unit": "30 ml",
+        "category": "Seasonings",
+        "image": "https://toplist.vn/images/800px/nuoc-tuong-cholimex-huong-viet-574446.jpg"
+      },
+      {
+        "ingredient_name": "Chicken Broth",
+        "vietnamese_name": "Nước dùng gà",
+        "unit": "500 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.rLN5eUbVpA_psCM3OTRUXgHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Egg",
+        "vietnamese_name": "Trứng gà",
+        "unit": "2",
+        "category": "Fresh Meat",
+        "image": "https://cdn.tgdd.vn/2020/07/CookProductThumb/14-620x620-6.jpg"
+      },
+      {
+        "ingredient_name": "Bamboo Shoot",
+        "vietnamese_name": "Măng tre",
+        "unit": "50 g",
+        "category": "Prepared Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.a78IU3tUFyEbxvEQf5jNMQHaEK?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Seaweed",
+        "vietnamese_name": "Rong biển",
+        "unit": "2 sheets",
+        "category": "Prepared Vegetables",
+        "image": "https://www.thanh-binh.fr/18176-home_default/la-rong-bien-sushi-nori-surasang-100-tam-han-quoc.jpg"
+      },
+      {
+        "ingredient_name": "mushroom",
+        "vietnamese_name": "Nấm đông cô khô",
+        "unit": "10 g",
+        "category": "Prepared Vegetables",
+        "image": "https://th.bing.com/th/id/OIP.FOdjOgCUMRWOX8dUNm4F5wHaHa?w=480&h=480&rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Sesame Oil",
+        "vietnamese_name": "Dầu mè",
+        "unit": "10 ml",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.FVFODw7BDy0k0-haNpbmBQHaEK?rs=1&pid=ImgDetMain"
+      }
+    ]
+  },
+  {
+    "dish": "Steak",
+    "vietnamese_name": "Bò bít tết",
+    "image": "https://cdn.tgdd.vn/Files/2018/12/16/1138609/cach-lam-bo-bit-tet-don-gian-nhung-ngon-tuyet-cu-meo-202201041019494331.jpg",
+    "ingredients": [
+      {
+        "ingredient_name": "beef",
+        "vietnamese_name": "Thịt bò bít tết",
+        "unit": "200 g",
+        "category": "Fresh Meat",
+        "image": "https://th.bing.com/th/id/OIP.Ue3DAe1wE5a0wcwKhu1ubwHaE8?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Salt",
+        "vietnamese_name": "Muối",
+        "unit": "5 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/R.64c8c15b79b9c393a455d88af8a49453?rik=B1qV0bwM1Slx6w&riu=http%3a%2f%2fcdc.ninhbinh.gov.vn%2fupload%2f100765%2f20210120%2fmuoi_ec1faab9be.jpg&ehk=6uq99lnJ6qG7Kt73eIol%2fH0OXPEBh1wJYDigsidKXCs%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "ingredient_name": "Black pepper",
+        "vietnamese_name": "Tiêu đen",
+        "unit": "3 g",
+        "category": "Seasonings",
+        "image": "https://th.bing.com/th/id/OIP.UO_GzjaSTyA_B4sKiIn-ggHaGV?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Butter",
+        "vietnamese_name": "Bơ",
+        "unit": "20 g",
+        "category": "Ice Cream & Cheese",
+        "image": "https://th.bing.com/th/id/OIP.cG6Dut_MnjbolNs5VQP75gHaFj?rs=1&pid=ImgDetMain"
+      },
+      {
+        "ingredient_name": "Garlic",
+        "vietnamese_name": "Tỏi",
+        "unit": "5 g",
+        "category": "Prepared Vegetables",
+        "image": "https://www.bing.com/th/id/OIP.CMU2updopfezTKvRU6va4wHaFD?w=157&h=106&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-package com.markendation.server.utils;
+package com.markendation.server.classes;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

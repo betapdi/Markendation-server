@@ -34,6 +34,18 @@ public class PublicController {
         this.dishService = dishService;
     }
 
+    @GetMapping("/ingredients/totalSize")
+    public ResponseEntity<Integer> getTotalIngredients() {
+        Integer totalSize = ingredientService.getTotal();
+        return new ResponseEntity<>(totalSize, HttpStatus.OK);
+    }
+
+    @GetMapping("/dishes/totalSize")
+    public ResponseEntity<Integer> getTotalDishes() {
+        Integer totalSize = dishService.getTotal();
+        return new ResponseEntity<>(totalSize, HttpStatus.OK);
+    }
+
     @GetMapping("/ingredients/{id}")
     public ResponseEntity<IngredientDto> getIngredient(@PathVariable("id") String ingredientId) throws IOException {
         IngredientDto response = ingredientService.getIngredient(ingredientId);
@@ -42,8 +54,8 @@ public class PublicController {
     
     @GetMapping("/ingredients")
     public ResponseEntity<List<IngredientDto>> getPageIngredients(@RequestParam(defaultValue = "0") Integer pageNo, 
-                                        @RequestParam(defaultValue = "30") Integer pageSize) {
-        List<IngredientDto> response = ingredientService.getPageIngredients(pageNo, pageSize);
+                                        @RequestParam(defaultValue = "30") Integer pageSize, @RequestParam(defaultValue = "") String pattern) {
+        List<IngredientDto> response = ingredientService.getPageIngredients(pageNo, pageSize, pattern);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
@@ -55,8 +67,8 @@ public class PublicController {
 
     @GetMapping("/dishes")
     public ResponseEntity<List<DishDto>> getPageDishes(@RequestParam(defaultValue = "0") Integer pageNo, 
-                                        @RequestParam(defaultValue = "30") Integer pageSize) {
-        List<DishDto> response = dishService.getPageDishes(pageNo, pageSize);
+                                        @RequestParam(defaultValue = "30") Integer pageSize, @RequestParam(defaultValue = "") String pattern) {
+        List<DishDto> response = dishService.getPageDishes(pageNo, pageSize, pattern);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 

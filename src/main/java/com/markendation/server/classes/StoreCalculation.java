@@ -1,4 +1,4 @@
-package com.markendation.server.utils;
+package com.markendation.server.classes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,7 @@ public class StoreCalculation {
     private List<ProductCost> products = new ArrayList<>();
     private Integer totalCost = 0;
     private double distance;
-    private float stars = 0;
+    private float stars = 5;
+    private double recently = 5;
     private double rating;
 }
