@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -132,31 +130,6 @@ public class CalculatingService {
         
         return Pair.of(getShardTemplate(collectionName, serverUri, dbName), collectionName);
     }
-
-    public int getUnit(Product product) {
-        if (product.getUnit() == null) return -1;
-        else if (product.getUnit().equals("kg")) return 1000;
-        else {
-            String productUnit = product.getName_en().substring(product.getName_en().lastIndexOf(' ') + 1);
-            Pattern pattern = Pattern.compile("(\\d+)([a-zA-Z]+)");
-            Matcher matcher = pattern.matcher(productUnit);
-
-            if (matcher.matches()) {
-                int number = Integer.parseInt(matcher.group(1)); 
-                String unit = matcher.group(2);  
-                
-                if (unit.equals("kg") || unit.equals("l")) {
-                    number *= 1000;
-                }
-
-                else if (!unit.equals("ml") && !unit.equals("g")) return -1;
-
-                return number;
-            }
-
-            return -1;
-        }
-    }
     
     public int getQuantityNeeded(Ingredient ingredient, Product product) {
         if (product.getNetUnitValue() == null) {
@@ -211,7 +184,7 @@ public class CalculatingService {
             storeData.setStore(store); storeData.setDistance(storeIndex.getSecond());
 
             for (Ingredient ingredient : ingredients) {
-                Product bestProduct = findBestProduct(store.getStore_id(), ingredient);
+                Product bestProduct = findBestProduct(store.getId(), ingredient);
                 if (bestProduct.getPrice() == -1) flag = false;
 
                 int quantity = getQuantityNeeded(ingredient, bestProduct);  

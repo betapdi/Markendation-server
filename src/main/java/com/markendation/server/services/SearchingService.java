@@ -24,6 +24,7 @@ public class SearchingService {
             .collect(Collectors.toList());
 
         List<String> patternNGrams = patternTokenNGrams.stream().flatMap(List::stream).collect(Collectors.toList());
+        System.out.println(storeId);
         ObjectId store_id = new ObjectId(storeId);
 
         Aggregation aggregation = Aggregation.newAggregation(
@@ -54,7 +55,7 @@ public class SearchingService {
             Aggregation.match(new Criteria().andOperator(
                 patternTokenNGrams.stream()
                     .map(ngrams -> Criteria.where("matchScores." + patternTokenNGrams.indexOf(ngrams))
-                        .gte((double) Math.ceil(ngrams.size() * 0.7)))
+                        .gte((double) Math.ceil(ngrams.size() * 0.8)))
                     .collect(Collectors.toList())
                     .toArray(new Criteria[0])
             ))

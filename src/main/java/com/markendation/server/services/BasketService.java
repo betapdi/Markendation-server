@@ -90,11 +90,16 @@ public class BasketService {
         userRepository.save(user);
     }
 
-    public List<StoreCalculation> recommendStore(String email) {
+    public List<StoreCalculation> recommendStore(String email) throws InterruptedException {
         User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
 
         if (user.getLocation().getLatitude() != 0 && (user.getNearStores() == null || user.getNearStores().isEmpty())) {
             userService.updateNearStore(user);
+            try {
+                Thread.sleep(1000); 
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt(); 
+            }
         }
 
         Map<String, Ingredient> ingredientMap = new TreeMap<>();

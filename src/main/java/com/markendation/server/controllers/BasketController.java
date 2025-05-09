@@ -41,7 +41,7 @@ public class BasketController {
     }
 
     @GetMapping("/calculate")
-    public ResponseEntity<List<StoreCalculation>> calculateResult(@AuthenticationPrincipal UserDetails userDetails) throws IOException {
+    public ResponseEntity<List<StoreCalculation>> calculateResult(@AuthenticationPrincipal UserDetails userDetails) throws IOException, InterruptedException {
         List<StoreCalculation> response = basketService.recommendStore(userDetails.getUsername());
         return new ResponseEntity<>(response, HttpStatus.OK);
     }

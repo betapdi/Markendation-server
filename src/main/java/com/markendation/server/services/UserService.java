@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Future;
 
 import org.springframework.data.util.Pair;
 import org.springframework.scheduling.annotation.Async;
@@ -35,7 +36,8 @@ public class UserService {
         return response;
     }
 
-    public User updateNearStore(User user) {
+    @Async
+    public void updateNearStore(User user) {
         List<Store> stores = storeRepository.findAll();
         Map<String, Integer> cntChain = new HashMap<>();
         
@@ -66,16 +68,14 @@ public class UserService {
         }
 
         user = userRepository.save(user);
-        return user;
     }
 
-    @Async
     public void updateLocation(String email, Location location) {
         User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
         user.setLocation(location);
         user.setNearStores(new ArrayList<>());
         User savedUser = userRepository.save(user);
 
-        savedUser = updateNearStore(savedUser);
+        updateNearStore(savedUser);
     }
 }
