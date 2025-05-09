@@ -35,6 +35,7 @@ public class SecurityConfiguration {
                             .requestMatchers("/api/v1/image/**").permitAll()
                             .requestMatchers("/api/v1/pdf/**").permitAll()
                             .requestMatchers("/api/v1/public/**").permitAll()
+                            .requestMatchers("/api/v1/ai/**").permitAll()
                             .anyRequest().authenticated()
                 )
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

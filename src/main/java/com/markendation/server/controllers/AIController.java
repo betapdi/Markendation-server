@@ -35,6 +35,7 @@ public class AIController {
         } catch (TimeoutException e) {
             return ResponseEntity.status(HttpStatus.GATEWAY_TIMEOUT).build();
         } catch (Exception e) {
+            e.printStackTrace();
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }

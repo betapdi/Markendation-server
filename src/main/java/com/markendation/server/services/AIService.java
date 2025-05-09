@@ -1,10 +1,8 @@
 package com.markendation.server.services;
 
 import java.io.IOException;
-import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
@@ -19,26 +17,18 @@ import com.markendation.server.dto.DishDto;
 import com.markendation.server.kafka.IngredientConsumer;
 import com.markendation.server.kafka.KafkaProducer;
 import com.markendation.server.models.Dish;
-import com.markendation.server.models.Ingredient;
-import com.markendation.server.repositories.primary.DishRepository;
-import com.markendation.server.repositories.primary.IngredientRepository;
 
 @Service
 public class AIService {
     private final S3Service s3Service;
     private final KafkaProducer kafkaProducer;
     private final IngredientConsumer ingredientConsumer;
-    private final IngredientRepository ingredientRepository;
-    private final DishRepository dishRepository;
 
-    public AIService(S3Service s3Service, com.markendation.server.kafka.KafkaProducer kafkaProducer, 
-                        IngredientConsumer ingredientConsumer, IngredientRepository ingredientRepository,
-                        DishRepository dishRepository) {
+    public AIService(S3Service s3Service, KafkaProducer kafkaProducer, 
+                        IngredientConsumer ingredientConsumer) {
         this.s3Service = s3Service;
         this.kafkaProducer = kafkaProducer;
         this.ingredientConsumer = ingredientConsumer;
-        this.dishRepository = dishRepository;
-        this.ingredientRepository = ingredientRepository;
     }
 
     public DishDto extractFromText(String foodDescription) throws InterruptedException, ExecutionException, TimeoutException {
@@ -48,18 +38,13 @@ public class AIService {
         
         ingredientConsumer.getFutures().put(correlationId, future);
         event.setCorrelationId(correlationId);
-        event.setDescription(foodDescription);
+        event.setRequestMessage(foodDescription);
 
         kafkaProducer.send(event);
 
-        ModelResponse response = future.get(10, TimeUnit.SECONDS);
-        Dish dish = response.toDish();
+        ModelResponse response = future.get(25, TimeUnit.SECONDS);
+        Dish dish = response.getIngredients().getDishes().get(0).toDish();
 
-        for (Ingredient ingredient : dish.getIngredients()) {
-            ingredient = ingredientRepository.save(ingredient);
-        }
-        dish = dishRepository.save(dish);
-        
         DishDto result = new DishDto();
         result.update(dish);
 
@@ -79,14 +64,9 @@ public class AIService {
 
         kafkaProducer.send(event);
 
-        ModelResponse response = future.get(10, TimeUnit.SECONDS);
-        Dish dish = response.toDish();
+        ModelResponse response = future.get(15, TimeUnit.SECONDS);
+        Dish dish = response.getIngredients().getDishes().get(0).toDish();
 
-        // for (Ingredient ingredient : dish.getIngredients()) {
-        //     ingredient = ingredientRepository.save(ingredient);
-        // }
-        // dish = dishRepository.save(dish);
-        
         DishDto result = new DishDto();
         result.update(dish);
 

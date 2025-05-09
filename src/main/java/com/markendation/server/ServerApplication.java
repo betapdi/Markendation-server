@@ -1,61 +1,48 @@
 package com.markendation.server;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.data.util.Pair;
+import org.springframework.scheduling.annotation.EnableAsync;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.markendation.server.auth.repositories.UserRepository;
-import com.markendation.server.classes.IngredientCleaned;
-import com.markendation.server.models.Dish;
-import com.markendation.server.models.Ingredient;
-import com.markendation.server.models.Product;
-import com.markendation.server.models.Store;
-import com.markendation.server.repositories.metadata.StoreRepository;
-import com.markendation.server.repositories.primary.DishRepository;
-import com.markendation.server.repositories.primary.IngredientRepository;
-import com.markendation.server.services.CalculatingService;
-
+@EnableAsync
 @SpringBootApplication
 public class ServerApplication {
-
-    private final DishRepository dishRepository;
-
-    ServerApplication(DishRepository dishRepository) {
-        this.dishRepository = dishRepository;
-    }
 
 	public static void main(String[] args) {
 		SpringApplication.run(ServerApplication.class, args);
 	}
 
 	@Bean
-	CommandLineRunner runner(StoreRepository storeRepository, IngredientRepository ingredientRepository, DishRepository dishRepository) {
+	CommandLineRunner runner() {
 		return args -> {
-			// List<Store> stores = storeRepository.findAll();
-			// int cnt = 0;
-			// for (Store store : stores) {
-			// 	if (Double.parseDouble(store.getLocation().getCoordinates().get(0)) == 0) {
-			// 		System.out.println(store.getId());
-			// 	}
-			// }
-			// System.out.println(cnt);
+			// String categoryEng = "Snacks";
+			// MetaCategory categoryMetadata = metaCategoryRepository.findByCategory(categoryEng).orElseThrow(() -> new CategoryNotFoundException());
 
+			// String dbName = categoryMetadata.getDb_name();
+			// String collectionName = categoryMetadata.getCollection_name();
+			// String serverUri = categoryMetadata.getServer_uri();
+
+			// MongoClient mongoClient = MongoClients.create(serverUri);
+            // MongoTemplate mongoTemplate = new MongoTemplate(mongoClient, dbName);
+
+			// Index index = new Index()	
+			// 	.on("store_id", Direction.ASC)
+			// 	.on("nameTokenNGrams", Direction.ASC);
+
+			// mongoTemplate.indexOps(collectionName)
+            // .ensureIndex(index);
+
+			// List<Product> products = mongoTemplate.findAll(Product.class, collectionName);
+			// int cnt = 0;
+			// for (Product product : products) {
+			// 	++cnt;
+			// 	product.setNameTokenNGrams(TokenUtils.generateTokenNGrams(product.getName_ev(), 2));
+			// 	mongoTemplate.save(product, collectionName);
+
+			// 	if (cnt % 500 == 0) System.out.println(cnt);
+			// }
 			
 			// String currentDir = System.getProperty("user.dir");
 			// String jsonFilePath = Paths.get(currentDir, "src", "main", "java", "com", "markendation", "server", "dishes_data.json").toString();

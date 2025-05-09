@@ -16,6 +16,7 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.DocumentReference;
+import org.springframework.data.util.Pair;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -57,6 +58,9 @@ public class User implements UserDetails {
 
     @DBRef
     private Basket basket;
+
+    @Builder.Default
+    private List<Pair<String, Double>> nearStores = new ArrayList<>();
 
     @Builder.Default
     private List<Basket> savedBaskets = new ArrayList<>();

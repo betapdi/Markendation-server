@@ -18,24 +18,20 @@ import com.markendation.server.models.Basket;
 import com.markendation.server.models.Dish;
 import com.markendation.server.models.Ingredient;
 import com.markendation.server.repositories.primary.BasketRepository;
-import com.markendation.server.repositories.primary.DishRepository;
-import com.markendation.server.repositories.primary.IngredientRepository;
 
 @Service
 public class BasketService {
     private final BasketRepository basketRepository;
-    private final IngredientRepository ingredientRepository;
-    private final DishRepository dishRepository;
     private final UserRepository userRepository;
     private final CalculatingService calculatingService;
+    private final UserService userService;
 
-    public BasketService(BasketRepository basketRepository, IngredientRepository ingredientRepository,
-            DishRepository dishRepository, UserRepository userRepository, CalculatingService calculatingService) {
+    public BasketService(BasketRepository basketRepository, UserRepository userRepository, CalculatingService calculatingService,
+            UserService userService) {
         this.basketRepository = basketRepository;
-        this.ingredientRepository = ingredientRepository;
-        this.dishRepository = dishRepository;
         this.userRepository = userRepository;
         this.calculatingService = calculatingService;
+        this.userService = userService;
     }
 
     public BasketDto getBasket(String email) {
@@ -96,6 +92,11 @@ public class BasketService {
 
     public List<StoreCalculation> recommendStore(String email) {
         User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
+
+        if (user.getLocation().getLatitude() != 0 && (user.getNearStores() == null || user.getNearStores().isEmpty())) {
+            userService.updateNearStore(user);
+        }
+
         Map<String, Ingredient> ingredientMap = new TreeMap<>();
         
         for (Ingredient ingredient : user.getBasket().getIngredients()) {
@@ -133,9 +134,8 @@ public class BasketService {
             }
         }
 
-        userRepository.save(user);
         List<Ingredient> ingredients = new ArrayList<>(ingredientMap.values());
-        List<StoreCalculation> response = calculatingService.calculateIngredients(user.getLocation(), ingredients);
+        List<StoreCalculation> response = calculatingService.calculateIngredients(user, ingredients);
         return response;
     }
 

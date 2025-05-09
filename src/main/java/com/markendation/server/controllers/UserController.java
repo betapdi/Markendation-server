@@ -33,8 +33,8 @@ public class UserController {
     }
 
     @PostMapping("/location")
-    public ResponseEntity<UserDto> updateLocation(@AuthenticationPrincipal UserDetails userDetails, @RequestBody Location location) throws IOException {
-        UserDto response = userService.updateLocation(userDetails.getUsername(), location);
-        return new ResponseEntity<>(response, HttpStatus.OK);
+    public ResponseEntity<Void> updateLocation(@AuthenticationPrincipal UserDetails userDetails, @RequestBody Location location) throws IOException {
+        userService.updateLocation(userDetails.getUsername(), location);
+        return ResponseEntity.accepted().build();
     }
 }

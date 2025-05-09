@@ -11,6 +11,6 @@ import lombok.Setter;
 @Setter
 public class Location {
     String address;
-    double longitude;
-    double latitude;
+    double longitude = 0;
+    double latitude = 0;
 }

@@ -34,6 +34,9 @@ public class Dish {
     @Builder.Default
     private List<Ingredient> ingredients = new ArrayList<>();
 
+    @Builder.Default
+    private List<Ingredient> optionalIngredients = new ArrayList<>();
+
     private Integer servings;
 
     private String imageUrl;
@@ -51,6 +54,14 @@ public class Dish {
             ingredient.update(ingredientDto);
 
             ingredients.add(ingredient);
+        }
+
+        optionalIngredients.clear();
+        for (IngredientDto ingredientDto : dto.getOptionalIngredients()) {
+            Ingredient ingredient = new Ingredient();
+            ingredient.update(ingredientDto);
+
+            optionalIngredients.add(ingredient);
         }
     }
 }

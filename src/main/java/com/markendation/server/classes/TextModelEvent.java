@@ -11,6 +11,6 @@ import lombok.Setter;
 @Setter
 public class TextModelEvent {
     String correlationId;
-    String eventType = "text";
-    String description;
+    String modelType = "text";
+    String requestMessage;
 }

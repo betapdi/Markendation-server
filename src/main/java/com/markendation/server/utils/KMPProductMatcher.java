@@ -1,7 +1,5 @@
 package com.markendation.server.utils;
 
-import com.markendation.server.models.Product;
-
 public class KMPProductMatcher {
     private String pattern;
     int[] lps;

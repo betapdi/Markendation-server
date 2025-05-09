@@ -1,6 +1,9 @@
 package com.markendation.server.models;
 
+import java.util.List;
+
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
@@ -12,7 +15,7 @@ import lombok.Setter;
 
 @Builder
 @Data
-@Document(collection = "product_prices")
+@Document
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -24,6 +27,8 @@ public class Product {
     private String sku;
 
     private String store;
+    
+    private String store_id;
 
     private String category;
 
@@ -31,11 +36,16 @@ public class Product {
 
     private String name;
 
-    private String name_ev;
+    private String name_en;
 
     private Integer price;
 
-    private String store_id;
+    private Integer netUnitValue;
 
     private String unit;
+
+    @Indexed
+    private List<String> token_ngrams;
+
+    private String url;
 }
