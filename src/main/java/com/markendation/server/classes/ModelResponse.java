@@ -3,12 +3,16 @@ package com.markendation.server.classes;
 import java.util.List;
 import java.util.UUID;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
 
 import com.markendation.server.models.Dish;
 import com.markendation.server.models.Ingredient;
 import com.markendation.server.models.Product;
+import com.markendation.server.repositories.primary.IngredientRepository;
 import com.markendation.server.services.CalculatingService;
+import com.markendation.server.services.SavingService;
+import com.markendation.server.services.SearchingService;
 import com.markendation.server.utils.UnitQuantityParser;
 
 import lombok.AllArgsConstructor;
@@ -32,9 +36,10 @@ public class ModelResponse {
         String category;
 
         public Ingredient toIngredient() {
+            Ingredient matchedIngredient = SearchingService.searchIngredientByPattern(ingredient_name);
             Ingredient ingredient = new Ingredient();
+
             ingredient.setCategory(category);
-            ingredient.setId(UUID.randomUUID().toString());
             
             Pair<Integer, String> value = UnitQuantityParser.parseQuantity(total_unit);
             ingredient.setQuantity(value.getFirst());
@@ -42,6 +47,11 @@ public class ModelResponse {
 
             ingredient.setName(ingredient_name);
             ingredient.setVietnameseName(ingredient_vn_name);
+
+            if (matchedIngredient.getId() != null) {
+                ingredient.setId(matchedIngredient.getId());
+                ingredient.setImageUrl(matchedIngredient.getImageUrl());
+            }
 
             return ingredient;
         }
@@ -69,18 +79,32 @@ public class ModelResponse {
     
             for (IngredientResponse ingredientResponse : ingredients_must_have) {
                 Ingredient ingredient = ingredientResponse.toIngredient();
-                Product product = CalculatingService.findProductByIngredient(ingredient);
-                ingredient.setImageUrl(product.getImage());
+                if (ingredient.getId() == null) {
+                    Product product = CalculatingService.findProductByIngredient(ingredient);
+                    ingredient.setImageUrl(product.getImage());
 
-                if (ingredient.getImageUrl() != null) result.getIngredients().add(ingredient);
+                    if (ingredient.getImageUrl() != null) {
+                        ingredient = SavingService.saveIngredient(ingredient);
+                        result.getIngredients().add(ingredient);
+                    }
+                }
+
+                else result.getIngredients().add(ingredient);
             }
 
             for (IngredientResponse ingredientResponse : ingredients_optional) {
                 Ingredient ingredient = ingredientResponse.toIngredient();
-                Product product = CalculatingService.findProductByIngredient(ingredient);
-                ingredient.setImageUrl(product.getImage());
+                if (ingredient.getId() == null) {
+                    Product product = CalculatingService.findProductByIngredient(ingredient);
+                    ingredient.setImageUrl(product.getImage());
 
-                if (ingredient.getImageUrl() != null) result.getOptionalIngredients().add(ingredient);
+                    if (ingredient.getImageUrl() != null) {
+                        ingredient = SavingService.saveIngredient(ingredient);
+                        result.getOptionalIngredients().add(ingredient);
+                    }
+                }
+
+                else result.getOptionalIngredients().add(ingredient);
             }
             
             return result;

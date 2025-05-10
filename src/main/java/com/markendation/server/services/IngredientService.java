@@ -1,6 +1,5 @@
 package com.markendation.server.services;
 
-import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
@@ -9,6 +8,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.markendation.server.classes.PageIngredientResponse;
 import com.markendation.server.dto.IngredientDto;
 import com.markendation.server.exceptions.IngredientNotFoundException;
 import com.markendation.server.models.Ingredient;
@@ -40,7 +40,7 @@ public class IngredientService {
         return dto;
     }
 
-    public List<IngredientDto> getPageIngredients(int pageNo, int pageSize, String pattern) {
+    public PageIngredientResponse getPageIngredients(int pageNo, int pageSize, String pattern) {
         Pageable pageable = PageRequest.of(pageNo, pageSize);
         
         Page<Ingredient> page;
@@ -51,11 +51,16 @@ public class IngredientService {
             page = ingredientRepository.findByVietnameseNameRegexIgnoreCase(regex, pageable);
         }
 
-        return page.getContent().stream().map(ingredient -> {
-            IngredientDto dto = new IngredientDto();
-            dto.update(ingredient);
-            return dto;
-        }).collect(Collectors.toList());
+        PageIngredientResponse response = new PageIngredientResponse();
+        response.setIngredients(page.getContent().stream().map(Ingredient -> {
+                            IngredientDto dto = new IngredientDto();
+                            dto.update(Ingredient);
+                            return dto;
+                        }).collect(Collectors.toList()));
+
+        response.setNumIngredients((int)page.getTotalElements());
+
+        return response;
     }
 
     public Integer getTotal() {

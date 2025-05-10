@@ -15,4 +15,5 @@ public class ProductCost {
     private Product product;
     private Integer quantity;
     private Integer cost;
+    private Integer productIndex = -1;
 }

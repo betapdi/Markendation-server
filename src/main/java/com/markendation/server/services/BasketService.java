@@ -149,7 +149,7 @@ public class BasketService {
         Basket basket = new Basket();
         basket.update(dto);
 
-        System.out.println(basket);
+        // System.out.println(basket);
 
         user.getSavedBaskets().add(basket);
         userRepository.save(user);

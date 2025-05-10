@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.markendation.server.classes.PageDishResponse;
+import com.markendation.server.classes.PageIngredientResponse;
 import com.markendation.server.dto.DishDto;
 import com.markendation.server.dto.IngredientDto;
 import com.markendation.server.services.DishService;
@@ -53,9 +55,9 @@ public class PublicController {
     }
     
     @GetMapping("/ingredients")
-    public ResponseEntity<List<IngredientDto>> getPageIngredients(@RequestParam(defaultValue = "0") Integer pageNo, 
+    public ResponseEntity<PageIngredientResponse> getPageIngredients(@RequestParam(defaultValue = "0") Integer pageNo, 
                                         @RequestParam(defaultValue = "30") Integer pageSize, @RequestParam(defaultValue = "") String pattern) {
-        List<IngredientDto> response = ingredientService.getPageIngredients(pageNo, pageSize, pattern);
+        PageIngredientResponse response = ingredientService.getPageIngredients(pageNo, pageSize, pattern);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
@@ -66,9 +68,9 @@ public class PublicController {
     }
 
     @GetMapping("/dishes")
-    public ResponseEntity<List<DishDto>> getPageDishes(@RequestParam(defaultValue = "0") Integer pageNo, 
+    public ResponseEntity<PageDishResponse> getPageDishes(@RequestParam(defaultValue = "0") Integer pageNo, 
                                         @RequestParam(defaultValue = "30") Integer pageSize, @RequestParam(defaultValue = "") String pattern) {
-        List<DishDto> response = dishService.getPageDishes(pageNo, pageSize, pattern);
+        PageDishResponse response = dishService.getPageDishes(pageNo, pageSize, pattern);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 

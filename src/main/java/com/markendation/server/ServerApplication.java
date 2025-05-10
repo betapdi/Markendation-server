@@ -1,10 +1,25 @@
 package com.markendation.server;
 
+import java.io.IOException;
+import java.util.List;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.scheduling.annotation.EnableAsync;
+
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonToken;
+import com.markendation.server.models.Ingredient;
+import com.markendation.server.utils.TokenUtils;
+
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.ClientBuilder;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
 
 @EnableAsync
 @SpringBootApplication
@@ -15,8 +30,9 @@ public class ServerApplication {
 	}
 
 	@Bean
-	CommandLineRunner runner() {
+	CommandLineRunner runner(MongoTemplate mongoTemplate) {
 		return args -> {
+
 			// String categoryEng = "Snacks";
 			// MetaCategory categoryMetadata = metaCategoryRepository.findByCategory(categoryEng).orElseThrow(() -> new CategoryNotFoundException());
 
@@ -34,15 +50,15 @@ public class ServerApplication {
 			// mongoTemplate.indexOps(collectionName)
             // .ensureIndex(index);
 
-			// List<Product> products = mongoTemplate.findAll(Product.class, collectionName);
-			// int cnt = 0;
-			// for (Product product : products) {
-			// 	++cnt;
-			// 	product.setNameTokenNGrams(TokenUtils.generateTokenNGrams(product.getName_ev(), 2));
-			// 	mongoTemplate.save(product, collectionName);
+			// List<Ingredient> ingredients = mongoTemplate.findAll(Ingredient.class, "ingredient");
+			// for (Ingredient ingredient : ingredients) {
+			// 	ingredient.setToken_ngrams(TokenUtils.generateTokenNGrams(ingredient.getName(), 2));
+			// 	mongoTemplate.save(ingredient, "ingredient");
 
-			// 	if (cnt % 500 == 0) System.out.println(cnt);
+			// 	// if (cnt % 500 == 0) System.out.println(cnt);
 			// }
+
+			// System.out.println("Finish init");
 			
 			// String currentDir = System.getProperty("user.dir");
 			// String jsonFilePath = Paths.get(currentDir, "src", "main", "java", "com", "markendation", "server", "dishes_data.json").toString();

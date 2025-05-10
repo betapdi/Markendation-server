@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.Future;
 
 import org.springframework.data.util.Pair;
 import org.springframework.scheduling.annotation.Async;
@@ -41,7 +40,7 @@ public class UserService {
         List<Store> stores = storeRepository.findAll();
         Map<String, Integer> cntChain = new HashMap<>();
         
-        double radius = 5;
+        double radius = 10;
         int storeCnt = 0;
 
         for (Store store : stores) {
@@ -49,7 +48,7 @@ public class UserService {
             int num = (cntChain.get(chain) != null) ? cntChain.get(chain) : 0;
             if (num == 5) continue;
 
-            if (store.getLocation() == null) System.out.println(store);
+            // if (store.getLocation() == null) System.out.println(store);
 
             double lon1 = user.getLocation().getLongitude(), lat1 = user.getLocation().getLatitude();
             double lon2 = Double.parseDouble(store.getLocation().getCoordinates().get(0));
@@ -70,6 +69,7 @@ public class UserService {
         user = userRepository.save(user);
     }
 
+    @Async
     public void updateLocation(String email, Location location) {
         User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
         user.setLocation(location);

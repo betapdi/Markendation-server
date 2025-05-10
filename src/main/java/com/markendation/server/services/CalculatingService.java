@@ -2,9 +2,11 @@ package com.markendation.server.services;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -17,6 +19,7 @@ import com.fasterxml.jackson.core.JsonToken;
 import com.markendation.server.auth.entities.User;
 import com.markendation.server.classes.ProductCost;
 import com.markendation.server.classes.StoreCalculation;
+import com.markendation.server.dto.IngredientDto;
 import com.markendation.server.exceptions.CategoryNotFoundException;
 import com.markendation.server.exceptions.StoreNotFoundException;
 import com.markendation.server.models.MetaCategory;
@@ -29,6 +32,7 @@ import com.markendation.server.utils.LRUCache;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 
+import jakarta.annotation.PostConstruct;
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.core.MediaType;
@@ -40,14 +44,21 @@ public class CalculatingService {
     private final StoreRepository storeRepository;
 
     @Value("${openRoute.api.key}")
+    private String tempKey;
+
     private static String apiKey;
 
     private static Map<String, MongoTemplate> shardTemplateCache = new ConcurrentHashMap<>();
-    private LRUCache<Pair<String, String>, Product> productCache = new LRUCache<>(1000);
+    private LRUCache<Pair<String, String>, List<Product>> productCache = new LRUCache<>(1000);
 
     public CalculatingService(MetaCategoryRepository myMetaCategoryRepository, StoreRepository storeRepository) {
         metaCategoryRepository = myMetaCategoryRepository;
         this.storeRepository = storeRepository;
+    }
+
+    @PostConstruct
+    public void init() {
+        apiKey = tempKey;
     }
 
     public static double calculateDistance(double lat1, double lon1, double lat2, double lon2) {
@@ -80,6 +91,7 @@ public class CalculatingService {
         String urlString = String.format(
         "https://api.openrouteservice.org/v2/directions/driving-car?api_key=%s&start=%f,%f&end=%f,%f",
         apiKey, lon1, lat1, lon2, lat2);
+        // System.out.println(urlString);
 
         Client client = ClientBuilder.newClient();
         Response response = client.target(urlString)
@@ -87,25 +99,28 @@ public class CalculatingService {
         .header("Accept", "application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8")
         .get();
 
-        // System.out.println("status: " + response.getStatus());
-        // System.out.println("headers: " + response.getHeaders());
-        // System.out.println("body:" + response.readEntity(String.class));
+        // System.out.println(String.format("%f, %f, %f, %f", lon1, lat1, lon2, lat2));
 
         try {
             String json = response.readEntity(String.class);
             JsonFactory factory = new JsonFactory();
             JsonParser parser = factory.createParser(json);
 
+            Double distance = (double)-1;
+
             while (!parser.isClosed()) {
                 JsonToken token = parser.nextToken();
                 if (JsonToken.FIELD_NAME.equals(token) && "distance".equals(parser.currentName())) {
                     parser.nextToken();
-                    return parser.getDoubleValue() / 1000;
+                    if (distance == -1) {
+                        distance = parser.getDoubleValue() / 1000;
+                        parser.close();
+                    }
                 }
             }
 
-            //distance not found
-            return -1;
+            // System.out.println(distance);
+            return distance;
         } catch (IOException e) {
             e.printStackTrace(); 
         }
@@ -133,7 +148,7 @@ public class CalculatingService {
     
     public int getQuantityNeeded(Ingredient ingredient, Product product) {
         if (product.getNetUnitValue() == null) {
-            System.out.println(product);
+            // System.out.println(product);
             return 1;
         }
         int unit = product.getNetUnitValue(), addition = 0;
@@ -153,51 +168,57 @@ public class CalculatingService {
         return SearchingService.searchProductByPattern(collectionTemplate, ingredient.getName());
     }
 
-    public Product findBestProduct(String storeId, Ingredient ingredient) {
+    public List<Product> findBestProducts(String storeId, Ingredient ingredient) {
         Pair<String, String> cachedKey = Pair.of(storeId, ingredient.getId());
         if (productCache.containsKey(cachedKey)) return productCache.get(cachedKey);
 
         List<Product> matchedProducts = findProductsByStoreIdAndIngredient(storeId, ingredient);
-        Product chosen = new Product(); float minCost = Float.MAX_VALUE;
-        chosen.setPrice(-1);
-
-        for (Product dirtyProduct : matchedProducts) {
-            int unit = dirtyProduct.getNetUnitValue();
-
-            if (minCost > (dirtyProduct.getPrice() / unit)) {
-                minCost = dirtyProduct.getPrice() / unit;
-                chosen = dirtyProduct;
-            }
-        }
-
-        productCache.put(cachedKey, chosen);
-        return chosen;
+        List<Product> result = matchedProducts.stream()
+                                .filter(product -> product.getNetUnitValue() > 0)
+                                .sorted(Comparator.comparingDouble(product -> product.getPrice() / product.getNetUnitValue()))
+                                .limit(4)
+                                .collect(Collectors.toList());
+        productCache.put(cachedKey, result);
+        return result;
     }
 
     public List<StoreCalculation> calculateTotalCost(List<Pair<String, Double>> nearStores, List<Ingredient> ingredients) {
         List<StoreCalculation> result = new ArrayList<>();
         for (Pair<String, Double> storeIndex : nearStores) {
             Store store = storeRepository.findById(storeIndex.getFirst()).orElseThrow(() -> new StoreNotFoundException());
-            Boolean flag = true;
 
             StoreCalculation storeData = new StoreCalculation();
             storeData.setStore(store); storeData.setDistance(storeIndex.getSecond());
+            storeData.setLackIngredients(new ArrayList<>());
 
+            int cnt = 0;
             for (Ingredient ingredient : ingredients) {
-                Product bestProduct = findBestProduct(store.getId(), ingredient);
-                if (bestProduct.getPrice() == -1) flag = false;
+                List<Product> bestProducts = findBestProducts(store.getId(), ingredient);
+                if (bestProducts.isEmpty()) {
+                    IngredientDto dto = new IngredientDto();
+                    dto.update(ingredient);
+                    storeData.getLackIngredients().add(dto);
+                    continue;
+                }
 
-                int quantity = getQuantityNeeded(ingredient, bestProduct);  
-                if (quantity == -1) flag = false;
+                Boolean flag = false;
+                for (Product product : bestProducts) {
+                    int quantity = getQuantityNeeded(ingredient, product);
+                    ProductCost productData = new ProductCost(product, quantity, product.getPrice() * quantity, cnt);
+                    
+                    if (!flag) {
+                        storeData.getProducts().add(productData); 
+                        storeData.setTotalCost(storeData.getTotalCost() + productData.getCost());
+                        flag = true;
+                    }
 
-                if (!flag) break;
+                    else storeData.getSimilarProducts().add(productData);
+                }
 
-                ProductCost productData = new ProductCost(bestProduct, quantity, bestProduct.getPrice() * quantity);
-                storeData.getProducts().add(productData);
-                storeData.setTotalCost(storeData.getTotalCost() + productData.getCost());
+                ++cnt;
             }
 
-            if (flag) result.add(storeData);
+            if (storeData.getProducts().size() != 0) result.add(storeData);
         }
 
         return result;
@@ -215,11 +236,15 @@ public class CalculatingService {
             minCost = Math.min(minCost, storeData.getTotalCost());
         }
 
+        int numIngredients = ingredients.size();
+
         for (StoreCalculation storeData : storeDatas) {
             double costRating = (maxCost == minCost ? (5 * (maxCost - storeData.getTotalCost()) / (maxCost - minCost)) : 5);
             double distRating = (maxDist == minDist ? (5 * (maxDist - storeData.getDistance()) / (maxDist - minDist)) : 5);
-            // System.out.println(costRating); System.out.println(distRating); 
-            double rating = costRating * 0.0883 + storeData.getStars() * 0.4824 + distRating * 0.1575 + storeData.getRecently() * 0.2718;
+
+            double cntProductsRating = (double)storeData.getProducts().size() / (double)numIngredients;
+            System.out.println(costRating); System.out.println(distRating); System.out.println(distRating); 
+            double rating = costRating * 0.244 + cntProductsRating * 0.262 + storeData.getStars() * 0.262 + distRating * 0.091 + storeData.getRecently() * 0.14;
             storeData.setRating(rating);
         }
 

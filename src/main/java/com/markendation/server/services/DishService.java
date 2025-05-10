@@ -1,6 +1,5 @@
 package com.markendation.server.services;
 
-import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
@@ -9,6 +8,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.markendation.server.classes.PageDishResponse;
 import com.markendation.server.dto.DishDto;
 import com.markendation.server.exceptions.DishNotFoundException;
 import com.markendation.server.models.Dish;
@@ -40,7 +40,7 @@ public class DishService {
         return response;
     }
 
-    public List<DishDto> getPageDishes(Integer pageNo, Integer pageSize, String pattern) {
+    public PageDishResponse getPageDishes(Integer pageNo, Integer pageSize, String pattern) {
         Pageable pageable = PageRequest.of(pageNo, pageSize);
         
         Page<Dish> page;
@@ -51,11 +51,16 @@ public class DishService {
             page = dishRepository.findByVietnameseNameRegexIgnoreCase(regex, pageable);
         }
 
-        return page.getContent().stream().map(dish -> {
-            DishDto dto = new DishDto();
-            dto.update(dish);
-            return dto;
-        }).collect(Collectors.toList());
+        PageDishResponse response = new PageDishResponse();
+        response.setDishes(page.getContent().stream().map(dish -> {
+                            DishDto dto = new DishDto();
+                            dto.update(dish);
+                            return dto;
+                        }).collect(Collectors.toList()));
+
+        response.setNumDishes((int)page.getTotalElements());
+
+        return response;
     }
 
     public Integer getTotal() {

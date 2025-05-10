@@ -44,7 +44,6 @@ public class Product {
 
     private String unit;
 
-    @Indexed
     private List<String> token_ngrams;
 
     private String url;
