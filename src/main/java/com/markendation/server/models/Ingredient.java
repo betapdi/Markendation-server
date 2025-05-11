@@ -32,7 +32,7 @@ public class Ingredient {
 
     private String unit;
     
-    private float quantity;
+    private Integer quantity;
 
     private String category;
 

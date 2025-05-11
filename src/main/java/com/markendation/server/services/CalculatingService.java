@@ -145,8 +145,12 @@ public class CalculatingService {
         
         return Pair.of(getShardTemplate(collectionName, serverUri, dbName), collectionName);
     }
+
+    public static double round2(double value) {
+        return Math.round(value * 100.0) / 100.0;
+    }
     
-    public int getQuantityNeeded(Ingredient ingredient, Product product) {
+    public double getQuantityNeeded(Ingredient ingredient, Product product) {
         if (product.getNetUnitValue() == null) {
             // System.out.println(product);
             return 1;
@@ -154,8 +158,14 @@ public class CalculatingService {
         int unit = product.getNetUnitValue(), addition = 0;
         if (unit == -1) return -1;
 
+        String category = product.getCategory();
+
+        if (product.getUnit().equals("g") && (category.equals("Vegetables") || category.equals("Fresh Meat") || category.equals("Fresh Fruits"))) {
+            return round2((double)ingredient.getQuantity() / unit);
+        }
+
         if (ingredient.getQuantity() % unit != 0) addition = 1;
-        return (int)(ingredient.getQuantity() / unit) + addition;
+        return round2((ingredient.getQuantity() / unit) + addition);
     }
 
     public List<Product> findProductsByStoreIdAndIngredient(String storeId, Ingredient ingredient) {
@@ -203,7 +213,13 @@ public class CalculatingService {
 
                 Boolean flag = false;
                 for (Product product : bestProducts) {
-                    int quantity = getQuantityNeeded(ingredient, product);
+                    double quantity = getQuantityNeeded(ingredient, product);
+
+                    String unit = product.getUnit();
+                    if (unit.equals("g") || unit.equals("ml")) {
+                        product.setUnit(product.getNetUnitValue().toString() + unit);
+                    }
+
                     ProductCost productData = new ProductCost(product, quantity, product.getPrice() * quantity, cnt);
                     
                     if (!flag) {
@@ -239,12 +255,12 @@ public class CalculatingService {
         int numIngredients = ingredients.size();
 
         for (StoreCalculation storeData : storeDatas) {
-            double costRating = (maxCost == minCost ? (5 * (maxCost - storeData.getTotalCost()) / (maxCost - minCost)) : 5);
-            double distRating = (maxDist == minDist ? (5 * (maxDist - storeData.getDistance()) / (maxDist - minDist)) : 5);
+            double costRating = (maxCost != minCost ? (5 * (maxCost - storeData.getTotalCost()) / (maxCost - minCost)) : 5);
+            double distRating = (maxDist != minDist ? (5 * (maxDist - storeData.getDistance()) / (maxDist - minDist)) : 5);
 
             double cntProductsRating = (double)storeData.getProducts().size() / (double)numIngredients;
-            System.out.println(costRating); System.out.println(distRating); System.out.println(distRating); 
-            double rating = costRating * 0.244 + cntProductsRating * 0.262 + storeData.getStars() * 0.262 + distRating * 0.091 + storeData.getRecently() * 0.14;
+            // System.out.println(costRating); System.out.println(distRating); System.out.println(distRating); 
+            double rating = costRating * 0.0898 + cntProductsRating * 0.4024 + storeData.getStars() * 0.2109 + distRating * 0.1111 + storeData.getRecently() * 0.1858;
             storeData.setRating(rating);
         }
 
@@ -254,6 +270,7 @@ public class CalculatingService {
     public List<StoreCalculation> calculateIngredients(User user, List<Ingredient> ingredients) {
         List<Pair<String, Double>> nearStores = user.getNearStores();
         List<StoreCalculation> storeDatas = calculateRating(nearStores, ingredients);
+        System.out.println(ingredients);
 
         return storeDatas;
     }

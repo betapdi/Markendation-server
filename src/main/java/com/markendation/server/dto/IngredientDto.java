@@ -20,7 +20,7 @@ public class IngredientDto {
 
     private String unit;
 
-    private float quantity;
+    private Integer quantity;
 
     private String imageUrl;
 

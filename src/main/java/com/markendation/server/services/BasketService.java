@@ -58,7 +58,7 @@ public class BasketService {
         User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
         for (Ingredient ingredient : user.getBasket().getIngredients()) {
             if (ingredient.getId().equals(dto.getId())) {
-                float quantity = ingredient.getQuantity() + dto.getQuantity();
+                Integer quantity = ingredient.getQuantity() + dto.getQuantity();
                 ingredient.setQuantity(quantity);
                 userRepository.save(user);
                 return;
@@ -76,7 +76,7 @@ public class BasketService {
         User user = userRepository.findByEmail(email).orElseThrow(() -> new UserNotFoundException());
         for (Ingredient ingredient : user.getBasket().getIngredients()) {
             if (ingredient.getId().equals(dto.getId())) {
-                float quantity = ingredient.getQuantity() + dto.getQuantity();
+                Integer quantity = ingredient.getQuantity() + dto.getQuantity();
                 ingredient.setQuantity(quantity);
                 userRepository.save(user);
                 return;
@@ -121,7 +121,7 @@ public class BasketService {
                 String id = ingredient.getId();
                 if (ingredientMap.containsKey(id)) {
                     Ingredient chosen = ingredientMap.get(id);
-                    float quantity = chosen.getQuantity() + ingredient.getQuantity();
+                    Integer quantity = chosen.getQuantity() + ingredient.getQuantity();
                     chosen.setQuantity(quantity);
 
                     ingredientMap.put(id, chosen);

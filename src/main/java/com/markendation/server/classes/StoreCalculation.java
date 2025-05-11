@@ -20,7 +20,7 @@ public class StoreCalculation {
     private List<ProductCost> products = new ArrayList<>();
     private List<IngredientDto> lackIngredients = new ArrayList<>();
     private List<ProductCost> similarProducts = new ArrayList<>();
-    private Integer totalCost = 0;
+    private Double totalCost = (double)0;
     private double distance;
     private float stars = 5;
     private double recently = 5;
