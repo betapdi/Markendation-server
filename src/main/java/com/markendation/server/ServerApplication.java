@@ -1,8 +1,13 @@
 package com.markendation.server;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,7 +18,12 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.markendation.server.models.Dish;
 import com.markendation.server.models.Ingredient;
+import com.markendation.server.repositories.primary.DishRepository;
+import com.markendation.server.repositories.primary.IngredientRepository;
 import com.markendation.server.utils.TokenUtils;
 
 import jakarta.ws.rs.client.Client;
@@ -25,41 +35,19 @@ import jakarta.ws.rs.core.Response;
 @SpringBootApplication
 public class ServerApplication {
 
+    private final DishRepository dishRepository;
+
+    ServerApplication(DishRepository dishRepository) {
+        this.dishRepository = dishRepository;
+    }
+
 	public static void main(String[] args) {
 		SpringApplication.run(ServerApplication.class, args);
 	}
 
 	@Bean
-	CommandLineRunner runner(MongoTemplate mongoTemplate) {
+	CommandLineRunner runner(MongoTemplate mongoTemplate, IngredientRepository ingredientRepository) {
 		return args -> {
-
-			// String categoryEng = "Snacks";
-			// MetaCategory categoryMetadata = metaCategoryRepository.findByCategory(categoryEng).orElseThrow(() -> new CategoryNotFoundException());
-
-			// String dbName = categoryMetadata.getDb_name();
-			// String collectionName = categoryMetadata.getCollection_name();
-			// String serverUri = categoryMetadata.getServer_uri();
-
-			// MongoClient mongoClient = MongoClients.create(serverUri);
-            // MongoTemplate mongoTemplate = new MongoTemplate(mongoClient, dbName);
-
-			// Index index = new Index()	
-			// 	.on("store_id", Direction.ASC)
-			// 	.on("nameTokenNGrams", Direction.ASC);
-
-			// mongoTemplate.indexOps(collectionName)
-            // .ensureIndex(index);
-
-			// List<Ingredient> ingredients = mongoTemplate.findAll(Ingredient.class, "ingredient");
-			// for (Ingredient ingredient : ingredients) {
-			// 	ingredient.setToken_ngrams(TokenUtils.generateTokenNGrams(ingredient.getName(), 2));
-			// 	mongoTemplate.save(ingredient, "ingredient");
-
-			// 	// if (cnt % 500 == 0) System.out.println(cnt);
-			// }
-
-			// System.out.println("Finish init");
-			
 			// String currentDir = System.getProperty("user.dir");
 			// String jsonFilePath = Paths.get(currentDir, "src", "main", "java", "com", "markendation", "server", "dishes_data.json").toString();
 			// String content = new String(Files.readAllBytes(Paths.get(jsonFilePath)), java.nio.charset.StandardCharsets.UTF_8);
@@ -84,7 +72,7 @@ public class ServerApplication {
 			// 			// Extract quantity from unit (e.g. "600 g" -> 600)
 			// 			String unitStr = ingNode.get("unit").asText();
 			// 			try {
-			// 				float quantity = Float.parseFloat(unitStr.split(" ")[0]);
+			// 				Integer quantity = Integer.parseInt(unitStr.split(" ")[0]);
 			// 				ing.setUnit(unitStr.split(" ")[1]);
 			// 				ing.setQuantity(quantity);
 			// 			} catch (Exception e) {
@@ -100,8 +88,10 @@ public class ServerApplication {
 			// } catch (Exception e) {
 			// 	e.printStackTrace();
 			// }
+
+			// jsonFilePath = Paths.get(currentDir, "src", "main", "java", "com", "markendation", "server", "ingredients_analysis.json").toString();
 			// try {
-			// 	String content = new String(Files.readAllBytes(Paths.get(jsonFilePath)), java.nio.charset.StandardCharsets.UTF_8);
+			// 	content = new String(Files.readAllBytes(Paths.get(jsonFilePath)), java.nio.charset.StandardCharsets.UTF_8);
 			// 	JSONArray ingredientsArray = new JSONArray(content);
 
 			// 	for (int i = 0; i < ingredientsArray.length(); i++) {
