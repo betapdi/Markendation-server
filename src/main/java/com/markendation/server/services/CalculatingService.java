@@ -211,7 +211,7 @@ public class CalculatingService {
                     continue;
                 }
 
-                Boolean flag = false;
+                ProductCost bestProduct = new ProductCost();
                 for (Product product : bestProducts) {
                     double quantity = getQuantityNeeded(ingredient, product);
 
@@ -221,16 +221,15 @@ public class CalculatingService {
                     }
 
                     ProductCost productData = new ProductCost(product, quantity, product.getPrice() * quantity, cnt);
-                    
-                    if (!flag) {
-                        storeData.getProducts().add(productData); 
-                        storeData.setTotalCost(storeData.getTotalCost() + productData.getCost());
-                        flag = true;
-                    }
+                    storeData.getSimilarProducts().add(productData);
 
-                    else storeData.getSimilarProducts().add(productData);
+                    if (productData.getCost() < bestProduct.getCost()) {
+                        bestProduct = productData;
+                    }
                 }
 
+                storeData.getProducts().add(bestProduct);
+                storeData.getSimilarProducts().remove(bestProduct);
                 ++cnt;
             }
 
@@ -258,7 +257,7 @@ public class CalculatingService {
             double costRating = (maxCost != minCost ? (5 * (maxCost - storeData.getTotalCost()) / (maxCost - minCost)) : 5);
             double distRating = (maxDist != minDist ? (5 * (maxDist - storeData.getDistance()) / (maxDist - minDist)) : 5);
 
-            double cntProductsRating = (double)storeData.getProducts().size() / (double)numIngredients;
+            double cntProductsRating = (double)storeData.getProducts().size() / (double)numIngredients * 5;
             // System.out.println(costRating); System.out.println(distRating); System.out.println(distRating); 
             double rating = costRating * 0.0898 + cntProductsRating * 0.4024 + storeData.getStars() * 0.2109 + distRating * 0.1111 + storeData.getRecently() * 0.1858;
             storeData.setRating(rating);

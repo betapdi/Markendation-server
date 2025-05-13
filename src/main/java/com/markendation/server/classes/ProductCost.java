@@ -14,6 +14,6 @@ import lombok.Setter;
 public class ProductCost {
     private Product product;
     private Double quantity;
-    private Double cost;
+    private Double cost = Double.MAX_VALUE;
     private Integer productIndex = -1;
 }
